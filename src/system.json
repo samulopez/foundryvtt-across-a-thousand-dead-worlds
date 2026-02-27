@@ -1,0 +1,48 @@
+{
+  "id": "across-a-thousand-dead-worlds",
+  "title": "Across a Thousand Dead Worlds",
+  "description": "An unofficial system for playing Across a Thousand Dead Worlds on Foundry VTT",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13,
+    "maximum": 13
+  },
+  "authors": [
+    {
+      "name": "samulopez",
+      "url": "https://github.com/samulopez",
+      "discord": "masuelol"
+    }
+  ],
+  "esmodules": ["across-a-thousand-dead-worlds.js"],
+  "styles": ["across-a-thousand-dead-worlds.css"],
+  "packFolders": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "creature": {},
+      "deepDiver": {},
+      "npc": {}
+    }
+  },
+  "grid": {
+    "distance": 1,
+    "units": "hexes"
+  },
+  "primaryTokenAttribute": "secondaryAttributes.wounds",
+  "secondaryTokenAttribute": "secondaryAttributes.stamina",
+  "bugs": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/issues",
+  "changelog": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/releases",
+  "download": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/releases/download/v0.0.1/system.zip",
+  "manifest": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/releases/latest/download/system.json",
+  "readme": "https://raw.githubusercontent.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/main/README.md",
+  "url": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds"
+}

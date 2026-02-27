@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "types": ["fvtt-types"],
+    "moduleResolution": "bundler",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  }
+}
