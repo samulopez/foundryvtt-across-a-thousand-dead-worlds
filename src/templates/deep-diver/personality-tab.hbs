@@ -1,0 +1,60 @@
+<div class="tab personality scrollable {{tabs.personality.cssClass}}"
+     data-group="primary"
+     data-tab="personality">
+    <div class="flexcol gap align-normal">
+        <div>
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.notes.title' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.notes" button="true" editable="{{editable}}" toggled="false" value="{{document.system.notes}}">
+                    {{{enrichedNotes}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedNotes}}}
+                {{/if}}
+            </div>
+        </div>
+        <div class="emotional-state-list">
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.emotionalState.title' }}</div>
+            <div class="emotional-state-titles flexrow">
+                <div class="flex2 section-title">{{localize 'ATDW.DeepDiver.Sheet.emotionalState.negative' }}</div>
+                <div>&nbsp;</div>
+                <div class="flex2 section-title">{{localize 'ATDW.DeepDiver.Sheet.emotionalState.positive' }}</div>
+            </div>
+            <div class="emotional-state-values">
+                {{#each emotionalStateNegativeOptions as |option| }}
+                    <input type="radio"
+                           name="system.emotion"
+                           value="{{option.value}}"
+                           data-tooltip="{{option.label}}"
+                           {{checked (eq @root.document.system.emotion option.value)}} />
+                {{/each}}
+                {{#each emotionalStateNeutralOptions as |option| }}
+                    <input type="radio"
+                           name="system.emotion"
+                           value="{{option.value}}"
+                           data-tooltip="{{option.label}}"
+                           {{checked (eq @root.document.system.emotion option.value)}} />
+                {{/each}}
+                {{#each emotionalStatePositiveOptions as |option| }}
+                    <input type="radio"
+                           name="system.emotion"
+                           value="{{option.value}}"
+                           data-tooltip="{{option.label}}"
+                           {{checked (eq @root.document.system.emotion option.value)}} />
+                {{/each}}
+            </div>
+            <div class="emotional-state-labels">
+                {{#each emotionalStateNegativeOptions as |option| }}
+                    <span>{{option.label}}</span>
+                {{/each}}
+                {{#each emotionalStateNeutralOptions as |option| }}
+                    <span>{{option.label}}</span>
+                {{/each}}
+                {{#each emotionalStatePositiveOptions as |option| }}
+                    <span>{{option.label}}</span>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

@@ -5,7 +5,7 @@ import type ATDWActor from '../../actor/actor';
 const { ArrayField, DocumentUUIDField, NumberField, SchemaField, StringField } = foundry.data.fields;
 
 export const defineNPCModel = () => ({
-  primaryAttributes,
+  primaryAttributes: primaryAttributes(),
   secondaryAttributes: new SchemaField({
     defense: new NumberField({ required: true, integer: true, min: 0, initial: 2 }),
     stress: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),

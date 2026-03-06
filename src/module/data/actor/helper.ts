@@ -15,14 +15,15 @@ export const sortingField = () => ({
   }),
 });
 
-export const primaryAttributes = new SchemaField({
-  strength: attributeField(8),
-  dexterity: attributeField(8),
-  constitution: attributeField(8),
-  will: attributeField(8),
-  intelligence: attributeField(8),
-  charisma: attributeField(8),
-});
+export const primaryAttributes = () =>
+  new SchemaField({
+    strength: attributeField(8),
+    dexterity: attributeField(8),
+    constitution: attributeField(8),
+    will: attributeField(8),
+    intelligence: attributeField(8),
+    charisma: attributeField(8),
+  });
 
 export const skillField = (initial: number) =>
   new SchemaField({
