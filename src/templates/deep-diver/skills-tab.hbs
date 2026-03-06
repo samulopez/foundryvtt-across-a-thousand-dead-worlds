@@ -1,0 +1,378 @@
+<div class="tab skills scrollable {{tabs.skills.cssClass}}"
+     data-group="primary"
+     data-tab="skills">
+    <div class="flexcol gap align-normal">
+        <div class="flexrow gap align-normal">
+            <div class="flexcol gap-small">
+                <div class="flexrow gap-min">
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="strength">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.str"}}
+                            <i class="fas fa-dice" data-key="strength"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.strength.value"
+                               id="system.primaryAttributes.strength.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.strength.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.strength.temporaryModifier"
+                               id="system.primaryAttributes.strength.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.strength.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="dexterity">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.dex"}}
+                            <i class="fas fa-dice" data-key="dexterity"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.dexterity.value"
+                               id="system.primaryAttributes.dexterity.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.dexterity.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.dexterity.temporaryModifier"
+                               id="system.primaryAttributes.dexterity.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.dexterity.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="constitution">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.con"}}
+                            <i class="fas fa-dice" data-key="constitution"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.constitution.value"
+                               id="system.primaryAttributes.constitution.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.constitution.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.constitution.temporaryModifier"
+                               id="system.primaryAttributes.constitution.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.constitution.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="will">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.wil"}}
+                            <i class="fas fa-dice" data-key="will"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.will.value"
+                               id="system.primaryAttributes.will.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.will.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.will.temporaryModifier"
+                               id="system.primaryAttributes.will.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.will.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="intelligence">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.int"}}
+                            <i class="fas fa-dice" data-key="intelligence"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.intelligence.value"
+                               id="system.primaryAttributes.intelligence.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.intelligence.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.intelligence.temporaryModifier"
+                               id="system.primaryAttributes.intelligence.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.intelligence.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="charisma">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.cha"}}
+                            <i class="fas fa-dice" data-key="charisma"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.charisma.value"
+                               id="system.primaryAttributes.charisma.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.charisma.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.charisma.temporaryModifier"
+                               id="system.primaryAttributes.charisma.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.charisma.temporaryModifier}}" />
+                    </div>
+                </div>
+                <div class="flexcol gap-min">
+                    <div class="flexrow">
+                        <div class="flex1">
+                            <label class="left-label" for="system.secondaryAttributes.stamina">
+                                {{localize 'ATDW.DeepDiver.Sheet.secondaryAttributes.stamina' }}
+                            </label>
+                        </div>
+                        <input type="number"
+                               name="system.secondaryAttributes.stamina"
+                               id="system.secondaryAttributes.stamina"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.secondaryAttributes.stamina}}" />
+                    </div>
+                    <div class="flexrow">
+                        <div class="flex1">
+                            <label class="left-label" for="system.trauma">{{localize 'ATDW.DeepDiver.Sheet.trauma' }}</label>
+                        </div>
+                        <input type="number"
+                               name="system.trauma"
+                               id="system.trauma"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.trauma}}" />
+                    </div>
+                    <div class="flexrow">
+                        <div class="flex1">
+                            <label class="left-label" for="system.secondaryAttributes.luck">
+                                {{localize 'ATDW.DeepDiver.Sheet.secondaryAttributes.luck' }}
+                            </label>
+                        </div>
+                        <input type="number"
+                               name="system.secondaryAttributes.luck"
+                               id="system.secondaryAttributes.luck"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.secondaryAttributes.luck}}" />
+                    </div>
+                    <div class="flexrow">
+                        <div class="flex1">
+                            <label class="left-label" for="system.secondaryAttributes.stress">
+                                {{localize 'ATDW.DeepDiver.Sheet.secondaryAttributes.stress' }}
+                            </label>
+                        </div>
+                        <input type="number"
+                               name="system.secondaryAttributes.stress"
+                               id="system.secondaryAttributes.stress"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.secondaryAttributes.stress}}" />
+                    </div>
+                    <div class="flexrow gap">
+                        <div class="flexrow">
+                            <div class="flex1">
+                                <label class="left-label" for="system.armor">{{localize 'ATDW.DeepDiver.Sheet.armor' }}</label>
+                            </div>
+                            <input type="number"
+                                   name="system.armor"
+                                   id="system.armor"
+                                   class="flex0"
+                                   step="1"
+                                   data-dtype="Number"
+                                   value="{{document.system.armor}}" />
+                        </div>
+                        <div class="flexrow">
+                            <div class="flex1">
+                                <label class="left-label" for="system.rads">{{localize 'ATDW.DeepDiver.Sheet.rads' }}</label>
+                            </div>
+                            <input type="number"
+                                   name="system.rads"
+                                   id="system.rads"
+                                   class="flex0"
+                                   step="1"
+                                   data-dtype="Number"
+                                   value="{{document.system.rads}}" />
+                        </div>
+                    </div>
+                    <div class="flexrow gap-min">
+                        <div>{{localize "ATDW.DeepDiver.Sheet.secondaryAttributes.wounds"}}</div>
+                        <input type="number"
+                               name="system.secondaryAttributes.wounds.value"
+                               id="system.secondaryAttributes.wounds.value"
+                               class="flex0"
+                               min="0"
+                               max="{{document.system.secondaryAttributes.wounds.max}}"
+                               step="1"
+                               value="{{document.system.secondaryAttributes.wounds.value}}" />
+                        /
+                        <input type="number"
+                               name="system.secondaryAttributes.wounds.max"
+                               id="system.secondaryAttributes.wounds.max"
+                               class="flex0"
+                               min="0"
+                               step="1"
+                               value="{{document.system.secondaryAttributes.wounds.max}}" />
+                    </div>
+                    <div>
+                        <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.injuries.title' }}</div>
+                        <div class="editor-host">
+                            {{#if editable }}
+                                <prose-mirror name="system.injuries" button="true" editable="{{editable}}" toggled="false" value="{{document.system.injuries}}">
+                                {{{enrichedInjuries}}}
+                                </prose-mirror>
+                            {{else}}
+                                {{{enrichedInjuries}}}
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flexcol">
+                <div class="section-title">{{localize "ATDW.DeepDiver.Sheet.skills.title"}}</div>
+                <div class="flexcol skill-table">
+                    {{#each skills as |skill key| }}
+                        <div class="flexrow gap-min">
+                            <input type="number"
+                                   name="system.skills.{{skill.key}}.value"
+                                   id="system.skills.{{skill.key}}.value"
+                                   data-tooltip="ATDW.DeepDiver.Sheet.skills.valueTooltip"
+                                   class="flex0"
+                                   step="1"
+                                   value="{{skill.value}}" />
+                            <input type="number"
+                                   name="system.skills.{{skill.key}}.temporaryModifier"
+                                   id="system.skills.{{skill.key}}.temporaryModifier"
+                                   data-tooltip="ATDW.DeepDiver.Sheet.skills.temporaryModifierTooltip"
+                                   class="flex0"
+                                   step="1"
+                                   value="{{skill.temporaryModifier}}" />
+                            <label class="rollable"
+                                   data-action="rollSkill"
+                                   data-key="{{skill.key}}"
+                                   for="system.skills.{{skill.key}}.value">
+                                {{localize (concat "ATDW.DeepDiver.Sheet.skills." skill.key) }} <i class="fas fa-dice" data-key="{{skill.key}}"></i>
+                            </label>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+            <div class="flexcol gap-min">
+                <div>
+                    <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.talents.title' }}</div>
+                    <select name="system.talent1"  id="system.talent1">
+                        {{#each talent1Options as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.talent1 option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                    <select name="system.talent2"  id="system.talent2">
+                        {{#each talent2Options as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.talent2 option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                    <select name="system.talent3"  id="system.talent3">
+                        {{#each talent3Options as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.talent3 option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                    <select name="system.talent4"  id="system.talent4">
+                        {{#each talent4Options as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.talent4 option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                    <select name="system.talent5"  id="system.talent5">
+                        {{#each talent5Options as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.talent5 option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                </div>
+                <div>
+                    <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.nervousTic.title' }}</div>
+                    <select name="system.nervousTic"  id="system.nervousTic">
+                        {{#each nervousTicOptions as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.nervousTic option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                </div>
+                <div>
+                    <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.obsessionsAndNegativeTraits.title' }}</div>
+                    <div class="editor-host">
+                        {{#if editable }}
+                            <prose-mirror name="system.obsessionsAndNegativeTraits" button="true" editable="{{editable}}" toggled="false" value="{{document.system.obsessionsAndNegativeTraits}}">
+                            {{{enrichedObsessionsAndNegativeTraits}}}
+                            </prose-mirror>
+                        {{else}}
+                            {{{enrichedObsessionsAndNegativeTraits}}}
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

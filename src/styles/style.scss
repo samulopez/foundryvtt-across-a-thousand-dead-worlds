@@ -84,7 +84,7 @@
     .skills {
       padding: 0.5rem 0;
       input[type='number'] {
-        width: 2rem;
+        width: 2.1rem;
       }
 
       .skill-table {
@@ -181,6 +181,29 @@
             &::after {
               content: ',\00a0';
             }
+          }
+        }
+      }
+    }
+
+    .personality {
+      .emotional-state-list {
+        min-height: 150px;
+        .emotional-state-titles {
+          margin-right: 30px;
+        }
+        .emotional-state-values {
+          display: flex;
+          justify-content: space-between;
+          margin-right: 30px;
+        }
+        .emotional-state-labels {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+          span {
+            transform: rotate(50deg);
+            min-width: 50px;
           }
         }
       }
