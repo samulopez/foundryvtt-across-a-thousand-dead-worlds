@@ -114,6 +114,127 @@ export enum TALENT {
   wellConnected = 'wellConnected',
 }
 
+export enum BACKGROUND {
+  none = 'none',
+  algaeFarmer = 'algaeFarmer',
+  blueCollarWorker = 'blueCollarWorker',
+  celebrity = 'celebrity',
+  dataMiner = 'dataMiner',
+  hedgeFundKid = 'hedgeFundKid',
+  oceanSweeper = 'oceanSweeper',
+  pettyCriminal = 'pettyCriminal',
+  plasticMiner = 'plasticMiner',
+  scavenger = 'scavenger',
+  warlord = 'warlord',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum EARN_PLACE {
+  none = 'none',
+  savedForYears = 'savedForYears',
+  scholarshipLottery = 'scholarshipLottery',
+  familyMoney = 'familyMoney',
+  illicitWays = 'illicitWays',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum LIFE_CHANGING_EVENT {
+  none = 'none',
+  abandonedByLove = 'abandonedByLove',
+  terribleAccident = 'terribleAccident',
+  someoneDiedBecauseOfYou = 'someoneDiedBecauseOfYou',
+  religiousExperience = 'religiousExperience',
+  witnessedRandomKindnessOrCruelty = 'witnessedRandomKindnessOrCruelty',
+  learnedSomethingYouShouldntHave = 'learnedSomethingYouShouldntHave',
+  forcedToActAgainstMorals = 'forcedToActAgainstMorals',
+  missedChanceToStandUp = 'missedChanceToStandUp',
+  foughtOffAddiction = 'foughtOffAddiction',
+  discoveredSecretHalfSibling = 'discoveredSecretHalfSibling',
+  becameImprisoned = 'becameImprisoned',
+  riskedYourLifeForSomeone = 'riskedYourLifeForSomeone',
+  someoneDiedToSaveYourLife = 'someoneDiedToSaveYourLife',
+  gotCaughtInScandal = 'gotCaughtInScandal',
+  sufferedAmnesia = 'sufferedAmnesia',
+  madeTerribleEnemy = 'madeTerribleEnemy',
+  fellToRuinBecauseOfPettiness = 'fellToRuinBecauseOfPettiness',
+  hadSiblingMurdered = 'hadSiblingMurdered',
+  discoveredUnknownTalent = 'discoveredUnknownTalent',
+  foundFame = 'foundFame',
+}
+
+export enum DRIVE {
+  none = 'none',
+  wealth = 'wealth',
+  power = 'power',
+  fame = 'fame',
+  wanderersLust = 'wanderersLust',
+  knowledge = 'knowledge',
+  information = 'information',
+  espionage = 'espionage',
+  somewhereToBelong = 'somewhereToBelong',
+  nothingCanStopYou = 'nothingCanStopYou',
+  adrenalineJunkie = 'adrenalineJunkie',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum MANNERISMS_CONFIDENT {
+  none = 'none',
+  walkStraight = 'walkStraight',
+  standFeetApart = 'standFeetApart',
+  talkLoudly = 'talkLoudly',
+  readyToHelp = 'readyToHelp',
+  flashyClothing = 'flashyClothing',
+  interruptOthers = 'interruptOthers',
+  boast = 'boast',
+  smile = 'smile',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum MANNERISMS_SHY {
+  none = 'none',
+  avoidEyeContact = 'avoidEyeContact',
+  walkLookingDown = 'walkLookingDown',
+  crossArms = 'crossArms',
+  apologizeALot = 'apologizeALot',
+  keepHandsInPockets = 'keepHandsInPockets',
+  fixHairConstantly = 'fixHairConstantly',
+  speakSoftly = 'speakSoftly',
+  laughNervously = 'laughNervously',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum MANNERISMS_BORED {
+  none = 'none',
+  yawnALot = 'yawnALot',
+  stareIntoTheDistance = 'stareIntoTheDistance',
+  humToYourself = 'humToYourself',
+  tapYourFingernailsOnSurfaces = 'tapYourFingernailsOnSurfaces',
+  toyWithRingsOrOtherAccessories = 'toyWithRingsOrOtherAccessories',
+  twiddleYourThumbs = 'twiddleYourThumbs',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum MANNERISMS_HAPPY {
+  none = 'none',
+  laughALot = 'laughALot',
+  smileAtEveryone = 'smileAtEveryone',
+  touchOthersAffectionately = 'touchOthersAffectionately',
+  chitChatConstantly = 'chitChatConstantly',
+  commentOnNiceThings = 'commentOnNiceThings',
+  tellJokes = 'tellJokes',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum MANNERISMS_FRUSTRATED {
+  none = 'none',
+  shakeYourHead = 'shakeYourHead',
+  rollYourEyes = 'rollYourEyes',
+  crackYourKnuckles = 'crackYourKnuckles',
+  exhaleSharply = 'exhaleSharply',
+  pace = 'pace',
+  tapYourFoot = 'tapYourFoot',
+}
+
 export const emotionalStates = [
   {
     value: -6,

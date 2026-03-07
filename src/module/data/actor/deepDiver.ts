@@ -1,4 +1,17 @@
-import { emotionalStates, NERVOUS_TIC, TALENT } from '../../constants';
+import {
+  BACKGROUND,
+  DRIVE,
+  EARN_PLACE,
+  LIFE_CHANGING_EVENT,
+  MANNERISMS_BORED,
+  MANNERISMS_CONFIDENT,
+  MANNERISMS_FRUSTRATED,
+  MANNERISMS_HAPPY,
+  MANNERISMS_SHY,
+  NERVOUS_TIC,
+  TALENT,
+  emotionalStates,
+} from '../../constants';
 
 import { primaryAttributes, skillField, sortingField } from './helper';
 
@@ -55,18 +68,18 @@ const defineCharacterModel = () => ({
     initial: TALENT.none,
   }),
   personality: new SchemaField({
-    background: new StringField({ initial: '' }),
-    lifeChangingEvent: new StringField({ initial: '' }),
-    howDidYouEarnYourPlace: new StringField({ initial: '' }),
-    drive: new StringField({ initial: '' }),
+    background: new StringField({ choices: BACKGROUND, initial: BACKGROUND.none }),
+    lifeChangingEvent: new StringField({ choices: LIFE_CHANGING_EVENT, initial: LIFE_CHANGING_EVENT.none }),
+    howDidYouEarnYourPlace: new StringField({ choices: EARN_PLACE, initial: EARN_PLACE.none }),
+    drive: new StringField({ choices: DRIVE, initial: DRIVE.none }),
     otherDetails: new StringField({ initial: '' }),
   }),
   mannerisms: new SchemaField({
-    confident: new StringField({ initial: '' }),
-    shy: new StringField({ initial: '' }),
-    bored: new StringField({ initial: '' }),
-    happy: new StringField({ initial: '' }),
-    frustrated: new StringField({ initial: '' }),
+    confident: new StringField({ choices: MANNERISMS_CONFIDENT, initial: MANNERISMS_CONFIDENT.none }),
+    shy: new StringField({ choices: MANNERISMS_SHY, initial: MANNERISMS_SHY.none }),
+    bored: new StringField({ choices: MANNERISMS_BORED, initial: MANNERISMS_BORED.none }),
+    happy: new StringField({ choices: MANNERISMS_HAPPY, initial: MANNERISMS_HAPPY.none }),
+    frustrated: new StringField({ choices: MANNERISMS_FRUSTRATED, initial: MANNERISMS_FRUSTRATED.none }),
   }),
   nervousTic: new StringField({
     choices: NERVOUS_TIC,
