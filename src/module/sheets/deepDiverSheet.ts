@@ -1,4 +1,18 @@
-import { emotionalStates, NERVOUS_TIC, TALENT, TEMPLATES } from '../constants';
+import {
+  BACKGROUND,
+  DRIVE,
+  EARN_PLACE,
+  LIFE_CHANGING_EVENT,
+  MANNERISMS_BORED,
+  MANNERISMS_CONFIDENT,
+  MANNERISMS_FRUSTRATED,
+  MANNERISMS_HAPPY,
+  MANNERISMS_SHY,
+  NERVOUS_TIC,
+  TALENT,
+  TEMPLATES,
+  emotionalStates,
+} from '../constants';
 import { getLocalization } from '../helpers';
 
 import type ATDWActor from '../actor/actor';
@@ -10,6 +24,7 @@ const { HandlebarsApplicationMixin } = foundry.applications.api;
 interface Context {
   enrichedInjuries: string;
   enrichedObsessionsAndNegativeTraits: string;
+  enrichedOtherDetails: string;
   enrichedNotes: string;
   skills: { key: string; value?: number | null; temporaryModifier?: number | null }[];
   nervousTicOptions: { value: string; label: string }[];
@@ -21,6 +36,15 @@ interface Context {
   emotionalStateNegativeOptions: { value: string; label: string }[];
   emotionalStateNeutralOptions: { value: string; label: string }[];
   emotionalStatePositiveOptions: { value: string; label: string }[];
+  backgroundOptions: { value: string; label: string }[];
+  howDidYouEarnYourPlaceOptions: { value: string; label: string }[];
+  lifeChangingEventOptions: { value: string; label: string }[];
+  driveOptions: { value: string; label: string }[];
+  confidentOptions: { value: string; label: string }[];
+  shyOptions: { value: string; label: string }[];
+  boredOptions: { value: string; label: string }[];
+  happyOptions: { value: string; label: string }[];
+  frustratedOptions: { value: string; label: string }[];
 }
 
 export default class DeepDiverSheet<
@@ -100,6 +124,14 @@ export default class DeepDiverSheet<
       },
     );
 
+    context.enrichedOtherDetails = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+      this.document.system.personality.otherDetails,
+      {
+        secrets: this.document.isOwner,
+        relativeTo: this.document,
+      },
+    );
+
     context.enrichedNotes = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
       this.document.system.notes,
       {
@@ -163,6 +195,61 @@ export default class DeepDiverSheet<
           key !== this.document.system.talent3 &&
           key !== this.document.system.talent4),
     ); // Filter out talents already selected in other fields
+
+    context.backgroundOptions = Object.entries(BACKGROUND).map(([key, value]) => ({
+      value,
+      label: value !== BACKGROUND.none ? getLocalization().localize(`ATDW.DeepDiver.Sheet.background.${key}`) : '',
+    }));
+
+    context.howDidYouEarnYourPlaceOptions = Object.entries(EARN_PLACE).map(([key, value]) => ({
+      value,
+      label:
+        value !== EARN_PLACE.none
+          ? getLocalization().localize(`ATDW.DeepDiver.Sheet.howDidYouEarnYourPlace.${key}`)
+          : '',
+    }));
+
+    context.lifeChangingEventOptions = Object.entries(LIFE_CHANGING_EVENT).map(([key, value]) => ({
+      value,
+      label:
+        value !== LIFE_CHANGING_EVENT.none
+          ? getLocalization().localize(`ATDW.DeepDiver.Sheet.lifeChangingEvent.${key}`)
+          : '',
+    }));
+
+    context.driveOptions = Object.entries(DRIVE).map(([key, value]) => ({
+      value,
+      label: value !== DRIVE.none ? getLocalization().localize(`ATDW.DeepDiver.Sheet.drive.${key}`) : '',
+    }));
+
+    context.confidentOptions = Object.entries(MANNERISMS_CONFIDENT).map(([key, value]) => ({
+      value,
+      label:
+        value !== MANNERISMS_CONFIDENT.none ? getLocalization().localize(`ATDW.DeepDiver.Sheet.confident.${key}`) : '',
+    }));
+
+    context.shyOptions = Object.entries(MANNERISMS_SHY).map(([key, value]) => ({
+      value,
+      label: value !== MANNERISMS_SHY.none ? getLocalization().localize(`ATDW.DeepDiver.Sheet.shy.${key}`) : '',
+    }));
+
+    context.boredOptions = Object.entries(MANNERISMS_BORED).map(([key, value]) => ({
+      value,
+      label: value !== MANNERISMS_BORED.none ? getLocalization().localize(`ATDW.DeepDiver.Sheet.bored.${key}`) : '',
+    }));
+
+    context.happyOptions = Object.entries(MANNERISMS_HAPPY).map(([key, value]) => ({
+      value,
+      label: value !== MANNERISMS_HAPPY.none ? getLocalization().localize(`ATDW.DeepDiver.Sheet.happy.${key}`) : '',
+    }));
+
+    context.frustratedOptions = Object.entries(MANNERISMS_FRUSTRATED).map(([key, value]) => ({
+      value,
+      label:
+        value !== MANNERISMS_FRUSTRATED.none
+          ? getLocalization().localize(`ATDW.DeepDiver.Sheet.frustrated.${key}`)
+          : '',
+    }));
 
     context.emotionalStateNegativeOptions = emotionalStates
       .filter(({ value }) => value < -1)

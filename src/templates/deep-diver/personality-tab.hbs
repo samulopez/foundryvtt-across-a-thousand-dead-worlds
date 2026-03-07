@@ -2,16 +2,147 @@
      data-group="primary"
      data-tab="personality">
     <div class="flexcol gap align-normal">
-        <div>
-            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.notes.title' }}</div>
-            <div class="flex2 editor-host">
-                {{#if editable }}
-                    <prose-mirror name="system.notes" button="true" editable="{{editable}}" toggled="false" value="{{document.system.notes}}">
-                    {{{enrichedNotes}}}
-                    </prose-mirror>
-                {{else}}
-                    {{{enrichedNotes}}}
-                {{/if}}
+        <div class="flexcol gap-min">
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.personality.title' }}</div>
+            <div class="flexrow">
+                <label for="system.personality.background">{{localize 'ATDW.DeepDiver.Sheet.background.title' }}</label>
+                <select name="system.personality.background"
+                        data-dtype="String"
+                        id="system.personality.background">
+                    {{#each backgroundOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.personality.background option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.personality.howDidYouEarnYourPlace">
+                    {{localize 'ATDW.DeepDiver.Sheet.howDidYouEarnYourPlace.title' }}
+                </label>
+                <select name="system.personality.howDidYouEarnYourPlace"
+                        data-dtype="String"
+                        id="system.personality.howDidYouEarnYourPlace">
+                    {{#each howDidYouEarnYourPlaceOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.personality.howDidYouEarnYourPlace option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.personality.lifeChangingEvent">{{localize 'ATDW.DeepDiver.Sheet.lifeChangingEvent.title' }}</label>
+                <select name="system.personality.lifeChangingEvent"
+                        data-dtype="String"
+                        id="system.personality.lifeChangingEvent">
+                    {{#each lifeChangingEventOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.personality.lifeChangingEvent option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.personality.drive">{{localize 'ATDW.DeepDiver.Sheet.drive.title' }}</label>
+                <select name="system.personality.drive"
+                        data-dtype="String"
+                        id="system.personality.drive">
+                    {{#each driveOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.personality.drive option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+        </div>
+        <div class="flexcol gap-min">
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.mannerisms.title' }}</div>
+            <div class="flexrow">
+                <label for="system.mannerisms.confident">{{localize 'ATDW.DeepDiver.Sheet.confident.title' }}</label>
+                <select name="system.mannerisms.confident"
+                        data-dtype="String"
+                        id="system.mannerisms.confident">
+                    {{#each confidentOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.mannerisms.confident option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.mannerisms.shy">{{localize 'ATDW.DeepDiver.Sheet.shy.title' }}</label>
+                <select name="system.mannerisms.shy"
+                        data-dtype="String"
+                        id="system.mannerisms.shy">
+                    {{#each shyOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.mannerisms.shy option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.mannerisms.bored">{{localize 'ATDW.DeepDiver.Sheet.bored.title' }}</label>
+                <select name="system.mannerisms.bored"
+                        data-dtype="String"
+                        id="system.mannerisms.bored">
+                    {{#each boredOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.mannerisms.bored option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.mannerisms.happy">{{localize 'ATDW.DeepDiver.Sheet.happy.title' }}</label>
+                <select name="system.mannerisms.happy"
+                        data-dtype="String"
+                        id="system.mannerisms.happy">
+                    {{#each happyOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.mannerisms.happy option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.mannerisms.frustrated">{{localize 'ATDW.DeepDiver.Sheet.frustrated.title' }}</label>
+                <select name="system.mannerisms.frustrated"
+                        data-dtype="String"
+                        id="system.mannerisms.frustrated">
+                    {{#each frustratedOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.mannerisms.frustrated option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
             </div>
         </div>
         <div class="emotional-state-list">
@@ -54,6 +185,30 @@
                 {{#each emotionalStatePositiveOptions as |option| }}
                     <span>{{option.label}}</span>
                 {{/each}}
+            </div>
+        </div>
+        <div>
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.otherDetails.title' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.personality.otherDetails" button="true" editable="{{editable}}" toggled="false" value="{{document.system.personality.otherDetails}}">
+                    {{{enrichedOtherDetails}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedOtherDetails}}}
+                {{/if}}
+            </div>
+        </div>
+        <div>
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.notes.title' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.notes" button="true" editable="{{editable}}" toggled="false" value="{{document.system.notes}}">
+                    {{{enrichedNotes}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedNotes}}}
+                {{/if}}
             </div>
         </div>
     </div>

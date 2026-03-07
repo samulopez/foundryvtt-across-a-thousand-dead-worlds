@@ -296,56 +296,58 @@
             <div class="flexcol gap-min">
                 <div>
                     <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.talents.title' }}</div>
-                    <select name="system.talent1"  id="system.talent1">
-                        {{#each talent1Options as |option| }}
-                            <option value="{{option.value}}"
-                                    {{#if (eq @root.document.system.talent1 option.value) }}
-                                    selected
-                                    {{/if }}>
-                                {{option.label}}
-                            </option>
-                        {{/each}}
-                    </select>
-                    <select name="system.talent2"  id="system.talent2">
-                        {{#each talent2Options as |option| }}
-                            <option value="{{option.value}}"
-                                    {{#if (eq @root.document.system.talent2 option.value) }}
-                                    selected
-                                    {{/if }}>
-                                {{option.label}}
-                            </option>
-                        {{/each}}
-                    </select>
-                    <select name="system.talent3"  id="system.talent3">
-                        {{#each talent3Options as |option| }}
-                            <option value="{{option.value}}"
-                                    {{#if (eq @root.document.system.talent3 option.value) }}
-                                    selected
-                                    {{/if }}>
-                                {{option.label}}
-                            </option>
-                        {{/each}}
-                    </select>
-                    <select name="system.talent4"  id="system.talent4">
-                        {{#each talent4Options as |option| }}
-                            <option value="{{option.value}}"
-                                    {{#if (eq @root.document.system.talent4 option.value) }}
-                                    selected
-                                    {{/if }}>
-                                {{option.label}}
-                            </option>
-                        {{/each}}
-                    </select>
-                    <select name="system.talent5"  id="system.talent5">
-                        {{#each talent5Options as |option| }}
-                            <option value="{{option.value}}"
-                                    {{#if (eq @root.document.system.talent5 option.value) }}
-                                    selected
-                                    {{/if }}>
-                                {{option.label}}
-                            </option>
-                        {{/each}}
-                    </select>
+                    <div class="flexcol gap-min">
+                        <select name="system.talent1"  id="system.talent1">
+                            {{#each talent1Options as |option| }}
+                                <option value="{{option.value}}"
+                                        {{#if (eq @root.document.system.talent1 option.value) }}
+                                        selected
+                                        {{/if }}>
+                                    {{option.label}}
+                                </option>
+                            {{/each}}
+                        </select>
+                        <select name="system.talent2"  id="system.talent2">
+                            {{#each talent2Options as |option| }}
+                                <option value="{{option.value}}"
+                                        {{#if (eq @root.document.system.talent2 option.value) }}
+                                        selected
+                                        {{/if }}>
+                                    {{option.label}}
+                                </option>
+                            {{/each}}
+                        </select>
+                        <select name="system.talent3"  id="system.talent3">
+                            {{#each talent3Options as |option| }}
+                                <option value="{{option.value}}"
+                                        {{#if (eq @root.document.system.talent3 option.value) }}
+                                        selected
+                                        {{/if }}>
+                                    {{option.label}}
+                                </option>
+                            {{/each}}
+                        </select>
+                        <select name="system.talent4"  id="system.talent4">
+                            {{#each talent4Options as |option| }}
+                                <option value="{{option.value}}"
+                                        {{#if (eq @root.document.system.talent4 option.value) }}
+                                        selected
+                                        {{/if }}>
+                                    {{option.label}}
+                                </option>
+                            {{/each}}
+                        </select>
+                        <select name="system.talent5"  id="system.talent5">
+                            {{#each talent5Options as |option| }}
+                                <option value="{{option.value}}"
+                                        {{#if (eq @root.document.system.talent5 option.value) }}
+                                        selected
+                                        {{/if }}>
+                                    {{option.label}}
+                                </option>
+                            {{/each}}
+                        </select>
+                    </div>
                 </div>
                 <div>
                     <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.nervousTic.title' }}</div>
