@@ -1,4 +1,4 @@
-import { emotionalStates, NERVOUS_TIC, TALENT, TEMPLATES } from '../constants';
+import { BACKGROUND, EARN_PLACE, NERVOUS_TIC, TALENT, TEMPLATES, emotionalStates } from '../constants';
 import { getLocalization } from '../helpers';
 
 import type ATDWActor from '../actor/actor';
@@ -21,6 +21,8 @@ interface Context {
   emotionalStateNegativeOptions: { value: string; label: string }[];
   emotionalStateNeutralOptions: { value: string; label: string }[];
   emotionalStatePositiveOptions: { value: string; label: string }[];
+  backgroundOptions: { value: string; label: string }[];
+  howDidYouEarnYourPlaceOptions: { value: string; label: string }[];
 }
 
 export default class DeepDiverSheet<
@@ -163,6 +165,19 @@ export default class DeepDiverSheet<
           key !== this.document.system.talent3 &&
           key !== this.document.system.talent4),
     ); // Filter out talents already selected in other fields
+
+    context.backgroundOptions = Object.entries(BACKGROUND).map(([key, value]) => ({
+      value,
+      label: value !== BACKGROUND.none ? getLocalization().localize(`ATDW.DeepDiver.Sheet.background.${key}`) : '',
+    }));
+
+    context.howDidYouEarnYourPlaceOptions = Object.entries(EARN_PLACE).map(([key, value]) => ({
+      value,
+      label:
+        value !== EARN_PLACE.none
+          ? getLocalization().localize(`ATDW.DeepDiver.Sheet.howDidYouEarnYourPlace.${key}`)
+          : '',
+    }));
 
     context.emotionalStateNegativeOptions = emotionalStates
       .filter(({ value }) => value < -1)

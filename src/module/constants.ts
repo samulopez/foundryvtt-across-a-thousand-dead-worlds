@@ -114,6 +114,29 @@ export enum TALENT {
   wellConnected = 'wellConnected',
 }
 
+export enum BACKGROUND {
+  none = 'none',
+  algaeFarmer = 'algaeFarmer',
+  blueCollarWorker = 'blueCollarWorker',
+  celebrity = 'celebrity',
+  dataMiner = 'dataMiner',
+  hedgeFundKid = 'hedgeFundKid',
+  oceanSweeper = 'oceanSweeper',
+  pettyCriminal = 'pettyCriminal',
+  plasticMiner = 'plasticMiner',
+  scavenger = 'scavenger',
+  warlord = 'warlord',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum EARN_PLACE {
+  none = 'none',
+  savedForYears = 'savedForYears',
+  scholarshipLottery = 'scholarshipLottery',
+  familyMoney = 'familyMoney',
+  illicitWays = 'illicitWays',
+}
+
 export const emotionalStates = [
   {
     value: -6,

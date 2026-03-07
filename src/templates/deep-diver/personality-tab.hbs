@@ -3,15 +3,38 @@
      data-tab="personality">
     <div class="flexcol gap align-normal">
         <div>
-            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.notes.title' }}</div>
-            <div class="flex2 editor-host">
-                {{#if editable }}
-                    <prose-mirror name="system.notes" button="true" editable="{{editable}}" toggled="false" value="{{document.system.notes}}">
-                    {{{enrichedNotes}}}
-                    </prose-mirror>
-                {{else}}
-                    {{{enrichedNotes}}}
-                {{/if}}
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.personality.title' }}</div>
+            <div class="flexrow">
+                <label for="system.personality.background">{{localize 'ATDW.DeepDiver.Sheet.background.title' }}</label>
+                <select name="system.personality.background"
+                        data-dtype="String"
+                        id="system.personality.background">
+                    {{#each backgroundOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.personality.background option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="flexrow">
+                <label for="system.personality.howDidYouEarnYourPlace">
+                    {{localize 'ATDW.DeepDiver.Sheet.howDidYouEarnYourPlace.title' }}
+                </label>
+                <select name="system.personality.howDidYouEarnYourPlace"
+                        data-dtype="String"
+                        id="system.personality.howDidYouEarnYourPlace">
+                    {{#each howDidYouEarnYourPlaceOptions as |option| }}
+                        <option value="{{option.value}}"
+                                {{#if (eq @root.document.system.personality.howDidYouEarnYourPlace option.value) }}
+                                selected
+                                {{/if }}>
+                            {{option.label}}
+                        </option>
+                    {{/each}}
+                </select>
             </div>
         </div>
         <div class="emotional-state-list">
@@ -54,6 +77,18 @@
                 {{#each emotionalStatePositiveOptions as |option| }}
                     <span>{{option.label}}</span>
                 {{/each}}
+            </div>
+        </div>
+        <div>
+            <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.notes.title' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.notes" button="true" editable="{{editable}}" toggled="false" value="{{document.system.notes}}">
+                    {{{enrichedNotes}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedNotes}}}
+                {{/if}}
             </div>
         </div>
     </div>
