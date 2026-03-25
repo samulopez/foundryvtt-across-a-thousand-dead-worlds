@@ -2,6 +2,7 @@ export const ID = 'across-a-thousand-dead-worlds';
 
 export const TEMPLATES = {
   modifyRoll: `systems/${ID}/templates/roll/modify-roll.hbs`,
+  resultRoll: `systems/${ID}/templates/roll/result-roll.hbs`,
   creature: {
     header: `systems/${ID}/templates/creature/header.hbs`,
     detailsTab: `systems/${ID}/templates/creature/details-tab.hbs`,
@@ -289,3 +290,7 @@ export const emotionalStates = [
     label: 'pleased',
   },
 ];
+
+export enum KEYBINDINGS {
+  modifyRoll = 'modifyRoll',
+}

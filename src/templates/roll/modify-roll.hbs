@@ -1,7 +1,62 @@
 <div class="form-group">
-    <label for="originalValue">{{localize 'ATDW.ModifySkillRollDialogue.originalValue'}}</label>
+    <label for="originalValue">{{localize 'ATDW.ModifyRollDialogue.originalValue'}}</label>
     <input class="numeric-label-field"
            disabled
            id="originalValue"
            value="{{originalValue}}" />
+</div>
+<div class="form-group">
+    <label for="advantageOrDisadvantage">{{localize 'ATDW.ModifyRollDialogue.advantageAndDisadvantage'}}</label>
+    <select name="advantageOrDisadvantage" id="advantageOrDisadvantage">
+        <option value="" selected></option>
+        <option value="advantage">{{localize 'ATDW.ModifyRollDialogue.advantage'}}</option>
+        <option value="disadvantage">{{localize 'ATDW.ModifyRollDialogue.disadvantage'}}</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="valueModifier">{{localize 'ATDW.ModifyRollDialogue.valueModifier'}}</label>
+    <select name="plusOrMinus" id="plusOrMinus">
+        <option value="+" selected>+</option>
+        <option value="-">-</option>
+    </select>
+    <input class="numeric-label-field"
+           type="number"
+           name="valueModifier"
+           id="valueModifier"
+           value="0"
+           data-tooltip="ATDW.ModifyRollDialogue.modifierTooltip"
+           min="0"
+           max="99"
+           step="1"
+           oninput="validity.valid||(value='');" />
+</div>
+<div>
+    <div class="section-title">{{localize 'ATDW.ModifyRollDialogue.quickModifiers'}}</div>
+    <div class="flexcol gap-small">
+        <div class="form-group">
+            <button data-action="rollWithModifier" type="submit" data-value="+15">
+                {{localize 'ATDW.ModifyRollDialogue.childsPlay'}} (+15)
+            </button>
+            <button data-action="rollWithModifier" type="submit" data-value="+10">
+                {{localize 'ATDW.ModifyRollDialogue.effortless'}} (+10)
+            </button>
+            <button data-action="rollWithModifier" type="submit" data-value="+5">
+                {{localize 'ATDW.ModifyRollDialogue.easy'}} (+5)
+            </button>
+            <button data-action="rollWithModifier" type="submit" data-value="0">
+                {{localize 'ATDW.ModifyRollDialogue.normal'}} (0)
+            </button>
+        </div>
+        <div class="form-group">
+            <button data-action="rollWithModifier" type="submit" data-value="-5">
+                {{localize 'ATDW.ModifyRollDialogue.demanding'}} (-5)
+            </button>
+            <button data-action="rollWithModifier" type="submit" data-value="-10">
+                {{localize 'ATDW.ModifyRollDialogue.hard'}} (-10)
+            </button>
+            <button data-action="rollWithModifier" type="submit" data-value="-15">
+                {{localize 'ATDW.ModifyRollDialogue.impossible'}} (-15)
+            </button>
+        </div>
+    </div>
 </div>
