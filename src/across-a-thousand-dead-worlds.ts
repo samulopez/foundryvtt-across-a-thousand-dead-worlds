@@ -9,6 +9,7 @@ import {
   NPCDataModel,
   SiteExpeditionDataModel,
 } from './module/data';
+import { registerSettings } from './module/settings';
 import CreatureSheet from './module/sheets/creatureSheet';
 import DeepDiverSheet from './module/sheets/deepDiverSheet';
 import MissionSheet from './module/sheets/missionSheet';
@@ -71,6 +72,8 @@ Hooks.once('init', async () => {
     label: 'ATDW Site Expedition Sheet',
     types: ['siteExpedition'],
   });
+
+  registerSettings();
 
   // Preload Handlebars templates
   await foundry.applications.handlebars.loadTemplates(Object.values(foundry.utils.flattenObject(TEMPLATES)));
