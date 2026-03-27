@@ -99,7 +99,9 @@ const defineCharacterModel = () => ({
   // TODO: armor: head, torso, waist, etc.? maybe only with gear is enough?
   // TODO: full body suit? maybe only with gear is enough?
   gear: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
+  maxBackpackSlots: new NumberField({ required: true, integer: true, min: 0, initial: 15 }),
   backpack: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
+  maxPocketsSlots: new NumberField({ required: true, integer: true, min: 0, initial: 10 }),
   pockets: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
   ...sortingField(),
 });

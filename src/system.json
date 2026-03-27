@@ -31,6 +31,9 @@
       "creature": {},
       "deepDiver": {},
       "npc": {}
+    },
+    "Item": {
+      "gear": {}
     }
   },
   "grid": {

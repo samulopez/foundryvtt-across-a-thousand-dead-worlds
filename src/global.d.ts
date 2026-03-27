@@ -2,10 +2,12 @@ import type ATDWActor from './module/actor/actor';
 import type {
   CreatureDataModel,
   DeepDiverDataModel,
+  GearDataModel,
   NPCDataModel,
   MissionDataModel,
   SiteExpeditionDataModel,
 } from './module/data';
+import type ATDWItem from './module/item/item';
 
 declare module 'fvtt-types/configuration' {
   interface DataModelConfig {
@@ -16,14 +18,22 @@ declare module 'fvtt-types/configuration' {
       npc: typeof NPCDataModel;
       siteExpedition: typeof SiteExpeditionDataModel;
     };
+    Item: {
+      gear: typeof GearDataModel;
+    };
   }
 
   interface DocumentClassConfig {
     Actor: typeof ATDWActor<Actor.SubType>;
+    Item: typeof ATDWItem<Item.SubType>;
   }
 
   interface ConfiguredActor<SubType extends Actor.SubType> {
     document: ATDWActor<SubType>;
+  }
+
+  interface ConfiguredItem<SubType extends Item.SubType> {
+    document: ATDWItem<SubType>;
   }
 }
 
