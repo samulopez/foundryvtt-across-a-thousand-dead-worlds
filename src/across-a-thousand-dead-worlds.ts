@@ -5,13 +5,16 @@ import { ID, TEMPLATES } from './module/constants';
 import {
   CreatureDataModel,
   DeepDiverDataModel,
+  GearDataModel,
   MissionDataModel,
   NPCDataModel,
   SiteExpeditionDataModel,
 } from './module/data';
+import ATDWItem from './module/item/item';
 import { registerSettings } from './module/settings';
 import CreatureSheet from './module/sheets/creatureSheet';
 import DeepDiverSheet from './module/sheets/deepDiverSheet';
+import ATDWGearSheet from './module/sheets/gearSheet';
 import MissionSheet from './module/sheets/missionSheet';
 import NPCSheet from './module/sheets/npcSheet';
 import SiteExpeditionSheet from './module/sheets/siteExpeditionSheet';
@@ -19,6 +22,7 @@ import SiteExpeditionSheet from './module/sheets/siteExpeditionSheet';
 Hooks.once('init', async () => {
   // Configure custom Document implementations.
   CONFIG.Actor.documentClass = ATDWActor;
+  CONFIG.Item.documentClass = ATDWItem;
   // Configure System Data Models.
   CONFIG.Actor.dataModels = {
     creature: CreatureDataModel,
@@ -26,6 +30,9 @@ Hooks.once('init', async () => {
     mission: MissionDataModel,
     npc: NPCDataModel,
     siteExpedition: SiteExpeditionDataModel,
+  };
+  CONFIG.Item.dataModels = {
+    gear: GearDataModel,
   };
   CONFIG.Actor.trackableAttributes = {
     deepDiver: {
@@ -71,6 +78,13 @@ Hooks.once('init', async () => {
     themes: null,
     label: 'ATDW Site Expedition Sheet',
     types: ['siteExpedition'],
+  });
+  foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
+  foundry.documents.collections.Items.registerSheet(ID, ATDWGearSheet, {
+    makeDefault: true,
+    themes: null,
+    label: 'ATDW Gear Sheet',
+    types: ['gear'],
   });
 
   registerSettings();

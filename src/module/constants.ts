@@ -29,6 +29,11 @@ export const TEMPLATES = {
     detailsTab: `systems/${ID}/templates/site-expedition/details-tab.hbs`,
     notesTab: `systems/${ID}/templates/site-expedition/notes-tab.hbs`,
   },
+  gear: {
+    header: `systems/${ID}/templates/item/header.hbs`,
+    detailsTab: `systems/${ID}/templates/item/details-tab.hbs`,
+    notesTab: `systems/${ID}/templates/item/notes-tab.hbs`,
+  },
 };
 
 export enum SORTING {
@@ -293,4 +298,10 @@ export const emotionalStates = [
 
 export enum KEYBINDINGS {
   modifyRoll = 'modifyRoll',
+}
+
+export enum AVAILABILITY {
+  basic = 'basic',
+  rare = 'rare',
+  experimental = 'experimental',
 }

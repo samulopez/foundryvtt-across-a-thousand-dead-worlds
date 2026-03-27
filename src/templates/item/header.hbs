@@ -1,0 +1,99 @@
+<header class="sheet-header">
+    <div class="header-fields">
+        <div class="header-top flexrow gap align-normal">
+            <img class="profile-img flex0"
+                 alt="item image"
+                 src="{{document.img}}"
+                 data-action="editImage"
+                 data-edit="img"
+                 data-tooltip="{{document.name}}"
+                 height="120"
+                 width="120" />
+            <div class="flex3">
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.name">{{localize 'ATDW.Item.Sheet.name' }}</label>
+                    </div>
+                    <input name="name"
+                           type="text"
+                           value="{{document.name}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="atdw.item.name" />
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.price">{{localize 'ATDW.Item.Sheet.price' }}</label>
+                    </div>
+                    <input name="system.price"
+                           type="number"
+                           data-dtype="Number"
+                           min="0"
+                           step="1"
+                           value="{{document.system.price}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="atdw.item.price" />
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.availability">{{localize 'ATDW.Item.Sheet.availability.title' }}</label>
+                    </div>
+                    <select name="system.availability" id="atdw.item.availability">
+                        <option value="basic"
+                                {{#if (eq document.system.availability "basic") }}
+                                selected
+                                {{/if }}>{{localize 'ATDW.Item.Sheet.availability.basic' }}
+                        </option>
+                        <option value="rare"
+                                {{#if (eq document.system.availability "rare") }}
+                                selected
+                                {{/if }}>{{localize 'ATDW.Item.Sheet.availability.rare' }}
+                        </option>
+                        <option value="experimental"
+                                {{#if (eq document.system.availability "experimental") }}
+                                selected
+                                {{/if }}>{{localize 'ATDW.Item.Sheet.availability.experimental' }}
+                        </option>
+                    </select>
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.isLight">{{localize "ATDW.Item.Sheet.isLight"}}</label>
+                    </div>
+                    <input type="checkbox"
+                           name="system.isLight"
+                           id="atdw.item.isLight"
+                           {{checked document.system.isLight}} />
+                </h5>
+                {{#if (eq document.system.isLight false) }}
+                    <h5 class="flexrow">
+                        <div class="flex0">
+                            <label class="left-label" for="atdw.item.gearSlots">{{localize 'ATDW.Item.Sheet.gearSlots' }}</label>
+                        </div>
+                        <input name="system.gearSlots"
+                               type="number"
+                               data-dtype="Number"
+                               min="0"
+                               step="1"
+                               value="{{document.system.gearSlots}}"
+                               class="flex3"
+                               autocomplete="off"
+                               id="atdw.item.gearSlots" />
+                    </h5>
+                {{/if}}
+                {{#if showEquippable }}
+                    <h5 class="flexrow">
+                        <div class="flex0">
+                            <label class="left-label" for="atdw.item.equippable">{{localize "ATDW.Item.Sheet.equippable"}}</label>
+                        </div>
+                        <input type="checkbox"
+                               name="system.equippable"
+                               id="atdw.item.equippable"
+                               {{checked document.system.equippable}} />
+                    </h5>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</header>
