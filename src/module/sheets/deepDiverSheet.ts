@@ -18,6 +18,7 @@ import {
 import { getGame, getLocalization } from '../helpers';
 
 import type ATDWActor from '../actor/actor';
+import type ATDWItem from '../item/item';
 
 import ActorSheetV2 = foundry.applications.sheets.ActorSheetV2;
 
@@ -47,6 +48,12 @@ interface Context {
   boredOptions: { value: string; label: string }[];
   happyOptions: { value: string; label: string }[];
   frustratedOptions: { value: string; label: string }[];
+  backpackList: { item: Item.Implementation; slots: number }[];
+  currentBackpackCapacity: number;
+  pocketsList: Item.Implementation[];
+  currentPocketsCapacity: number;
+  // TODO: delete this!
+  itemsList: Item.Implementation[];
 }
 
 export default class DeepDiverSheet<
@@ -63,6 +70,12 @@ export default class DeepDiverSheet<
     actions: {
       rollSkill: this.#rollSkill,
       rollAttribute: this.#rollAttribute,
+      toggleExpand: this.#toggleExpand,
+      removeItem: this.#removeItem,
+      editItem: this.#editItem,
+      increaseQuantityItem: this.#increaseQuantityItem,
+      decreaseQuantityItem: this.#decreaseQuantityItem,
+      toggleSorting: this.#toggleSorting,
     },
   };
 
@@ -278,7 +291,174 @@ export default class DeepDiverSheet<
         label: label ? getLocalization().localize(`ATDW.DeepDiver.Sheet.emotionalState.${label}`) : '',
       }));
 
+    const sortedItems = this.document.system.sortedItems();
+    context.backpackList = this.document.system
+      .backpackItems(sortedItems)
+      .map((item) => ({ item, slots: Math.floor(item.system.slots()) }));
+    context.currentBackpackCapacity = this.document.system.currentBackpackCapacity();
+    context.pocketsList = this.document.system.pocketsItems(sortedItems);
+    context.currentPocketsCapacity = this.document.system.currentPocketsCapacity();
+    context.itemsList = sortedItems;
+
     return context;
+  }
+
+  async _onDragStart(event) {
+    const target = event.currentTarget as HTMLElement;
+    const row = target.closest<HTMLElement>('[data-uuid]');
+    const itemId = row?.dataset.itemId ?? target.dataset.key;
+    if (itemId && event.dataTransfer) {
+      const item = this.document.items.get(itemId);
+      if (item) {
+        const dragData = item.toDragData ? item.toDragData() : { type: 'Item', uuid: item.uuid };
+        event.dataTransfer.setData('text/plain', JSON.stringify(dragData));
+      }
+    }
+    super._onDragStart(event);
+  }
+
+  _dropInEquipment(_event: DragEvent): string {
+    return '';
+  }
+
+  _dropInList(event: DragEvent): string {
+    const target = event.target as HTMLElement;
+    if (target.closest('.backpack-list')) {
+      return 'backpack';
+    }
+    if (target.closest('.pockets-list')) {
+      return 'pockets';
+    }
+
+    return '';
+  }
+
+  async _onDropItem(event: DragEvent, item: ATDWItem) {
+    const target = event.target as HTMLElement;
+    const targetItem = target.closest<HTMLElement>('[data-item-id]');
+    if (targetItem?.dataset.itemId === item.id) {
+      // Don't sort the same item on itself
+      return null;
+    }
+    // const dropInMainHand = !!target.closest('.main-hand');
+    // const dropInOffHand = !!target.closest('.off-hand');
+    // const equipmentDropped = this._dropInEquipment(event);
+    const listDropped = this._dropInList(event);
+
+    // const droppingOnHands = dropInMainHand || dropInOffHand;
+
+    const sameActorItem = item?.parent?.id === this.document.id;
+
+    if (sameActorItem) {
+      // TODO
+
+      // if (droppingOnHands) {
+      //   const { result, message } = this.document.system.canEquipWeapon(item);
+      //   if (!result) {
+      //     ui.notifications?.warn(message);
+      //     return null;
+      //   }
+
+      //   if (dropInMainHand && this.document.system.equipment.offHand === item.uuid) {
+      //     await this.document.update({ system: { equipment: { offHand: null } } });
+      //   }
+
+      //   if (dropInOffHand && this.document.system.equipment.mainHand === item.uuid) {
+      //     await this.document.update({ system: { equipment: { mainHand: null } } });
+      //   }
+
+      //   const targetHand = dropInMainHand
+      //     ? this.document.system.equipment.mainHand
+      //     : this.document.system.equipment.offHand;
+      //   if (targetHand && targetHand !== item.uuid) {
+      //     ui.notifications?.warn(getLocalization().localize('KN.Error.handAlreadyOccupied'));
+      //     return null;
+      //   }
+
+      //   return dropInMainHand ? this.document.system.addToMainHand(item) : this.document.system.addToOffHand(item);
+      // }
+
+      // if (equipmentDropped) {
+      //   if (!item.system.equippable) {
+      //     ui.notifications?.warn(getLocalization().localize('KN.Error.notEquippable'));
+      //     return null;
+      //   }
+      //   if (item.type === 'armor' && item.system.canEquipInSlot && !item.system.canEquipInSlot(equipmentDropped)) {
+      //     ui.notifications?.warn(getLocalization().localize('KN.Error.armorSlotMismatch'));
+      //     return null;
+      //   }
+      //   if (this.document.system.equipment[equipmentDropped]) {
+      //     ui.notifications?.warn(getLocalization().localize('KN.Error.equipmentSlotOccupied'));
+      //     return null;
+      //   }
+      //   return this.document.system.addItemToEquipment(equipmentDropped, item);
+      // }
+
+      if (listDropped) {
+        if (this.document.system.isItemInList(listDropped, item)) {
+          await this._onSortItem(event, item);
+          return null;
+        }
+        if (!this.document.system.canAddToList(listDropped, item)) {
+          ui.notifications?.warn(getLocalization().localize(`ATDW.Error.${listDropped}Capacity`));
+          return null;
+        }
+        return this.document.system.moveItemToList(listDropped, item);
+      }
+
+      return null;
+    }
+
+    // TODO
+    // if (droppingOnHands) {
+    //   const targetHand = dropInMainHand
+    //     ? this.document.system.equipment.mainHand
+    //     : this.document.system.equipment.offHand;
+    //   if (targetHand) {
+    //     ui.notifications?.warn(getLocalization().localize('KN.Error.handAlreadyOccupied'));
+    //     return null;
+    //   }
+
+    //   const { result, message } = this.document.system.canEquipWeapon(item);
+    //   if (!result) {
+    //     ui.notifications?.warn(message);
+    //     return null;
+    //   }
+
+    //   const newItem = await super._onDropItem(event, item);
+    //   if (!newItem) {
+    //     return null;
+    //   }
+
+    //   return dropInMainHand ? this.document.system.addToMainHand(newItem) : this.document.system.addToOffHand(newItem);
+    // }
+
+    // if (equipmentDropped) {
+    //   if (!item.system.equippable) {
+    //     ui.notifications?.warn(getLocalization().localize('KN.Error.notEquippable'));
+    //     return null;
+    //   }
+    //   if (item.type === 'armor' && item.system.canEquipInSlot && !item.system.canEquipInSlot(equipmentDropped)) {
+    //     ui.notifications?.warn(getLocalization().localize('KN.Error.armorSlotMismatch'));
+    //     return null;
+    //   }
+    //   return this._onDropToEquipment(event, equipmentDropped, item);
+    // }
+
+    if (listDropped) {
+      if (!this.document.system.canAddToList(listDropped, item)) {
+        ui.notifications?.warn(getLocalization().localize(`ATDW.Error.${listDropped}Capacity`));
+        return null;
+      }
+      const newItem = await super._onDropItem(event, item);
+      if (!newItem) {
+        return null;
+      }
+      await this._onSortItem(event, newItem);
+      return this.document.system.addItemToList(listDropped, newItem);
+    }
+
+    return null;
   }
 
   static async #rollSkill(this, event: PointerEvent) {
@@ -406,5 +586,87 @@ export default class DeepDiverSheet<
         },
       ],
     }).render({ force: true });
+  }
+
+  static async #toggleExpand(event, target) {
+    const icon = target.querySelector(':scope > i');
+    const row = target.closest('[data-uuid]');
+    const { uuid } = row.dataset;
+    const item = await fromUuid(uuid);
+    if (!item) return;
+
+    const expanded = !row.classList.contains('collapsed');
+    row.classList.toggle('collapsed', expanded);
+    icon.classList.toggle('fa-compress', !expanded);
+    icon.classList.toggle('fa-expand', expanded);
+  }
+
+  static async #removeItem(this, event, target) {
+    event.preventDefault();
+    const { key } = target.dataset;
+    const item = this.document.getEmbeddedDocument('Item', key, {});
+    if (!item) {
+      return;
+    }
+    await this.document.system.removeItemFromLists(item.uuid);
+    await this.document.deleteEmbeddedDocuments('Item', [key]);
+  }
+
+  static async #editItem(this, event, target) {
+    event.preventDefault();
+    const { key } = target.dataset;
+    const item = this.document.getEmbeddedDocument('Item', key, {});
+    if (!item) {
+      return;
+    }
+    item.sheet?.render({ force: true });
+  }
+
+  static async #increaseQuantityItem(this, event, target) {
+    event.preventDefault();
+    const { key } = target.dataset;
+    const item = this.document.getEmbeddedDocument('Item', key, {});
+    if (!item) {
+      return;
+    }
+
+    const list = this.document.system.currentListForItem(item);
+
+    switch (list) {
+      case 'backpack':
+        if (!this.document.system.canAddToBackpackList(0.1)) {
+          ui.notifications?.warn(getLocalization().localize(`ATDW.Error.backpackCapacity`));
+          return;
+        }
+        break;
+      case 'pockets':
+        if (!this.document.system.canAddToPocketsList(1)) {
+          ui.notifications?.warn(getLocalization().localize(`ATDW.Error.pocketsCapacity`));
+          return;
+        }
+        break;
+      default:
+        return;
+    }
+
+    const newQuantity = (item.system.quantity ?? 0) + 1;
+    await item.update({ system: { quantity: newQuantity } });
+  }
+
+  static async #decreaseQuantityItem(this, event, target) {
+    event.preventDefault();
+    const { key } = target.dataset;
+    const item = this.document.getEmbeddedDocument('Item', key, {});
+    if (!item || item.system.quantity === 1) {
+      return;
+    }
+    const newQuantity = (item.system.quantity ?? 0) - 1;
+    await item.update({ system: { quantity: newQuantity } });
+  }
+
+  static async #toggleSorting(this, event, _target) {
+    event.preventDefault();
+
+    await this.document.system.toggleSorting();
   }
 }

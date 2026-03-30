@@ -33,6 +33,7 @@ export const TEMPLATES = {
     header: `systems/${ID}/templates/item/header.hbs`,
     detailsTab: `systems/${ID}/templates/item/details-tab.hbs`,
     notesTab: `systems/${ID}/templates/item/notes-tab.hbs`,
+    row: `systems/${ID}/templates/item/item-row.hbs`,
   },
 };
 

@@ -1,7 +1,96 @@
 <div class="tab inventory scrollable {{tabs.inventory.cssClass}}"
      data-group="primary"
      data-tab="inventory">
-    <div class="flexcol align-normal">
-        <div class="section-title">{{localize 'KN.Monster.Sheet.notes' }}</div>
+    <div class="flexcol gap align-normal">
+        <div class="flexrow gap align-normal">
+            <div class="flexcol gap align-normal">
+                <div class="flexrow">
+                    <div>
+                        <label class="left-label" for="atdw.deepDiver.system.drakeCoins">
+                            {{localize 'ATDW.DeepDiver.Sheet.drakeCoins' }}
+                        </label>
+                    </div>
+                    <input name="system.drakeCoins"
+                           type="number"
+                           data-dtype="Number"
+                           value="{{document.system.drakeCoins}}"
+                           min="1"
+                           step="1"
+                           class="flex0 drake-coins-input"
+                           id="atdw.deepDiver.system.drakeCoins" />
+                </div>
+            </div>
+            <div class="flexcol gap align-normal">
+                <div>
+                    <div class="flexrow gap-small">
+                        <div class="section-title">
+                            <div class="flexrow">
+                                {{localize "ATDW.DeepDiver.Inventory.backpack"}} {{currentBackpackCapacity}} /
+                                <input name="system.maxBackpackSlots"
+                                       type="number"
+                                       data-dtype="Number"
+                                       min="0"
+                                       step="1"
+                                       value="{{document.system.maxBackpackSlots}}"
+                                       class="flex0 capacity-input"
+                                       autocomplete="off"
+                                       id="atdw.item.maxBackpackSlots" />
+                            </div>
+                        </div>
+                        {{#if (eq document.system.sorting "alphabetically") }}
+                            <button type="button"
+                                    class="flex0 inline-control toggle-sort icon fas fa-arrow-down-a-z"
+                                    data-tooltip="ATDW.Sorting.alphabetically"
+                                    data-action="toggleSorting"></button>
+                        {{else}}
+                            <button type="button"
+                                    class="flex0 inline-control toggle-sort icon fas fa-arrow-down-short-wide"
+                                    data-tooltip="ATDW.Sorting.manually"
+                                    data-action="toggleSorting"></button>
+                        {{/if}}
+                    </div>
+                    <div class="items-section backpack-list">
+                        <ol class="item-list unlist">
+                            {{#each backpackList as |item key| }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item.item slots=item.slots draggable=true showGS=true showQuantity=true}}
+                            {{/each}}
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="section-title">
+                <div class="flexrow">
+                    {{localize "ATDW.DeepDiver.Inventory.pockets"}} {{currentPocketsCapacity}} /
+                    <input name="system.maxPocketsSlots"
+                           type="number"
+                           data-dtype="Number"
+                           min="0"
+                           step="1"
+                           value="{{document.system.maxPocketsSlots}}"
+                           class="flex0 capacity-input"
+                           autocomplete="off"
+                           id="atdw.item.maxPocketsSlots" />
+                </div>
+            </div>
+            <div class="items-section pockets-list">
+                <ol class="item-list unlist">
+                    {{#each pocketsList as |item key| }}
+                        {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item draggable=true showGS=false showQuantity=true}}
+                    {{/each}}
+                </ol>
+            </div>
+        </div>
+        <div>
+            <div class="section-title">all items</div>
+            <div class="items-section items-list">
+                <ol class="item-list unlist">
+                    {{#each itemsList as |item key| }}
+                        {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item draggable=true showGS=true showQuantity=true}}
+                    {{/each}}
+                </ol>
+            </div>
+        </div>
     </div>
 </div>

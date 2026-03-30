@@ -10,6 +10,7 @@ export const defineItemModel = () => ({
   gearSlots: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
   isLight: new BooleanField({ required: true, initial: false }),
   equippable: new BooleanField({ required: true, initial: false }),
+  quantity: new NumberField({ required: true, integer: true, min: 1, initial: 1 }),
   description: new StringField({ initial: '' }),
   notes: new StringField({ initial: '' }),
 });
@@ -31,4 +32,11 @@ export default class GearDataModel extends foundry.abstract.TypeDataModel<GearMo
     }
     return super._preUpdate(changed, options, user);
   };
+
+  slots(): number {
+    if (this.parent.system.isLight) {
+      return (this.parent.system.quantity ?? 0) * 0.1;
+    }
+    return this.parent.system.gearSlots ?? 0;
+  }
 }

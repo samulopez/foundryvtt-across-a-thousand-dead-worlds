@@ -9,6 +9,7 @@ import {
   MANNERISMS_HAPPY,
   MANNERISMS_SHY,
   NERVOUS_TIC,
+  SORTING,
   TALENT,
   emotionalStates,
 } from '../../constants';
@@ -130,4 +131,111 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
     }
     return super._preUpdate(changed, options, user);
   };
+
+  sortedItems(): Item.Implementation[] {
+    if (this.parent.system.sorting === SORTING.alphabetically) {
+      return this.parent.items.contents.sort((a, b) => a.name.localeCompare(b.name));
+    }
+    return this.parent.items.contents.sort((a, b) => a.sort - b.sort);
+  }
+
+  backpackItems(sortedItems: Item.Implementation[]): Item.Implementation[] {
+    return sortedItems.filter((item) => this.parent.system.backpack.includes(item.uuid));
+  }
+
+  pocketsItems(sortedItems: Item.Implementation[]): Item.Implementation[] {
+    return sortedItems.filter((item) => this.parent.system.pockets.includes(item.uuid));
+  }
+
+  currentBackpackCapacity(): number {
+    return Math.floor(
+      this.backpackItems(this.parent.items.contents).reduce((sum, item) => sum + item.system.slots(), 0),
+    );
+  }
+
+  currentPocketsCapacity(): number {
+    return this.pocketsItems(this.parent.items.contents).reduce((sum, item) => sum + (item.system.quantity ?? 1), 0);
+  }
+
+  isItemInList(list: string, item: Item.Implementation): boolean {
+    switch (list) {
+      case 'backpack':
+        return this.parent.system.backpack.includes(item.uuid);
+      case 'pockets':
+        return this.parent.system.pockets.includes(item.uuid);
+      default:
+        return false;
+    }
+  }
+
+  currentListForItem(item: Item.Implementation): string | null {
+    if (this.parent.system.backpack.includes(item.uuid)) {
+      return 'backpack';
+    }
+    if (this.parent.system.pockets.includes(item.uuid)) {
+      return 'pockets';
+    }
+    return null;
+  }
+
+  canAddToBackpackList(newSlots: number): boolean {
+    return this.currentBackpackCapacity() + newSlots <= (this.parent.system.maxBackpackSlots ?? 0);
+  }
+
+  canAddToPocketsList(newSlots: number): boolean {
+    return this.currentPocketsCapacity() + newSlots <= (this.parent.system.maxPocketsSlots ?? 0);
+  }
+
+  canAddToList(list: string, item: Item.Implementation): boolean {
+    switch (list) {
+      case 'backpack':
+        return this.canAddToBackpackList(item.system.slots());
+      case 'pockets':
+        if (!item.system.isLight) {
+          return false;
+        }
+        return this.canAddToPocketsList(item.system.quantity ?? 1);
+      default:
+        return false;
+    }
+  }
+
+  async removeItemFromLists(itemUUID: string) {
+    return this.parent.update({
+      system: {
+        backpack: this.backpack.filter((id) => id !== itemUUID),
+        pockets: this.pockets.filter((id) => id !== itemUUID),
+      },
+    });
+  }
+
+  async moveItemToList(list: string, item: Item.Implementation) {
+    await this.removeItemFromLists(item.uuid);
+
+    const result = await this.parent.update({
+      system: {
+        [list]: [...this[list], item.uuid],
+      },
+    });
+
+    return result ? item : null;
+  }
+
+  async addItemToList(list: string, item: Item.Implementation) {
+    const result = await this.parent.update({
+      system: {
+        [list]: [...this[list], item.uuid],
+      },
+    });
+    return result ? item : null;
+  }
+
+  async toggleSorting() {
+    const newSorting = this.parent.system.sorting === SORTING.manually ? SORTING.alphabetically : SORTING.manually;
+    await this.parent.update({
+      system: {
+        sorting: newSorting,
+      },
+    });
+  }
 }
