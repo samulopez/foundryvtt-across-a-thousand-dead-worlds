@@ -224,11 +224,7 @@
     .inventory {
       .gear-list,
       .backpack-list,
-      .pouch1-list,
-      .pouch2-list,
-      .pouch3-list,
-      .non-encumbering-items-list,
-      .belt-list {
+      .pockets-list {
         min-height: 60px;
       }
       .unlist {
@@ -238,6 +234,14 @@
         li {
           margin: 0;
         }
+      }
+
+      .capacity-input {
+        width: 2.2rem;
+      }
+
+      .drake-coins-input {
+        width: 5rem;
       }
 
       .wealth-input {

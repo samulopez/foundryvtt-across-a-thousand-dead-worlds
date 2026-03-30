@@ -1,0 +1,101 @@
+<li class="flexcol item collapsible collapsed"
+    data-uuid="{{item.uuid}}"
+    data-item-id="{{item.id}}"
+    data-entry-id="{{item.id}}"
+    data-item-name="{{item.name}}">
+    <div class="flexrow align-normal gap-small{{#if draggable }} draggable{{/if }}"
+         {{#if draggable }}
+         draggable="true"
+         {{/if }}
+         data-key="{{item.id }}">
+        <img class="item-image flex0"
+             src="{{item.img}}"
+             alt="{{item.name}}"
+             width="32"
+             height="32"
+             draggable="false" />
+        <div class="flexcol flex1 gap-min">
+            <div class="flexrow gap-small">
+                <div class="flex1 item-name">{{item.name}}</div>
+                <div class="flex0 item-detail item-controls">
+                    {{#if (eq item.type "weapon") }}
+                        <button type="button"
+                                class="unbutton config-button item-control item-action always-interactive"
+                                data-tooltip="ATDW.Item.Sheet.equipTooltip"
+                                data-key="{{item.id}}"
+                                data-action="equipWeapon">
+                            <i class="fas fa-shield-halved"></i>
+                        </button>
+                    {{/if}}
+                    {{#if (eq item.type "armor") }}
+                        <button type="button"
+                                class="unbutton config-button item-control item-action always-interactive"
+                                data-tooltip="ATDW.Item.Sheet.equipTooltip"
+                                data-key="{{item.id}}"
+                                data-action="equipArmor">
+                            <i class="fas fa-shield-halved"></i>
+                        </button>
+                    {{/if}}
+                    <button type="button"
+                            class="unbutton config-button item-control item-action always-interactive"
+                            data-tooltip="ATDW.Item.Sheet.toggleTooltip"
+                            data-action="toggleExpand">
+                        <i class="fas fa-expand"></i>
+                    </button>
+                    <button type="button"
+                            class="unbutton config-button item-control item-action always-interactive"
+                            data-tooltip="ATDW.Item.Sheet.editTooltip"
+                            data-key="{{item.id}}"
+                            data-action="editItem">
+                        <i class="fas fa-edit"></i>
+                    </button>
+                    <button type="button"
+                            class="unbutton config-button item-control item-action always-interactive"
+                            data-tooltip="ATDW.Item.Sheet.deleteTooltip"
+                            data-key="{{item.id}}"
+                            data-action="removeItem">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-detail item-price">{{localize "ATDW.Item.Sheet.label.price"}}: {{item.system.price}}</div>
+                {{#if showGS }}
+                    <div class="item-detail item-weight empty">{{localize "ATDW.Item.Sheet.label.gearSlots"}}: {{slots}}</div>
+                {{/if}}
+                {{#if (and showQuantity (eq item.system.isLight true)) }}
+                    <div class="item-detail item-quantity">
+                        {{localize "ATDW.Item.Sheet.label.quantity"}}:
+                        <a class="adjustment-button always-interactive"
+                           data-action="decreaseQuantityItem"
+                           data-tooltip="ATDW.Item.Sheet.decreaseTooltip"
+                           data-key="{{item.id}}">
+                            <i class="fas fa-minus"></i>
+                        </a>
+                        {{item.system.quantity}}
+                        <a class="adjustment-button always-interactive"
+                           data-action="increaseQuantityItem"
+                           data-tooltip="ATDW.Item.Sheet.increaseTooltip"
+                           data-key="{{item.id}}">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+    <div class="item-description collapsible-content">
+        <div class="item-details">
+            <div class="item-detail item-availability">
+                {{localize "ATDW.Item.Sheet.label.availability"}}: {{localize (concat "ATDW.Item.Sheet.availability." item.system.availability)}}
+            </div>
+        </div>
+        <span class="wrapper">
+            <div class="subtitle">{{localize "ATDW.Item.Sheet.label.description"}}</div>
+        {{editor item.system.description engine="prosemirror"}}</span>
+        <div class="wrapper">
+            <div class="subtitle">{{localize "ATDW.Item.Sheet.label.notes"}}</div>
+            {{editor item.system.notes engine="prosemirror"}}
+        </div>
+    </div>
+</li>
