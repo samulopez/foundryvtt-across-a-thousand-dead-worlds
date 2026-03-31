@@ -1,0 +1,79 @@
+<div class="tab details scrollable {{tabs.details.cssClass}}"
+     data-group="primary"
+     data-tab="details">
+    <div class="flexcol align-normal gap-small">
+        {{#if (eq document.system.isFullBody false) }}
+            <div>
+                <div class="section-title">{{localize 'ATDW.Item.Sheet.bodySlots.title' }}</div>
+                <div class="flexrow gap-small align-normal">
+                    <div class="flexcol gap-min">
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.head"
+                                   {{checked document.system.body.head}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.head' }}
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.back"
+                                   {{checked document.system.body.back}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.back' }}
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.torso"
+                                   {{checked document.system.body.torso}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.torso' }}
+                        </label>
+                    </div>
+                    <div class="flexcol gap-min">
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.arms"
+                                   {{checked document.system.body.arms}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.arms' }}
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.hands"
+                                   {{checked document.system.body.hands}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.hands' }}
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.waist"
+                                   {{checked document.system.body.waist}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.waist' }}
+                        </label>
+                    </div>
+                    <div class="flexcol gap-min">
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.legs"
+                                   {{checked document.system.body.legs}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.legs' }}
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"
+                                   name="system.body.feet"
+                                   {{checked document.system.body.feet}} />
+                            {{localize 'ATDW.Item.Sheet.bodySlots.feet' }}
+                        </label>
+                    </div>
+                </div>
+            </div>
+        {{/if}}
+        <div>
+            <div class="section-title">{{localize 'ATDW.Item.Sheet.details.description' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.description" button="true" editable="{{editable}}" toggled="false" value="{{document.system.description}}">
+                    {{{enrichedDescription}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedDescription}}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</div>

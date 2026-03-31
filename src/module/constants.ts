@@ -35,6 +35,16 @@ export const TEMPLATES = {
     notesTab: `systems/${ID}/templates/item/notes-tab.hbs`,
     row: `systems/${ID}/templates/item/item-row.hbs`,
   },
+  weapon: {
+    header: `systems/${ID}/templates/weapon/header.hbs`,
+    detailsTab: `systems/${ID}/templates/weapon/details-tab.hbs`,
+    notesTab: `systems/${ID}/templates/weapon/notes-tab.hbs`,
+  },
+  armor: {
+    header: `systems/${ID}/templates/armor/header.hbs`,
+    detailsTab: `systems/${ID}/templates/armor/details-tab.hbs`,
+    notesTab: `systems/${ID}/templates/armor/notes-tab.hbs`,
+  },
 };
 
 export enum SORTING {

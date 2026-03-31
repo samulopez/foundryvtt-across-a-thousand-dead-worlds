@@ -37,29 +37,18 @@
                 </h5>
                 <h5 class="flexrow">
                     <div class="flex0">
-                        <label class="left-label" for="atdw.item.isLight">{{localize "ATDW.Item.Sheet.isLight"}}</label>
+                        <label class="left-label" for="atdw.item.gearSlots">{{localize 'ATDW.Item.Sheet.gearSlots' }}</label>
                     </div>
-                    <input type="checkbox"
-                           name="system.isLight"
-                           id="atdw.item.isLight"
-                           {{checked document.system.isLight}} />
+                    <input name="system.gearSlots"
+                           type="number"
+                           data-dtype="Number"
+                           min="0"
+                           step="1"
+                           value="{{document.system.gearSlots}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="atdw.item.gearSlots" />
                 </h5>
-                {{#if (eq document.system.isLight false) }}
-                    <h5 class="flexrow">
-                        <div class="flex0">
-                            <label class="left-label" for="atdw.item.gearSlots">{{localize 'ATDW.Item.Sheet.gearSlots' }}</label>
-                        </div>
-                        <input name="system.gearSlots"
-                               type="number"
-                               data-dtype="Number"
-                               min="0"
-                               step="1"
-                               value="{{document.system.gearSlots}}"
-                               class="flex3"
-                               autocomplete="off"
-                               id="atdw.item.gearSlots" />
-                    </h5>
-                {{/if}}
                 <h5 class="flexrow">
                     <div class="flex0">
                         <label class="left-label" for="atdw.item.availability">{{localize 'ATDW.Item.Sheet.availability.title' }}</label>
@@ -82,17 +71,29 @@
                         </option>
                     </select>
                 </h5>
-                {{#if showEquippable }}
-                    <h5 class="flexrow">
-                        <div class="flex0">
-                            <label class="left-label" for="atdw.item.equippable">{{localize "ATDW.Item.Sheet.equippable"}}</label>
-                        </div>
-                        <input type="checkbox"
-                               name="system.equippable"
-                               id="atdw.item.equippable"
-                               {{checked document.system.equippable}} />
-                    </h5>
-                {{/if}}
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.isFullBody">{{localize "ATDW.Item.Sheet.isFullBody"}}</label>
+                    </div>
+                    <input type="checkbox"
+                           name="system.isFullBody"
+                           id="atdw.item.isFullBody"
+                           {{checked document.system.isFullBody}} />
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.armor">{{localize 'ATDW.Item.Sheet.armor' }}</label>
+                    </div>
+                    <input name="system.armor"
+                           type="number"
+                           data-dtype="Number"
+                           min="0"
+                           step="1"
+                           value="{{document.system.armor}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="atdw.item.armor" />
+                </h5>
             </div>
         </div>
     </div>
