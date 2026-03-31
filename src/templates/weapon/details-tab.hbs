@@ -1,0 +1,212 @@
+<div class="tab details scrollable {{tabs.details.cssClass}}"
+     data-group="primary"
+     data-tab="details">
+    <div class="flexcol align-normal gap-small">
+        <div class="flexrow gap-large">
+            <div class="flexrow">
+                <div class="flex1">
+                    <label class="left-label" for="atdw.item.isMelee">{{localize "ATDW.Item.Sheet.isMelee"}}</label>
+                </div>
+                <input type="checkbox"
+                       name="system.isMelee"
+                       id="atdw.item.isMelee"
+                       class="flex0"
+                       {{checked document.system.isMelee}} />
+            </div>
+            <div class="flexrow">
+                {{#if (eq document.system.isMelee false) }}
+                    <div class="flex1">
+                        <label class="left-label" for="atdw.item.range">{{localize 'ATDW.Item.Sheet.range' }}</label>
+                    </div>
+                    <input name="system.range"
+                           type="number"
+                           data-dtype="Number"
+                           min="0"
+                           step="1"
+                           value="{{document.system.range}}"
+                           class="flex0 range-input"
+                           autocomplete="off"
+                           id="atdw.item.range" />
+                {{/if}}
+            </div>
+        </div>
+        <div class="flexrow gap-large">
+            <div class="flexrow">
+                <div class="flex1">
+                    <label class="left-label" for="atdw.item.isTwoHanded">{{localize "ATDW.Item.Sheet.isTwoHanded"}}</label>
+                </div>
+                <input type="checkbox"
+                       name="system.isTwoHanded"
+                       id="atdw.item.isTwoHanded"
+                       class="flex0"
+                       {{checked document.system.isTwoHanded}} />
+            </div>
+            <div class="flexrow">
+                <div class="flex1">
+                    <label class="left-label" for="atdw.item.damage">{{localize 'ATDW.Item.Sheet.damage' }}</label>
+                </div>
+                <input name="system.damage"
+                       type="text"
+                       value="{{document.system.damage}}"
+                       class="flex2"
+                       autocomplete="off"
+                       id="atdw.item.damage" />
+            </div>
+        </div>
+        <div>
+            <div class="section-title">{{localize 'ATDW.Item.Sheet.traits.title' }}</div>
+            <div class="flexrow gap-small align-normal">
+                <div class="flexcol gap-min">
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.armorPiercing"
+                               {{checked document.system.traits.armorPiercing}} />
+                        {{localize 'ATDW.Item.Sheet.traits.armorPiercing' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.blast.active"
+                               {{checked document.system.traits.blast.active}} />
+                        <input type="number"
+                               name="system.traits.blast.value"
+                               min="0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.traits.blast.value}}" />
+                        {{localize 'ATDW.Item.Sheet.traits.blast' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.burst"
+                               {{checked document.system.traits.burst}} />
+                        {{localize 'ATDW.Item.Sheet.traits.burst' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.explosive.active"
+                               {{checked document.system.traits.explosive.active}} />
+                        <input type="number"
+                               name="system.traits.explosive.value"
+                               min="0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.traits.explosive.value}}" />
+                        {{localize 'ATDW.Item.Sheet.traits.explosive' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.forceful"
+                               {{checked document.system.traits.forceful}} />
+                        {{localize 'ATDW.Item.Sheet.traits.forceful' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.fullAuto"
+                               {{checked document.system.traits.fullAuto}} />
+                        {{localize 'ATDW.Item.Sheet.traits.fullAuto' }}
+                    </label>
+                </div>
+                <div class="flexcol gap-min">
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.gas"
+                               {{checked document.system.traits.gas}} />
+                        {{localize 'ATDW.Item.Sheet.traits.gas' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.incendiary"
+                               {{checked document.system.traits.incendiary}} />
+                        {{localize 'ATDW.Item.Sheet.traits.incendiary' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.light"
+                               {{checked document.system.traits.light}} />
+                        {{localize 'ATDW.Item.Sheet.traits.light' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.powerful"
+                               {{checked document.system.traits.powerful}} />
+                        {{localize 'ATDW.Item.Sheet.traits.powerful' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.punishing.active"
+                               {{checked document.system.traits.punishing.active}} />
+                        <input type="number"
+                               name="system.traits.punishing.value"
+                               min="0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.traits.punishing.value}}" />
+                        {{localize 'ATDW.Item.Sheet.traits.punishing' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.quick"
+                               {{checked document.system.traits.quick}} />
+                        {{localize 'ATDW.Item.Sheet.traits.quick' }}
+                    </label>
+                </div>
+                <div class="flexcol gap-min">
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.recoil"
+                               {{checked document.system.traits.recoil}} />
+                        {{localize 'ATDW.Item.Sheet.traits.recoil' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.row.active"
+                               {{checked document.system.traits.row.active}} />
+                        <input type="number"
+                               name="system.traits.row.value"
+                               min="0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.traits.row.value}}" />
+                        {{localize 'ATDW.Item.Sheet.traits.row' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.slow"
+                               {{checked document.system.traits.slow}} />
+                        {{localize 'ATDW.Item.Sheet.traits.slow' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.unwieldy"
+                               {{checked document.system.traits.unwieldy}} />
+                        {{localize 'ATDW.Item.Sheet.traits.unwieldy' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.volatile"
+                               {{checked document.system.traits.volatile}} />
+                        {{localize 'ATDW.Item.Sheet.traits.volatile' }}
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox"
+                               name="system.traits.wellCrafted"
+                               {{checked document.system.traits.wellCrafted}} />
+                        {{localize 'ATDW.Item.Sheet.traits.wellCrafted' }}
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="section-title">{{localize 'ATDW.Item.Sheet.details.description' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.description" button="true" editable="{{editable}}" toggled="false" value="{{document.system.description}}">
+                    {{{enrichedDescription}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedDescription}}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</div>

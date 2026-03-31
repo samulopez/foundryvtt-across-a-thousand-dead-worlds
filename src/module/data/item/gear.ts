@@ -25,8 +25,10 @@ export default class GearDataModel extends foundry.abstract.TypeDataModel<GearMo
 
   _preUpdate: GearModelType['_preUpdate'] = async (changed, options, user) => {
     if (changed.system?.isLight !== undefined && changed.system.isLight) {
-      // eslint-disable-next-line no-param-reassign
-      changed.system.equippable = false;
+      if (changed.type === 'gear') {
+        // eslint-disable-next-line no-param-reassign
+        changed.system.equippable = false;
+      }
       // eslint-disable-next-line no-param-reassign
       changed.system.gearSlots = 0;
     }

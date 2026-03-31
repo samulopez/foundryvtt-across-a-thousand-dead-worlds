@@ -3,21 +3,25 @@ import './styles/style.scss';
 import ATDWActor from './module/actor/actor';
 import { ID, TEMPLATES } from './module/constants';
 import {
+  ArmorDataModel,
   CreatureDataModel,
   DeepDiverDataModel,
   GearDataModel,
   MissionDataModel,
   NPCDataModel,
   SiteExpeditionDataModel,
+  WeaponDataModel,
 } from './module/data';
 import ATDWItem from './module/item/item';
 import { registerSettings } from './module/settings';
+import ATDWArmorSheet from './module/sheets/armorSheet';
 import CreatureSheet from './module/sheets/creatureSheet';
 import DeepDiverSheet from './module/sheets/deepDiverSheet';
 import ATDWGearSheet from './module/sheets/gearSheet';
 import MissionSheet from './module/sheets/missionSheet';
 import NPCSheet from './module/sheets/npcSheet';
 import SiteExpeditionSheet from './module/sheets/siteExpeditionSheet';
+import ATDWWeaponSheet from './module/sheets/weaponSheet';
 
 Hooks.once('init', async () => {
   // Configure custom Document implementations.
@@ -32,7 +36,9 @@ Hooks.once('init', async () => {
     siteExpedition: SiteExpeditionDataModel,
   };
   CONFIG.Item.dataModels = {
+    armor: ArmorDataModel,
     gear: GearDataModel,
+    weapon: WeaponDataModel,
   };
   CONFIG.Actor.trackableAttributes = {
     deepDiver: {
@@ -85,6 +91,18 @@ Hooks.once('init', async () => {
     themes: null,
     label: 'ATDW Gear Sheet',
     types: ['gear'],
+  });
+  foundry.documents.collections.Items.registerSheet(ID, ATDWWeaponSheet, {
+    makeDefault: true,
+    themes: null,
+    label: 'ATDW Weapon Sheet',
+    types: ['weapon'],
+  });
+  foundry.documents.collections.Items.registerSheet(ID, ATDWArmorSheet, {
+    makeDefault: true,
+    themes: null,
+    label: 'ATDW Armor Sheet',
+    types: ['armor'],
   });
 
   registerSettings();

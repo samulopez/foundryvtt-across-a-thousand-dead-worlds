@@ -85,6 +85,119 @@
         </div>
     </div>
     <div class="item-description collapsible-content">
+        {{#if (eq item.type "armor") }}
+            <div class="item-details">
+                <div class="item-detail item-armor">{{localize "ATDW.Item.Sheet.label.armor"}}: {{item.system.armor}}</div>
+                {{#if item.system.isFullBody }}
+                    <div class="item-detail item-two-handed">{{localize "ATDW.Item.Sheet.label.isFullBody"}}</div>
+                {{else}}
+                    <div class="flexrow gap-min">
+                        {{localize "ATDW.Item.Sheet.bodySlots.title"}}:
+                        <div class="weapon-traits">
+                            {{#if item.system.body.head }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.head"}}</span>
+                            {{/if}}
+                            {{#if item.system.body.back }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.back"}}</span>
+                            {{/if}}
+                            {{#if item.system.body.torso }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.torso"}}</span>
+                            {{/if}}
+                            {{#if item.system.body.arms }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.arms"}}</span>
+                            {{/if}}
+                            {{#if item.system.body.hands }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.hands"}}</span>
+                            {{/if}}
+                            {{#if item.system.body.waist }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.waist"}}</span>
+                            {{/if}}
+                            {{#if item.system.body.legs }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.legs"}}</span>
+                            {{/if}}
+                            {{#if item.system.body.feet }}
+                                <span>{{localize "ATDW.Item.Sheet.bodySlots.feet"}}</span>
+                            {{/if}}
+                        </div>
+                    </div>
+                {{/if}}
+            </div>
+        {{/if}}
+        {{#if (eq item.type "weapon") }}
+            <div class="item-details">
+                <div class="item-detail item-speed">
+                    {{localize "ATDW.Item.Sheet.label.range"}}:
+                    {{#if item.system.isMelee }}
+                        {{localize "ATDW.Item.Sheet.label.isMelee"}}
+                    {{else}}
+                        {{item.system.range}}
+                    {{/if}}
+                </div>
+                {{#if item.system.isTwoHanded }}
+                    <div class="item-detail item-two-handed">{{localize "ATDW.Item.Sheet.label.twoHanded"}}</div>
+                {{/if}}
+                <div class="item-detail item-damage">{{localize "ATDW.Item.Sheet.label.damage"}}: {{item.system.damage}}</div>
+                <div class="flexrow gap-min">
+                    {{localize "ATDW.Item.Sheet.traits.title"}}:
+                    <div class="weapon-traits">
+                        {{#if item.system.traits.armorPiercing }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.armorPiercing"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.blast.active }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.blast"}} ({{item.system.traits.blast.value}})</span>
+                        {{/if}}
+                        {{#if item.system.traits.burst }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.burst"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.explosive.active }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.explosive"}} ({{item.system.traits.explosive.value}})</span>
+                        {{/if}}
+                        {{#if item.system.traits.forceful }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.forceful"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.fullAuto }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.fullAuto"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.gas }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.gas"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.incendiary }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.incendiary"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.light }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.light"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.powerful }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.powerful"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.punishing.active }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.punishing"}} ({{item.system.traits.punishing.value}})</span>
+                        {{/if}}
+                        {{#if item.system.traits.quick }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.quick"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.recoil }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.recoil"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.row.active }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.row"}} ({{item.system.traits.row.value}})</span>
+                        {{/if}}
+                        {{#if item.system.traits.slow }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.slow"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.unwieldy }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.unwieldy"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.volatile }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.volatile"}}</span>
+                        {{/if}}
+                        {{#if item.system.traits.wellCrafted }}
+                            <span>{{localize "ATDW.Item.Sheet.traits.wellCrafted"}}</span>
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+        {{/if}}
         <div class="item-details">
             <div class="item-detail item-availability">
                 {{localize "ATDW.Item.Sheet.label.availability"}}: {{localize (concat "ATDW.Item.Sheet.availability." item.system.availability)}}

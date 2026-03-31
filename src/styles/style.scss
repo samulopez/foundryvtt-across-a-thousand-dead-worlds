@@ -458,6 +458,11 @@
         text-align: right;
       }
     }
+    .details {
+      input[type='number'] {
+        width: 2rem;
+      }
+    }
     .details,
     .notes {
       padding-top: 0.5rem;
@@ -471,6 +476,9 @@
           height: 100%;
         }
       }
+    }
+    .range-input {
+      width: 5rem;
     }
   }
 
