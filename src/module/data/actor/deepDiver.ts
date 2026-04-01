@@ -2,6 +2,7 @@ import {
   BACKGROUND,
   DRIVE,
   EARN_PLACE,
+  HIT_LOCATIONS,
   LIFE_CHANGING_EVENT,
   MANNERISMS_BORED,
   MANNERISMS_CONFIDENT,
@@ -115,6 +116,10 @@ const defineCharacterModel = () => ({
   backpack: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
   maxPocketsSlots: new NumberField({ required: true, integer: true, min: 0, initial: 10 }),
   pockets: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
+  hitLocation: new StringField({
+    choices: [HIT_LOCATIONS.humanoid],
+    initial: HIT_LOCATIONS.humanoid,
+  }),
   ...sortingField(),
 });
 
