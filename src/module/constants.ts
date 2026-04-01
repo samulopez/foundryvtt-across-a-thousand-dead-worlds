@@ -317,3 +317,36 @@ export enum AVAILABILITY {
   rare = 'rare',
   experimental = 'experimental',
 }
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum HIT_LOCATIONS {
+  none = 'none',
+  humanoid = 'humanoid',
+  quadruped = 'quadruped',
+  serpentine = 'serpentine',
+}
+
+export const HIT_LOCATION_TABLES = {
+  [HIT_LOCATIONS.humanoid]: [
+    { startDie: 1, endDie: 1, location: 'feet', damageModifier: -1 },
+    { startDie: 2, endDie: 2, location: 'legs', damageModifier: -1 },
+    { startDie: 3, endDie: 3, location: 'waist', damageModifier: 0 },
+    { startDie: 4, endDie: 4, location: 'hands', damageModifier: 0 },
+    { startDie: 5, endDie: 5, location: 'arms', damageModifier: 0 },
+    { startDie: 6, endDie: 8, location: 'torso', damageModifier: 1 },
+    { startDie: 9, endDie: 9, location: 'back', damageModifier: 2 },
+    { startDie: 10, endDie: 10, location: 'head', damageModifier: 3 },
+  ],
+  [HIT_LOCATIONS.quadruped]: [
+    { startDie: 1, endDie: 2, location: 'hindlimb', damageModifier: -1 },
+    { startDie: 3, endDie: 6, location: 'forelimb', damageModifier: 0 },
+    { startDie: 7, endDie: 9, location: 'body', damageModifier: 2 },
+    { startDie: 10, endDie: 10, location: 'head', damageModifier: 3 },
+  ],
+  [HIT_LOCATIONS.serpentine]: [
+    { startDie: 1, endDie: 2, location: 'lowerBody', damageModifier: -1 },
+    { startDie: 3, endDie: 6, location: 'middle', damageModifier: 0 },
+    { startDie: 7, endDie: 9, location: 'upperBody', damageModifier: 2 },
+    { startDie: 10, endDie: 10, location: 'head', damageModifier: 3 },
+  ],
+};

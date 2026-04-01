@@ -1,3 +1,5 @@
+import { HIT_LOCATIONS } from '../../constants';
+
 import { primaryAttributes, sortingField } from './helper';
 
 import type ATDWActor from '../../actor/actor';
@@ -18,6 +20,10 @@ export const defineNPCModel = () => ({
   details: new StringField({ initial: '' }),
   notes: new StringField({ initial: '' }),
   gear: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
+  hitLocation: new StringField({
+    choices: [HIT_LOCATIONS.humanoid],
+    initial: HIT_LOCATIONS.humanoid,
+  }),
   ...sortingField(),
 });
 

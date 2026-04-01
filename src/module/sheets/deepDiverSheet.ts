@@ -90,6 +90,7 @@ export default class DeepDiverSheet<
       equipWeapon: this.#equipWeapon,
       equipArmor: this.#equipArmor,
       swapWeapons: this.#swapWeapons,
+      rollHitLocation: this.#rollHitLocation,
     },
   };
 
@@ -778,5 +779,10 @@ export default class DeepDiverSheet<
     }
 
     await this.document.system.addItemToEquipment('', item);
+  }
+
+  static async #rollHitLocation(this, event: PointerEvent) {
+    event.preventDefault();
+    await this.document.rollHitLocation();
   }
 }

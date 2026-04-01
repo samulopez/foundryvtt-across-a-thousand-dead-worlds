@@ -1,4 +1,4 @@
-import { TEMPLATES } from '../constants';
+import { HIT_LOCATIONS, HIT_LOCATION_TABLES, TEMPLATES } from '../constants';
 import { getLocalization } from '../helpers';
 
 export default class ATDWActor<out SubType extends Actor.SubType = Actor.SubType> extends Actor<SubType> {
@@ -108,6 +108,48 @@ export default class ATDWActor<out SubType extends Actor.SubType = Actor.SubType
     await roll.toMessage({
       content: html,
       flavor,
+    });
+  }
+
+  async rollHitLocation() {
+    if (!this.isCreature() && !this.isNPC() && !this.isDeepDiver()) {
+      throw new Error('Actor is not a valid type for hit location roll');
+    }
+    if (this.system.hitLocation === HIT_LOCATIONS.none) {
+      return;
+    }
+
+    const roll = new Roll('1d10');
+    await roll.evaluate();
+    const total = roll.total ?? 0;
+
+    const hitLocationTable = HIT_LOCATION_TABLES[this.system.hitLocation];
+    if (!hitLocationTable) {
+      return;
+    }
+
+    const hitLocation = hitLocationTable.find((hl) => total >= hl.startDie && total <= hl.endDie);
+    if (!hitLocation) {
+      return;
+    }
+    const resultString = getLocalization().format('ATDW.Rolls.rollHitLocation.result', {
+      location: getLocalization().localize(`ATDW.Creature.Sheet.hitLocation.option.${hitLocation.location}`),
+      modifier:
+        hitLocation.damageModifier > 0 ? `+${hitLocation.damageModifier}` : hitLocation.damageModifier.toString(),
+    });
+
+    const html = await foundry.applications.handlebars.renderTemplate(TEMPLATES.resultRoll, {
+      resultString,
+      customClass: '',
+      formula: roll.formula,
+      total: roll.total,
+    });
+
+    await roll.toMessage({
+      content: html,
+      flavor: `${this.name}: ${getLocalization().format('ATDW.Rolls.rollHitLocation.title', {
+        locationType: getLocalization().localize(`ATDW.Creature.Sheet.hitLocation.${this.system.hitLocation}`),
+      })}`,
     });
   }
 
