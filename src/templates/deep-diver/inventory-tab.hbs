@@ -4,6 +4,99 @@
     <div class="flexcol gap align-normal">
         <div class="flexrow gap align-normal">
             <div class="flexcol gap align-normal">
+                <div>
+                    <div class="section-title">{{localize "ATDW.DeepDiver.Inventory.equippedGear"}}</div>
+                    <div class="items-section equipped-list">
+                        <div class="header right-hand draggable"
+                             draggable="true"
+                             data-key="{{equipment.rightHand.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.rightHand"}}</h3>
+                            {{#if equipment.rightHand }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.rightHand showSwapButton=equipment.leftHand}}
+                            {{/if}}
+                        </div>
+                        <div class="header left-hand draggable"
+                             draggable="true"
+                             data-key="{{equipment.leftHand.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.leftHand"}}</h3>
+                            {{#if equipment.leftHand }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.leftHand}}
+                            {{/if}}
+                        </div>
+                        <div class="header full-body draggable"
+                             draggable="true"
+                             data-key="{{equipment.fullBody.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.fullBody"}}</h3>
+                            {{#if equipment.fullBody }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.fullBody}}
+                            {{/if}}
+                        </div>
+                        <div class="header head draggable"
+                             draggable="true"
+                             data-key="{{equipment.head.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.head"}}</h3>
+                            {{#if equipment.head }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.head}}
+                            {{/if}}
+                        </div>
+                        <div class="header back draggable"
+                             draggable="true"
+                             data-key="{{equipment.back.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.back"}}</h3>
+                            {{#if equipment.back }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.back}}
+                            {{/if}}
+                        </div>
+                        <div class="header torso draggable"
+                             draggable="true"
+                             data-key="{{equipment.torso.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.torso"}}</h3>
+                            {{#if equipment.torso }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.torso}}
+                            {{/if}}
+                        </div>
+                        <div class="header arms draggable"
+                             draggable="true"
+                             data-key="{{equipment.arms.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.arms"}}</h3>
+                            {{#if equipment.arms }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.arms}}
+                            {{/if}}
+                        </div>
+                        <div class="header hands draggable"
+                             draggable="true"
+                             data-key="{{equipment.hands.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.hands"}}</h3>
+                            {{#if equipment.hands }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.hands}}
+                            {{/if}}
+                        </div>
+                        <div class="header waist draggable"
+                             draggable="true"
+                             data-key="{{equipment.waist.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.waist"}}</h3>
+                            {{#if equipment.waist }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.waist}}
+                            {{/if}}
+                        </div>
+                        <div class="header legs draggable"
+                             draggable="true"
+                             data-key="{{equipment.legs.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.legs"}}</h3>
+                            {{#if equipment.legs }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.legs}}
+                            {{/if}}
+                        </div>
+                        <div class="header feet draggable"
+                             draggable="true"
+                             data-key="{{equipment.feet.id}}">
+                            <h3 class="equipment-name">{{localize "ATDW.DeepDiver.Inventory.equipped.feet"}}</h3>
+                            {{#if equipment.feet }}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/equipment-row.hbs" item=equipment.feet}}
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
                 <div class="flexrow">
                     <div>
                         <label class="left-label" for="atdw.deepDiver.system.drakeCoins">
@@ -78,16 +171,6 @@
                 <ol class="item-list unlist">
                     {{#each pocketsList as |item key| }}
                         {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item draggable=true showGS=false showQuantity=true}}
-                    {{/each}}
-                </ol>
-            </div>
-        </div>
-        <div>
-            <div class="section-title">all items</div>
-            <div class="items-section items-list">
-                <ol class="item-list unlist">
-                    {{#each itemsList as |item key| }}
-                        {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item draggable=true showGS=true showQuantity=true}}
                     {{/each}}
                 </ol>
             </div>

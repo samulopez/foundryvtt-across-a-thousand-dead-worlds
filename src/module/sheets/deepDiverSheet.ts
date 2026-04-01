@@ -52,8 +52,19 @@ interface Context {
   currentBackpackCapacity: number;
   pocketsList: Item.Implementation[];
   currentPocketsCapacity: number;
-  // TODO: delete this!
-  itemsList: Item.Implementation[];
+  equipment: {
+    rightHand: Item.Implementation | null;
+    leftHand: Item.Implementation | null;
+    fullBody: Item.Implementation | null;
+    head: Item.Implementation | null;
+    back: Item.Implementation | null;
+    torso: Item.Implementation | null;
+    arms: Item.Implementation | null;
+    hands: Item.Implementation | null;
+    waist: Item.Implementation | null;
+    legs: Item.Implementation | null;
+    feet: Item.Implementation | null;
+  };
 }
 
 export default class DeepDiverSheet<
@@ -76,6 +87,9 @@ export default class DeepDiverSheet<
       increaseQuantityItem: this.#increaseQuantityItem,
       decreaseQuantityItem: this.#decreaseQuantityItem,
       toggleSorting: this.#toggleSorting,
+      equipWeapon: this.#equipWeapon,
+      equipArmor: this.#equipArmor,
+      swapWeapons: this.#swapWeapons,
     },
   };
 
@@ -298,7 +312,7 @@ export default class DeepDiverSheet<
     context.currentBackpackCapacity = this.document.system.currentBackpackCapacity();
     context.pocketsList = this.document.system.pocketsItems(sortedItems);
     context.currentPocketsCapacity = this.document.system.currentPocketsCapacity();
-    context.itemsList = sortedItems;
+    context.equipment = this.document.system.equipmentItems();
 
     return context;
   }
@@ -317,7 +331,34 @@ export default class DeepDiverSheet<
     super._onDragStart(event);
   }
 
-  _dropInEquipment(_event: DragEvent): string {
+  _dropInEquipment(event: DragEvent): string {
+    if ((event.target as HTMLElement).closest('.full-body')) {
+      return 'fullBody';
+    }
+    if ((event.target as HTMLElement).closest('.head')) {
+      return 'head';
+    }
+    if ((event.target as HTMLElement).closest('.back')) {
+      return 'back';
+    }
+    if ((event.target as HTMLElement).closest('.torso')) {
+      return 'torso';
+    }
+    if ((event.target as HTMLElement).closest('.arms')) {
+      return 'arms';
+    }
+    if ((event.target as HTMLElement).closest('.hands')) {
+      return 'hands';
+    }
+    if ((event.target as HTMLElement).closest('.waist')) {
+      return 'waist';
+    }
+    if ((event.target as HTMLElement).closest('.legs')) {
+      return 'legs';
+    }
+    if ((event.target as HTMLElement).closest('.feet')) {
+      return 'feet';
+    }
     return '';
   }
 
@@ -340,59 +381,57 @@ export default class DeepDiverSheet<
       // Don't sort the same item on itself
       return null;
     }
-    // const dropInMainHand = !!target.closest('.main-hand');
-    // const dropInOffHand = !!target.closest('.off-hand');
-    // const equipmentDropped = this._dropInEquipment(event);
+    const dropInRightHand = !!target.closest('.right-hand');
+    const dropInLeftHand = !!target.closest('.left-hand');
+    const equipmentDropped = this._dropInEquipment(event);
     const listDropped = this._dropInList(event);
 
-    // const droppingOnHands = dropInMainHand || dropInOffHand;
+    const droppingOnHands = dropInRightHand || dropInLeftHand;
 
     const sameActorItem = item?.parent?.id === this.document.id;
 
     if (sameActorItem) {
-      // TODO
+      if (droppingOnHands) {
+        const { result, message } = this.document.system.canEquipWeapon(item);
+        if (!result) {
+          ui.notifications?.warn(message);
+          return null;
+        }
 
-      // if (droppingOnHands) {
-      //   const { result, message } = this.document.system.canEquipWeapon(item);
-      //   if (!result) {
-      //     ui.notifications?.warn(message);
-      //     return null;
-      //   }
+        if (dropInRightHand && this.document.system.equipment.leftHand === item.uuid) {
+          await this.document.update({ system: { equipment: { leftHand: null } } });
+        }
 
-      //   if (dropInMainHand && this.document.system.equipment.offHand === item.uuid) {
-      //     await this.document.update({ system: { equipment: { offHand: null } } });
-      //   }
+        if (dropInLeftHand && this.document.system.equipment.rightHand === item.uuid) {
+          await this.document.update({ system: { equipment: { rightHand: null } } });
+        }
 
-      //   if (dropInOffHand && this.document.system.equipment.mainHand === item.uuid) {
-      //     await this.document.update({ system: { equipment: { mainHand: null } } });
-      //   }
+        const targetHand = dropInRightHand
+          ? this.document.system.equipment.rightHand
+          : this.document.system.equipment.leftHand;
+        if (targetHand && targetHand !== item.uuid) {
+          ui.notifications?.warn(getLocalization().localize('ATDW.Error.handAlreadyOccupied'));
+          return null;
+        }
 
-      //   const targetHand = dropInMainHand
-      //     ? this.document.system.equipment.mainHand
-      //     : this.document.system.equipment.offHand;
-      //   if (targetHand && targetHand !== item.uuid) {
-      //     ui.notifications?.warn(getLocalization().localize('KN.Error.handAlreadyOccupied'));
-      //     return null;
-      //   }
+        return dropInRightHand ? this.document.system.addToRightHand(item) : this.document.system.addToLeftHand(item);
+      }
 
-      //   return dropInMainHand ? this.document.system.addToMainHand(item) : this.document.system.addToOffHand(item);
-      // }
-
-      // if (equipmentDropped) {
-      //   if (!item.system.equippable) {
-      //     ui.notifications?.warn(getLocalization().localize('KN.Error.notEquippable'));
-      //     return null;
-      //   }
-      //   if (item.type === 'armor' && item.system.canEquipInSlot && !item.system.canEquipInSlot(equipmentDropped)) {
-      //     ui.notifications?.warn(getLocalization().localize('KN.Error.armorSlotMismatch'));
-      //     return null;
-      //   }
-      //   if (this.document.system.equipment[equipmentDropped]) {
-      //     ui.notifications?.warn(getLocalization().localize('KN.Error.equipmentSlotOccupied'));
-      //     return null;
-      //   }
-      //   return this.document.system.addItemToEquipment(equipmentDropped, item);
-      // }
+      if (equipmentDropped) {
+        if (!item.system.equippable) {
+          ui.notifications?.warn(getLocalization().localize('ATDW.Error.notEquippable'));
+          return null;
+        }
+        if (item.type === 'armor' && item.system.canEquipInSlot && !item.system.canEquipInSlot(equipmentDropped)) {
+          ui.notifications?.warn(getLocalization().localize('ATDW.Error.armorSlotMismatch'));
+          return null;
+        }
+        if (this.document.system.isSlotOccupied(equipmentDropped, item)) {
+          ui.notifications?.warn(getLocalization().localize('ATDW.Error.equipmentSlotOccupied'));
+          return null;
+        }
+        return this.document.system.addItemToEquipment(equipmentDropped, item);
+      }
 
       if (listDropped) {
         if (this.document.system.isItemInList(listDropped, item)) {
@@ -409,41 +448,42 @@ export default class DeepDiverSheet<
       return null;
     }
 
-    // TODO
-    // if (droppingOnHands) {
-    //   const targetHand = dropInMainHand
-    //     ? this.document.system.equipment.mainHand
-    //     : this.document.system.equipment.offHand;
-    //   if (targetHand) {
-    //     ui.notifications?.warn(getLocalization().localize('KN.Error.handAlreadyOccupied'));
-    //     return null;
-    //   }
+    if (droppingOnHands) {
+      const targetHand = dropInRightHand
+        ? this.document.system.equipment.rightHand
+        : this.document.system.equipment.leftHand;
+      if (targetHand) {
+        ui.notifications?.warn(getLocalization().localize('ATDW.Error.handAlreadyOccupied'));
+        return null;
+      }
 
-    //   const { result, message } = this.document.system.canEquipWeapon(item);
-    //   if (!result) {
-    //     ui.notifications?.warn(message);
-    //     return null;
-    //   }
+      const { result, message } = this.document.system.canEquipWeapon(item);
+      if (!result) {
+        ui.notifications?.warn(message);
+        return null;
+      }
 
-    //   const newItem = await super._onDropItem(event, item);
-    //   if (!newItem) {
-    //     return null;
-    //   }
+      const newItem = await super._onDropItem(event, item);
+      if (!newItem) {
+        return null;
+      }
 
-    //   return dropInMainHand ? this.document.system.addToMainHand(newItem) : this.document.system.addToOffHand(newItem);
-    // }
+      return dropInRightHand
+        ? this.document.system.addToRightHand(newItem)
+        : this.document.system.addToLeftHand(newItem);
+    }
 
-    // if (equipmentDropped) {
-    //   if (!item.system.equippable) {
-    //     ui.notifications?.warn(getLocalization().localize('KN.Error.notEquippable'));
-    //     return null;
-    //   }
-    //   if (item.type === 'armor' && item.system.canEquipInSlot && !item.system.canEquipInSlot(equipmentDropped)) {
-    //     ui.notifications?.warn(getLocalization().localize('KN.Error.armorSlotMismatch'));
-    //     return null;
-    //   }
-    //   return this._onDropToEquipment(event, equipmentDropped, item);
-    // }
+    if (equipmentDropped) {
+      if (!item.system.equippable) {
+        ui.notifications?.warn(getLocalization().localize('ATDW.Error.notEquippable'));
+        return null;
+      }
+      if (item.type === 'armor' && item.system.canEquipInSlot && !item.system.canEquipInSlot(equipmentDropped)) {
+        ui.notifications?.warn(getLocalization().localize('ATDW.Error.armorSlotMismatch'));
+        return null;
+      }
+      return this._onDropToEquipment(event, equipmentDropped, item);
+    }
 
     if (listDropped) {
       if (!this.document.system.canAddToList(listDropped, item)) {
@@ -459,6 +499,18 @@ export default class DeepDiverSheet<
     }
 
     return null;
+  }
+
+  async _onDropToEquipment(event, equipmentSlot, item) {
+    if (this.document.system.isSlotOccupied(equipmentSlot, item)) {
+      ui.notifications?.warn(getLocalization().localize('ATDW.Error.equipmentSlotOccupied'));
+      return null;
+    }
+    const newItem = await super._onDropItem(event, item);
+    if (!newItem) {
+      return null;
+    }
+    return this.document.system.addItemToEquipment(equipmentSlot, newItem);
   }
 
   static async #rollSkill(this, event: PointerEvent) {
@@ -668,5 +720,63 @@ export default class DeepDiverSheet<
     event.preventDefault();
 
     await this.document.system.toggleSorting();
+  }
+
+  static async #equipWeapon(this, event: PointerEvent, target: HTMLElement) {
+    event.preventDefault();
+    const { key } = target.dataset;
+    if (!key) {
+      return;
+    }
+    const item = this.document.getEmbeddedDocument('Item', key, {});
+    if (!item) {
+      return;
+    }
+
+    const { result, message } = this.document.system.canEquipWeapon(item);
+    if (!result) {
+      ui.notifications?.warn(message);
+      return;
+    }
+
+    if (!this.document.system.equipment.rightHand) {
+      await this.document.system.addToRightHand(item);
+      return;
+    }
+
+    if (!this.document.system.equipment.leftHand) {
+      await this.document.system.addToLeftHand(item);
+      return;
+    }
+
+    ui.notifications?.warn(getLocalization().localize('ATDW.Error.bothHandsEquipped'));
+  }
+
+  static async #swapWeapons(this, event, _target) {
+    event.preventDefault();
+    await this.document.system.swapRightToLeftHand();
+  }
+
+  static async #equipArmor(this, event: PointerEvent, target: HTMLElement) {
+    event.preventDefault();
+    const { key } = target.dataset;
+    if (!key) {
+      return;
+    }
+    const item = this.document.getEmbeddedDocument('Item', key, {});
+    if (!item) {
+      return;
+    }
+
+    if (item.type !== 'armor') {
+      return;
+    }
+
+    if (this.document.system.isSlotOccupied('', item)) {
+      ui.notifications?.warn(getLocalization().localize('ATDW.Error.equipmentSlotOccupied'));
+      return;
+    }
+
+    await this.document.system.addItemToEquipment('', item);
   }
 }

@@ -22,12 +22,56 @@ const defineArmorModel = () => ({
 
 type ArmorModelSchema = ReturnType<typeof defineArmorModel> & GearModelSchema;
 
+type ArmorDataModelType = foundry.abstract.TypeDataModel<ArmorModelSchema, ATDWItem<'armor'>>;
+
 export default class ArmorDataModel extends foundry.abstract.TypeDataModel<ArmorModelSchema, ATDWItem<'armor'>> {
   static defineSchema(): ArmorModelSchema {
     return { ...defineItemModel(), ...defineArmorModel() };
   }
 
+  _preUpdate: ArmorDataModelType['_preUpdate'] = async (changed, options, user) => {
+    if (changed.system?.isFullBody === true) {
+      // eslint-disable-next-line no-param-reassign
+      changed.system.body = {
+        head: false,
+        back: false,
+        torso: false,
+        arms: false,
+        hands: false,
+        waist: false,
+        legs: false,
+        feet: false,
+      };
+    }
+    return super._preUpdate(changed, options, user);
+  };
+
   slots(): number {
     return this.parent.system.gearSlots ?? 0;
+  }
+
+  canEquipInSlot(slot: string): boolean {
+    switch (slot) {
+      case 'fullBody':
+        return this.parent.system.isFullBody;
+      case 'head':
+        return this.parent.system.body.head;
+      case 'back':
+        return this.parent.system.body.back;
+      case 'torso':
+        return this.parent.system.body.torso;
+      case 'arms':
+        return this.parent.system.body.arms;
+      case 'hands':
+        return this.parent.system.body.hands;
+      case 'waist':
+        return this.parent.system.body.waist;
+      case 'legs':
+        return this.parent.system.body.legs;
+      case 'feet':
+        return this.parent.system.body.feet;
+      default:
+        return false;
+    }
   }
 }
