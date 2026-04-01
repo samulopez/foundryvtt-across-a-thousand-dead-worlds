@@ -34,6 +34,7 @@ export const TEMPLATES = {
     detailsTab: `systems/${ID}/templates/item/details-tab.hbs`,
     notesTab: `systems/${ID}/templates/item/notes-tab.hbs`,
     row: `systems/${ID}/templates/item/item-row.hbs`,
+    equipmentRow: `systems/${ID}/templates/item/equipment-row.hbs`,
   },
   weapon: {
     header: `systems/${ID}/templates/weapon/header.hbs`,

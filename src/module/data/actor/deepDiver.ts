@@ -13,10 +13,12 @@ import {
   TALENT,
   emotionalStates,
 } from '../../constants';
+import { getLocalization } from '../../helpers';
 
 import { primaryAttributes, skillField, sortingField } from './helper';
 
 import type ATDWActor from '../../actor/actor';
+import type ATDWItem from '../../item/item';
 
 const { ArrayField, DocumentUUIDField, NumberField, SchemaField, StringField } = foundry.data.fields;
 
@@ -88,7 +90,6 @@ const defineCharacterModel = () => ({
   }),
   drakeCoins: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
   obsessionsAndNegativeTraits: new StringField({ initial: '' }),
-  // TODO: is armor right?. It feels weird to have it as a single number when a character can wear different pieces of armor
   armor: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
   rads: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
   injuries: new StringField({ initial: '' }),
@@ -97,9 +98,19 @@ const defineCharacterModel = () => ({
   age: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
   details: new StringField({ initial: '' }),
   notes: new StringField({ initial: '' }),
-  // TODO: armor: head, torso, waist, etc.? maybe only with gear is enough?
-  // TODO: full body suit? maybe only with gear is enough?
-  gear: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
+  equipment: new SchemaField({
+    rightHand: new DocumentUUIDField({ type: 'Item', required: false }),
+    leftHand: new DocumentUUIDField({ type: 'Item', required: false }),
+    fullBody: new DocumentUUIDField({ type: 'Item', required: false }),
+    head: new DocumentUUIDField({ type: 'Item', required: false }),
+    back: new DocumentUUIDField({ type: 'Item', required: false }),
+    torso: new DocumentUUIDField({ type: 'Item', required: false }),
+    arms: new DocumentUUIDField({ type: 'Item', required: false }),
+    hands: new DocumentUUIDField({ type: 'Item', required: false }),
+    waist: new DocumentUUIDField({ type: 'Item', required: false }),
+    legs: new DocumentUUIDField({ type: 'Item', required: false }),
+    feet: new DocumentUUIDField({ type: 'Item', required: false }),
+  }),
   maxBackpackSlots: new NumberField({ required: true, integer: true, min: 0, initial: 15 }),
   backpack: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
   maxPocketsSlots: new NumberField({ required: true, integer: true, min: 0, initial: 10 }),
@@ -205,6 +216,20 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
       system: {
         backpack: this.backpack.filter((id) => id !== itemUUID),
         pockets: this.pockets.filter((id) => id !== itemUUID),
+        equipment: {
+          rightHand:
+            this.parent.system.equipment.rightHand === itemUUID ? null : this.parent.system.equipment.rightHand,
+          leftHand: this.parent.system.equipment.leftHand === itemUUID ? null : this.parent.system.equipment.leftHand,
+          fullBody: this.parent.system.equipment.fullBody === itemUUID ? null : this.parent.system.equipment.fullBody,
+          head: this.parent.system.equipment.head === itemUUID ? null : this.parent.system.equipment.head,
+          back: this.parent.system.equipment.back === itemUUID ? null : this.parent.system.equipment.back,
+          torso: this.parent.system.equipment.torso === itemUUID ? null : this.parent.system.equipment.torso,
+          arms: this.parent.system.equipment.arms === itemUUID ? null : this.parent.system.equipment.arms,
+          hands: this.parent.system.equipment.hands === itemUUID ? null : this.parent.system.equipment.hands,
+          waist: this.parent.system.equipment.waist === itemUUID ? null : this.parent.system.equipment.waist,
+          legs: this.parent.system.equipment.legs === itemUUID ? null : this.parent.system.equipment.legs,
+          feet: this.parent.system.equipment.feet === itemUUID ? null : this.parent.system.equipment.feet,
+        },
       },
     });
   }
@@ -237,5 +262,181 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
         sorting: newSorting,
       },
     });
+  }
+
+  equipmentItems(): {
+    rightHand: Item.Implementation | null;
+    leftHand: Item.Implementation | null;
+    fullBody: Item.Implementation | null;
+    head: Item.Implementation | null;
+    back: Item.Implementation | null;
+    torso: Item.Implementation | null;
+    arms: Item.Implementation | null;
+    hands: Item.Implementation | null;
+    waist: Item.Implementation | null;
+    legs: Item.Implementation | null;
+    feet: Item.Implementation | null;
+  } {
+    return {
+      rightHand: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.rightHand) ?? null,
+      leftHand: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.leftHand) ?? null,
+      fullBody: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.fullBody) ?? null,
+      head: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.head) ?? null,
+      back: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.back) ?? null,
+      torso: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.torso) ?? null,
+      arms: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.arms) ?? null,
+      hands: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.hands) ?? null,
+      waist: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.waist) ?? null,
+      legs: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.legs) ?? null,
+      feet: this.parent.items.find((item) => item.uuid === this.parent.system.equipment.feet) ?? null,
+    };
+  }
+
+  canEquipWeapon(item: ATDWItem): { result: boolean; message: string } {
+    const { system } = item;
+    if (!system.equippable || item.type === 'armor') {
+      return { result: false, message: getLocalization().localize('ATDW.Error.notEquippable') };
+    }
+
+    if (system.isTwoHanded && (this.parent.system.equipment.rightHand || this.parent.system.equipment.leftHand)) {
+      return {
+        result: false,
+        message: getLocalization().localize('ATDW.Error.twoHandedHandsOccupied'),
+      };
+    }
+
+    const equipment = this.equipmentItems();
+    if ((equipment.rightHand?.system.isTwoHanded ?? false) || (equipment.leftHand?.system.isTwoHanded ?? false)) {
+      return {
+        result: false,
+        message: getLocalization().localize('ATDW.Error.twoHandedAlreadyEquipped'),
+      };
+    }
+
+    return { result: true, message: '' };
+  }
+
+  async addToRightHand(item: Item.Implementation) {
+    await this.removeItemFromLists(item.uuid);
+
+    const result = await this.parent.update({
+      system: {
+        equipment: {
+          rightHand: item.uuid,
+        },
+      },
+    });
+
+    return result ? item : null;
+  }
+
+  async addToLeftHand(item: Item.Implementation) {
+    await this.removeItemFromLists(item.uuid);
+
+    const result = await this.parent.update({
+      system: {
+        equipment: {
+          leftHand: item.uuid,
+        },
+      },
+    });
+
+    return result ? item : null;
+  }
+
+  async swapRightToLeftHand() {
+    const currentRightHand = this.parent.system.equipment.rightHand;
+    const currentLeftHand = this.parent.system.equipment.leftHand;
+
+    await this.parent.update({
+      system: {
+        equipment: {
+          rightHand: currentLeftHand,
+          leftHand: currentRightHand,
+        },
+      },
+    });
+  }
+
+  async addItemToEquipment(equipment: string, item: Item.Implementation) {
+    await this.removeItemFromLists(item.uuid);
+
+    const equipmentSystem = { ...this.parent.system.equipment };
+    if (equipment !== '') {
+      equipmentSystem[equipment] = item.uuid;
+    }
+    if (item.isArmor()) {
+      if (item.system.isFullBody) {
+        equipmentSystem.fullBody = item.uuid;
+      }
+      if (item.system.body.head) {
+        equipmentSystem.head = item.uuid;
+      }
+      if (item.system.body.back) {
+        equipmentSystem.back = item.uuid;
+      }
+      if (item.system.body.torso) {
+        equipmentSystem.torso = item.uuid;
+      }
+      if (item.system.body.arms) {
+        equipmentSystem.arms = item.uuid;
+      }
+      if (item.system.body.hands) {
+        equipmentSystem.hands = item.uuid;
+      }
+      if (item.system.body.waist) {
+        equipmentSystem.waist = item.uuid;
+      }
+      if (item.system.body.legs) {
+        equipmentSystem.legs = item.uuid;
+      }
+      if (item.system.body.feet) {
+        equipmentSystem.feet = item.uuid;
+      }
+    }
+
+    const result = await this.parent.update({
+      system: {
+        equipment: equipmentSystem,
+      },
+    });
+
+    return result ? item : null;
+  }
+
+  isSlotOccupied(slot: string, item: Item.Implementation): boolean {
+    if (slot !== '' && this.parent.system.equipment[slot]) {
+      return true;
+    }
+    if (item.isArmor()) {
+      if (item.system.isFullBody && this.parent.system.equipment.fullBody) {
+        return true;
+      }
+      if (item.system.body.head && this.parent.system.equipment.head) {
+        return true;
+      }
+      if (item.system.body.back && this.parent.system.equipment.back) {
+        return true;
+      }
+      if (item.system.body.torso && this.parent.system.equipment.torso) {
+        return true;
+      }
+      if (item.system.body.arms && this.parent.system.equipment.arms) {
+        return true;
+      }
+      if (item.system.body.hands && this.parent.system.equipment.hands) {
+        return true;
+      }
+      if (item.system.body.waist && this.parent.system.equipment.waist) {
+        return true;
+      }
+      if (item.system.body.legs && this.parent.system.equipment.legs) {
+        return true;
+      }
+      if (item.system.body.feet && this.parent.system.equipment.feet) {
+        return true;
+      }
+    }
+    return false;
   }
 }
