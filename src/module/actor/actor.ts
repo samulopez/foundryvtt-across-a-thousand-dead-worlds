@@ -36,7 +36,7 @@ export default class ATDWActor<out SubType extends Actor.SubType = Actor.SubType
   }
 
   async rollAttribute(attributeKey: string, modifier: number, advantageOrDisadvantage?: string) {
-    if (!this.isDeepDiver()) {
+    if (!this.isDeepDiver() && !this.isNPC()) {
       throw new Error('Actor is not a Deep Diver');
     }
 
