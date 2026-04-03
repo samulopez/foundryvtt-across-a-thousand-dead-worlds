@@ -18,23 +18,25 @@
             <div class="flexrow gap-small">
                 <div class="flex1 item-name">{{item.name}}</div>
                 <div class="flex0 item-detail item-controls">
-                    {{#if (eq item.type "weapon") }}
-                        <button type="button"
-                                class="unbutton config-button item-control item-action always-interactive"
-                                data-tooltip="ATDW.Item.Sheet.equipTooltip"
-                                data-key="{{item.id}}"
-                                data-action="equipWeapon">
-                            <i class="fas fa-shield-halved"></i>
-                        </button>
-                    {{/if}}
-                    {{#if (eq item.type "armor") }}
-                        <button type="button"
-                                class="unbutton config-button item-control item-action always-interactive"
-                                data-tooltip="ATDW.Item.Sheet.equipTooltip"
-                                data-key="{{item.id}}"
-                                data-action="equipArmor">
-                            <i class="fas fa-shield-halved"></i>
-                        </button>
+                    {{#if equippable }}
+                        {{#if (eq item.type "weapon") }}
+                            <button type="button"
+                                    class="unbutton config-button item-control item-action always-interactive"
+                                    data-tooltip="ATDW.Item.Sheet.equipTooltip"
+                                    data-key="{{item.id}}"
+                                    data-action="equipWeapon">
+                                <i class="fas fa-shield-halved"></i>
+                            </button>
+                        {{/if}}
+                        {{#if (eq item.type "armor") }}
+                            <button type="button"
+                                    class="unbutton config-button item-control item-action always-interactive"
+                                    data-tooltip="ATDW.Item.Sheet.equipTooltip"
+                                    data-key="{{item.id}}"
+                                    data-action="equipArmor">
+                                <i class="fas fa-shield-halved"></i>
+                            </button>
+                        {{/if}}
                     {{/if}}
                     <button type="button"
                             class="unbutton config-button item-control item-action always-interactive"

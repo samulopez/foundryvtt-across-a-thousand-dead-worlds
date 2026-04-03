@@ -145,7 +145,7 @@
                     <div class="items-section backpack-list">
                         <ol class="item-list unlist">
                             {{#each backpackList as |item key| }}
-                                {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item.item slots=item.slots draggable=true showGS=true showQuantity=true}}
+                                {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item.item slots=item.slots draggable=true showGS=true showQuantity=true equippable=true}}
                             {{/each}}
                         </ol>
                     </div>
@@ -170,7 +170,7 @@
             <div class="items-section pockets-list">
                 <ol class="item-list unlist">
                     {{#each pocketsList as |item key| }}
-                        {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item draggable=true showGS=false showQuantity=true}}
+                        {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item draggable=true showGS=false showQuantity=true equippable=true}}
                     {{/each}}
                 </ol>
             </div>

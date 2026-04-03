@@ -12,28 +12,43 @@
             <div class="flex3">
                 <h5 class="flexrow">
                     <div class="flex0">
-                        <label class="left-label" for="kn.monster.name">{{localize 'KN.Monster.Sheet.name' }}</label>
+                        <label class="left-label" for="atdw.deepDiver.name">{{localize 'ATDW.DeepDiver.Sheet.name' }}</label>
                     </div>
                     <input name="name"
                            type="text"
                            value="{{document.name}}"
                            class="flex3"
                            autocomplete="off"
-                           id="kn.monster.name" />
+                           id="atdw.deepDiver.name" />
                 </h5>
-                <h5 class="flexrow">
-                    <div class="flex0">
-                        <label class="left-label" for="kn.monster.description">{{localize 'KN.Monster.Sheet.description' }}</label>
-                    </div>
-                    {{#if editable }}
-                        <div class="editor-host">
-                            <prose-mirror name="system.description" id="kn.monster.description" button="true" editable="{{editable}}" toggled="false" value="{{document.system.description}}">
-                            {{{enrichedDescription}}}
-                            </prose-mirror>
+                <h5 class="flexrow gap-large">
+                    <div class="flexrow">
+                        <div class="flex0">
+                            <label class="left-label" for="atdw.deepDiver.system.gender">{{localize 'ATDW.DeepDiver.Sheet.gender' }}</label>
                         </div>
-                    {{else}}
-                        <div class="editor-host overflowy">{{{enrichedDescription}}}</div>
-                    {{/if}}
+                        <input name="system.gender"
+                               type="text"
+                               value="{{document.system.gender}}"
+                               class="flex3"
+                               autocomplete="off"
+                               id="atdw.deepDiver.system.gender" />
+                    </div>
+                    <div class="flex0">
+                        <div class="flexrow xp-section">
+                            <div class="flex0">
+                                <label class="left-label" for="atdw.deepDiver.system.age">{{localize 'ATDW.DeepDiver.Sheet.age' }}</label>
+                            </div>
+                            <input name="system.age"
+                                   type="number"
+                                   data-dtype="Number"
+                                   min="0"
+                                   step="1"
+                                   max="1000"
+                                   value="{{document.system.age}}"
+                                   class="flex0 xp-input"
+                                   id="atdw.deepDiver.system.age" />
+                        </div>
+                    </div>
                 </h5>
             </div>
         </div>

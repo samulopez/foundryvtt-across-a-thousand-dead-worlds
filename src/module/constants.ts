@@ -22,6 +22,7 @@ export const TEMPLATES = {
   npc: {
     header: `systems/${ID}/templates/npc/header.hbs`,
     detailsTab: `systems/${ID}/templates/npc/details-tab.hbs`,
+    inventoryTab: `systems/${ID}/templates/npc/inventory-tab.hbs`,
     notesTab: `systems/${ID}/templates/npc/notes-tab.hbs`,
   },
   siteExpedition: {
@@ -130,6 +131,31 @@ export enum TALENT {
   vigorous = 'vigorous',
   weakSpot = 'weakSpot',
   wellConnected = 'wellConnected',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum TALENT_NPC {
+  none = 'none',
+  aim = 'aim',
+  backstab = 'backstab',
+  bash = 'bash',
+  cleave = 'cleave',
+  coupDeGrace = 'coupDeGrace',
+  defensive = 'defensive',
+  diligentMedic = 'diligentMedic',
+  fast = 'fast',
+  fieldMedic = 'fieldMedic',
+  frugal = 'frugal',
+  hacking = 'hacking',
+  hardToKill = 'hardToKill',
+  marksman = 'marksman',
+  momentum = 'momentum',
+  packMule = 'packMule',
+  resuscitate = 'resuscitate',
+  strong = 'strong',
+  targetedStrikes = 'targetedStrikes',
+  techSavvy = 'techSavvy',
+  tough = 'tough',
 }
 
 export enum BACKGROUND {
@@ -350,3 +376,49 @@ export const HIT_LOCATION_TABLES = {
     { startDie: 10, endDie: 10, location: 'head', damageModifier: 3 },
   ],
 };
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_TYPE {
+  none = 'none',
+  guardian = 'guardian',
+  aberration = 'aberration',
+  synthetic = 'synthetic',
+  localFauna = 'localFauna',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_SIZE {
+  none = 'none',
+  rodent = 'rodent',
+  dog = 'dog',
+  humanoid = 'humanoid',
+  largeGorilla = 'largeGorilla',
+  cow = 'cow',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_DRIVE {
+  none = 'none',
+  territoryControl = 'territoryControl',
+  predation = 'predation',
+  destruction = 'destruction',
+  parasitization = 'parasitization',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_INTELLIGENCE {
+  none = 'none',
+  animalLike = 'animalLike',
+  humanLike = 'humanLike',
+  aboveHuman = 'aboveHuman',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_ROLE {
+  none = 'none',
+  brute = 'brute',
+  lurker = 'lurker',
+  ranged = 'ranged',
+  swarm = 'swarm',
+  psychic = 'psychic',
+}
