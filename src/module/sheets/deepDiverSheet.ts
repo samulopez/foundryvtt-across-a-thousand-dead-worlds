@@ -52,6 +52,8 @@ interface Context {
   currentBackpackCapacity: number;
   pocketsList: Item.Implementation[];
   currentPocketsCapacity: number;
+  currentAugmentationsCapacity: number;
+  augmentationsList: Item.Implementation[];
   equipment: {
     rightHand: Item.Implementation | null;
     leftHand: Item.Implementation | null;
@@ -91,6 +93,7 @@ export default class DeepDiverSheet<
       equipArmor: this.#equipArmor,
       swapWeapons: this.#swapWeapons,
       rollHitLocation: this.#rollHitLocation,
+      equipAugmentation: this.#equipAugmentation,
     },
   };
 
@@ -313,6 +316,8 @@ export default class DeepDiverSheet<
     context.currentBackpackCapacity = this.document.system.currentBackpackCapacity();
     context.pocketsList = this.document.system.pocketsItems(sortedItems);
     context.currentPocketsCapacity = this.document.system.currentPocketsCapacity();
+    context.augmentationsList = this.document.system.augmentationsItems(sortedItems);
+    context.currentAugmentationsCapacity = this.document.system.currentAugmentationsCapacity();
     context.equipment = this.document.system.equipmentItems();
 
     return context;
@@ -370,6 +375,9 @@ export default class DeepDiverSheet<
     }
     if (target.closest('.pockets-list')) {
       return 'pockets';
+    }
+    if (target.closest('.augmentations-list')) {
+      return 'augmentations';
     }
 
     return '';
@@ -784,5 +792,25 @@ export default class DeepDiverSheet<
   static async #rollHitLocation(this, event: PointerEvent) {
     event.preventDefault();
     await this.document.rollHitLocation();
+  }
+
+  static async #equipAugmentation(this, event: PointerEvent, target: HTMLElement) {
+    event.preventDefault();
+    const { key } = target.dataset;
+    if (!key) {
+      return;
+    }
+    const item = this.document.getEmbeddedDocument('Item', key, {});
+    if (!item) {
+      return;
+    }
+
+    if (!this.document.system.canAddToList('augmentations', item)) {
+      ui.notifications?.warn(getLocalization().localize(`ATDW.Error.augmentationsCapacity`));
+      return;
+    }
+
+    await this.document.system.removeItemFromLists(item.uuid);
+    await this.document.system.addItemToList('augmentations', item);
   }
 }

@@ -3,6 +3,7 @@ import './styles/style.scss';
 import ATDWActor from './module/actor/actor';
 import { ID, TEMPLATES } from './module/constants';
 import {
+  AugmentationDataModel,
   ArmorDataModel,
   CreatureDataModel,
   DeepDiverDataModel,
@@ -15,6 +16,7 @@ import {
 import ATDWItem from './module/item/item';
 import { registerSettings } from './module/settings';
 import ATDWArmorSheet from './module/sheets/armorSheet';
+import ATDWAugmentationSheet from './module/sheets/augmentationSheet';
 import CreatureSheet from './module/sheets/creatureSheet';
 import DeepDiverSheet from './module/sheets/deepDiverSheet';
 import ATDWGearSheet from './module/sheets/gearSheet';
@@ -37,6 +39,7 @@ Hooks.once('init', async () => {
   };
   CONFIG.Item.dataModels = {
     armor: ArmorDataModel,
+    augmentation: AugmentationDataModel,
     gear: GearDataModel,
     weapon: WeaponDataModel,
   };
@@ -103,6 +106,12 @@ Hooks.once('init', async () => {
     themes: null,
     label: 'ATDW Armor Sheet',
     types: ['armor'],
+  });
+  foundry.documents.collections.Items.registerSheet(ID, ATDWAugmentationSheet, {
+    makeDefault: true,
+    themes: null,
+    label: 'ATDW Augmentation Sheet',
+    types: ['augmentation'],
   });
 
   registerSettings();

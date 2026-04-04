@@ -229,6 +229,7 @@
   "ATDW.DeepDiver.Sheet.drakeCoins": "DRAKE COINS",
   "ATDW.DeepDiver.Inventory.backpack": "BACKPACK",
   "ATDW.DeepDiver.Inventory.pockets": "POCKETS",
+  "ATDW.DeepDiver.Inventory.augmentations": "AUGMENTATIONS",
   "ATDW.DeepDiver.Inventory.equippedGear": "EQUIPPED GEAR",
   "ATDW.DeepDiver.Inventory.equipped.rightHand": "Right Hand",
   "ATDW.DeepDiver.Inventory.equipped.leftHand": "Left Hand",
@@ -343,6 +344,8 @@
   "ATDW.Item.Sheet.bodySlots.legs": "Legs",
   "ATDW.Item.Sheet.bodySlots.feet": "Feet",
   "ATDW.Item.Sheet.rollSkillCheckTooltip": "Roll Skill check",
+  "ATDW.Item.Sheet.strain": "STRAIN",
+  "ATDW.Item.Sheet.label.strain": "Strain",
   "ATDW.Creature.Sheet.hitLocation.title": "HIT LOCATION",
   "ATDW.Creature.Sheet.hitLocation.option.feet": "Feet",
   "ATDW.Creature.Sheet.hitLocation.option.legs": "Legs",
@@ -363,6 +366,7 @@
   "ATDW.Creature.Sheet.hitLocation.serpentine": "Serpentine",
   "ATDW.Error.backpackCapacity": "Not enough capacity in Backpack.",
   "ATDW.Error.pocketsCapacity": "Not enough capacity in Pockets.",
+  "ATDW.Error.augmentationsCapacity": "Not enough capacity in Augmentations.",
   "ATDW.Sorting.alphabetically": "Sort Alphabetically",
   "ATDW.Error.bothHandsEquipped": "Both hands are already equipped.",
   "ATDW.Error.twoHandedHandsOccupied": "Cannot equip a two-handed weapon while hands are occupied.",
@@ -376,7 +380,8 @@
   "TYPES.Actor.mission": "Mission",
   "TYPES.Actor.npc": "NPC",
   "TYPES.Actor.siteExpedition": "Site Expedition",
+  "TYPES.Item.armor": "Armor/Protective gear",
+  "TYPES.Item.augmentation": "Augmentation",
   "TYPES.Item.gear": "Gear",
-  "TYPES.Item.weapon": "Weapon",
-  "TYPES.Item.armor": "Armor/Protective gear"
+  "TYPES.Item.weapon": "Weapon"
 }

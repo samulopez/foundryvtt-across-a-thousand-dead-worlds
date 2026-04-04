@@ -47,6 +47,11 @@ export const TEMPLATES = {
     detailsTab: `systems/${ID}/templates/armor/details-tab.hbs`,
     notesTab: `systems/${ID}/templates/armor/notes-tab.hbs`,
   },
+  augmentation: {
+    header: `systems/${ID}/templates/augmentation/header.hbs`,
+    detailsTab: `systems/${ID}/templates/augmentation/details-tab.hbs`,
+    notesTab: `systems/${ID}/templates/augmentation/notes-tab.hbs`,
+  },
 };
 
 export enum SORTING {

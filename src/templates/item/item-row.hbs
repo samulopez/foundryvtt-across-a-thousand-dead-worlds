@@ -37,6 +37,15 @@
                                 <i class="fas fa-shield-halved"></i>
                             </button>
                         {{/if}}
+                        {{#if (eq item.type "augmentation") }}
+                            <button type="button"
+                                    class="unbutton config-button item-control item-action always-interactive"
+                                    data-tooltip="ATDW.Item.Sheet.equipTooltip"
+                                    data-key="{{item.id}}"
+                                    data-action="equipAugmentation">
+                                <i class="fas fa-shield-halved"></i>
+                            </button>
+                        {{/if}}
                     {{/if}}
                     <button type="button"
                             class="unbutton config-button item-control item-action always-interactive"
@@ -198,6 +207,11 @@
                         {{/if}}
                     </div>
                 </div>
+            </div>
+        {{/if}}
+        {{#if (eq item.type "augmentation") }}
+            <div class="item-details">
+                <div class="item-detail item-strain">{{localize "ATDW.Item.Sheet.label.strain"}}: {{item.system.strain}}</div>
             </div>
         {{/if}}
         <div class="item-details">

@@ -1,0 +1,55 @@
+<header class="sheet-header">
+    <div class="header-fields">
+        <div class="header-top flexrow gap align-normal">
+            <img class="profile-img flex0"
+                 alt="item image"
+                 src="{{document.img}}"
+                 data-action="editImage"
+                 data-edit="img"
+                 data-tooltip="{{document.name}}"
+                 height="120"
+                 width="120" />
+            <div class="flex3">
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.name">{{localize 'ATDW.Item.Sheet.name' }}</label>
+                    </div>
+                    <input name="name"
+                           type="text"
+                           value="{{document.name}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="atdw.item.name" />
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.price">{{localize 'ATDW.Item.Sheet.price' }}</label>
+                    </div>
+                    <input name="system.price"
+                           type="number"
+                           data-dtype="Number"
+                           min="0"
+                           step="1"
+                           value="{{document.system.price}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="atdw.item.price" />
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.item.strain">{{localize 'ATDW.Item.Sheet.strain' }}</label>
+                    </div>
+                    <input name="system.strain"
+                           type="number"
+                           data-dtype="Number"
+                           min="0"
+                           step="1"
+                           value="{{document.system.strain}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="atdw.item.strain" />
+                </h5>
+            </div>
+        </div>
+    </div>
+</header>

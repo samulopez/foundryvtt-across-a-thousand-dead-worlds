@@ -116,6 +116,7 @@ const defineCharacterModel = () => ({
   backpack: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
   maxPocketsSlots: new NumberField({ required: true, integer: true, min: 0, initial: 10 }),
   pockets: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
+  augmentations: new ArrayField(new DocumentUUIDField({ type: 'Item' })),
   hitLocation: new StringField({
     choices: [HIT_LOCATIONS.humanoid],
     initial: HIT_LOCATIONS.humanoid,
@@ -163,6 +164,10 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
     return sortedItems.filter((item) => this.parent.system.pockets.includes(item.uuid));
   }
 
+  augmentationsItems(sortedItems: Item.Implementation[]): Item.Implementation[] {
+    return sortedItems.filter((item) => this.parent.system.augmentations.includes(item.uuid));
+  }
+
   currentBackpackCapacity(): number {
     return Math.floor(
       this.backpackItems(this.parent.items.contents).reduce((sum, item) => sum + item.system.slots(), 0),
@@ -173,12 +178,21 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
     return this.pocketsItems(this.parent.items.contents).reduce((sum, item) => sum + (item.system.quantity ?? 1), 0);
   }
 
+  currentAugmentationsCapacity(): number {
+    return this.augmentationsItems(this.parent.items.contents).reduce(
+      (sum, item) => sum + (item.system.strain ?? 1),
+      0,
+    );
+  }
+
   isItemInList(list: string, item: Item.Implementation): boolean {
     switch (list) {
       case 'backpack':
         return this.parent.system.backpack.includes(item.uuid);
       case 'pockets':
         return this.parent.system.pockets.includes(item.uuid);
+      case 'augmentations':
+        return this.parent.system.augmentations.includes(item.uuid);
       default:
         return false;
     }
@@ -191,6 +205,9 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
     if (this.parent.system.pockets.includes(item.uuid)) {
       return 'pockets';
     }
+    if (this.parent.system.augmentations.includes(item.uuid)) {
+      return 'augmentations';
+    }
     return null;
   }
 
@@ -202,6 +219,12 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
     return this.currentPocketsCapacity() + newSlots <= (this.parent.system.maxPocketsSlots ?? 0);
   }
 
+  canAddToAugmentationsList(newSlots: number): boolean {
+    return (
+      this.currentAugmentationsCapacity() + newSlots <= (this.parent.system.primaryAttributes.constitution.value ?? 0)
+    );
+  }
+
   canAddToList(list: string, item: Item.Implementation): boolean {
     switch (list) {
       case 'backpack':
@@ -211,6 +234,11 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
           return false;
         }
         return this.canAddToPocketsList(item.system.quantity ?? 1);
+      case 'augmentations':
+        if (item.type !== 'augmentation') {
+          return false;
+        }
+        return this.canAddToAugmentationsList(item.system.strain ?? 1);
       default:
         return false;
     }
@@ -221,6 +249,7 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
       system: {
         backpack: this.backpack.filter((id) => id !== itemUUID),
         pockets: this.pockets.filter((id) => id !== itemUUID),
+        augmentations: this.augmentations.filter((id) => id !== itemUUID),
         equipment: {
           rightHand:
             this.parent.system.equipment.rightHand === itemUUID ? null : this.parent.system.equipment.rightHand,
