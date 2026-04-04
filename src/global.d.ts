@@ -1,11 +1,12 @@
 import type ATDWActor from './module/actor/actor';
 import type {
   ArmorDataModel,
+  AugmentationDataModel,
   CreatureDataModel,
   DeepDiverDataModel,
   GearDataModel,
-  NPCDataModel,
   MissionDataModel,
+  NPCDataModel,
   SiteExpeditionDataModel,
   WeaponDataModel,
 } from './module/data';
@@ -22,6 +23,7 @@ declare module 'fvtt-types/configuration' {
     };
     Item: {
       armor: typeof ArmorDataModel;
+      augmentation: typeof AugmentationDataModel;
       gear: typeof GearDataModel;
       weapon: typeof WeaponDataModel;
     };

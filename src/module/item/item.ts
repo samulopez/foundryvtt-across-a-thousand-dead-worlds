@@ -1,3 +1,5 @@
+import { AVAILABILITY } from '../constants';
+
 export default class ATDWItem<out SubType extends Item.SubType = Item.SubType> extends Item<SubType> {
   constructor(data: Item.CreateData<SubType>, context?: Item.ConstructionContext) {
     const newData = data;
@@ -15,6 +17,9 @@ export default class ATDWItem<out SubType extends Item.SubType = Item.SubType> e
     if (newData.type === 'weapon' || newData.type === 'armor') {
       this.updateSource({ system: { equippable: true } });
     }
+    if (newData.type === 'augmentation') {
+      this.updateSource({ system: { equippable: true, availability: AVAILABILITY.rare } });
+    }
   }
 
   isGear(): this is ATDWItem<'gear'> {
@@ -27,5 +32,9 @@ export default class ATDWItem<out SubType extends Item.SubType = Item.SubType> e
 
   isArmor(): this is ATDWItem<'armor'> {
     return this.type === 'armor';
+  }
+
+  isAugmentation(): this is ATDWItem<'augmentation'> {
+    return this.type === 'augmentation';
   }
 }

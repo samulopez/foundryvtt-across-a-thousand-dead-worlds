@@ -175,5 +175,20 @@
                 </ol>
             </div>
         </div>
+        <div>
+            <div class="section-title">
+                <div class="flexrow">
+                    {{localize "ATDW.DeepDiver.Inventory.augmentations"}} {{currentAugmentationsCapacity}} /
+                    {{document.system.primaryAttributes.constitution.value}}
+                </div>
+            </div>
+            <div class="items-section augmentations-list">
+                <ol class="item-list unlist">
+                    {{#each augmentationsList as |item key| }}
+                        {{> "systems/across-a-thousand-dead-worlds/templates/item/item-row.hbs" item=item draggable=true showGS=false showQuantity=false equippable=false}}
+                    {{/each}}
+                </ol>
+            </div>
+        </div>
     </div>
 </div>
