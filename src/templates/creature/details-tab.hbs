@@ -2,322 +2,344 @@
      data-group="primary"
      data-tab="details">
     <div class="flexcol gap align-normal">
-        <div class="flexrow gap-large align-normal">
+        <div class="flexrow gap align-normal">
             <div class="flexcol gap-small">
-                <div class="flexrow gap-small">
-                    <input type="number"
-                           name="system.attributes.health.value"
-                           id="system.attributes.health.value"
-                           class="flex0"
-                           min="0"
-                           step="1"
-                           data-dtype="Number"
-                           value="{{document.system.attributes.health.value}}" />
-                    /
-                    <input type="number"
-                           name="system.attributes.health.max"
-                           id="system.attributes.health.max"
-                           class="flex0"
-                           min="0"
-                           step="1"
-                           data-dtype="Number"
-                           value="{{document.system.attributes.health.max}}" />
-                    <div>{{localize "KN.Monster.Sheet.health"}}</div>
-                </div>
-                <div class="flexrow gap-small">
-                    <input type="number"
-                           name="system.attributes.mind"
-                           id="system.attributes.mind"
-                           class="flex0"
-                           min="0"
-                           step="1"
-                           data-dtype="Number"
-                           value="{{document.system.attributes.mind}}" />
-                    <div class="flexrow gap-min rollable"
-                         data-action="rollAttribute"
-                         data-key="mind">
-                        {{localize "KN.Monster.Sheet.mind"}}<i class="fas fa-dice" data-key="mind"></i>
+                <div class="flexrow gap-min">
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="strength">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.str"}}
+                            <i class="fas fa-dice" data-key="strength"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.strength.value"
+                               id="system.primaryAttributes.strength.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.strength.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.strength.temporaryModifier"
+                               id="system.primaryAttributes.strength.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.strength.temporaryModifier}}" />
                     </div>
-                    <div class="flex3"></div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="dexterity">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.dex"}}
+                            <i class="fas fa-dice" data-key="dexterity"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.dexterity.value"
+                               id="system.primaryAttributes.dexterity.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.dexterity.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.dexterity.temporaryModifier"
+                               id="system.primaryAttributes.dexterity.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.dexterity.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="constitution">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.con"}}
+                            <i class="fas fa-dice" data-key="constitution"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.constitution.value"
+                               id="system.primaryAttributes.constitution.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.constitution.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.constitution.temporaryModifier"
+                               id="system.primaryAttributes.constitution.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.constitution.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="will">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.wil"}}
+                            <i class="fas fa-dice" data-key="will"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.will.value"
+                               id="system.primaryAttributes.will.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.will.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.will.temporaryModifier"
+                               id="system.primaryAttributes.will.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.will.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="intelligence">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.int"}}
+                            <i class="fas fa-dice" data-key="intelligence"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.intelligence.value"
+                               id="system.primaryAttributes.intelligence.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.intelligence.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.intelligence.temporaryModifier"
+                               id="system.primaryAttributes.intelligence.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.intelligence.temporaryModifier}}" />
+                    </div>
+                    <div class="flexcol gap-min">
+                        <div class="rollable" data-action="rollAttribute" data-key="charisma">
+                            {{localize "ATDW.DeepDiver.Sheet.primaryAttributes.cha"}}
+                            <i class="fas fa-dice" data-key="charisma"></i>
+                        </div>
+                        <input type="number"
+                               name="system.primaryAttributes.charisma.value"
+                               id="system.primaryAttributes.charisma.value"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.valueTooltip"
+                               class="flex0"
+                               min="0"
+                               max="18"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.charisma.value}}" />
+                        <input type="number"
+                               name="system.primaryAttributes.charisma.temporaryModifier"
+                               id="system.primaryAttributes.charisma.temporaryModifier"
+                               data-tooltip="ATDW.DeepDiver.Sheet.primaryAttributes.temporaryModifierTooltip"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.primaryAttributes.charisma.temporaryModifier}}" />
+                    </div>
                 </div>
-                <div class="flexrow gap-small">
+                <div class="flexcol gap-min">
+                    <div class="flexrow">
+                        <div class="flex1">
+                            <label class="left-label" for="system.movement">{{localize 'ATDW.Creature.Sheet.movement' }}</label>
+                        </div>
+                        <input type="number"
+                               name="system.movement"
+                               id="system.movement"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.movement}}" />
+                    </div>
+                    <div class="flexrow">
+                        <div class="flex1">
+                            <label class="left-label" for="system.armor">{{localize 'ATDW.Creature.Sheet.armor' }}</label>
+                        </div>
+                        <input type="number"
+                               name="system.armor"
+                               id="system.armor"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.armor}}" />
+                    </div>
+                    <div class="flexrow">
+                        <div class="flex1">
+                            <label class="left-label" for="system.defense">{{localize 'ATDW.Creature.Sheet.defense' }}</label>
+                        </div>
+                        <input type="number"
+                               name="system.defense"
+                               id="system.defense"
+                               class="flex0"
+                               step="1"
+                               data-dtype="Number"
+                               value="{{document.system.defense}}" />
+                    </div>
+                    <div class="flexrow gap-min">
+                        <div>{{localize "ATDW.Creature.Sheet.wounds"}}</div>
+                        <input type="number"
+                               name="system.wounds.value"
+                               id="system.wounds.value"
+                               class="flex0"
+                               min="0"
+                               max="{{document.system.wounds.max}}"
+                               step="1"
+                               value="{{document.system.wounds.value}}" />
+                        /
+                        <input type="number"
+                               name="system.wounds.max"
+                               id="system.wounds.max"
+                               class="flex0"
+                               min="0"
+                               step="1"
+                               value="{{document.system.wounds.max}}" />
+                    </div>
+                </div>
+            </div>
+            <div class="flex2 flexcol gap-small">
+                <div class="flexrow">
+                    <div class="flex1 left-label rollable" data-action="rollAwareness">
+                        {{localize 'ATDW.Creature.Sheet.awareness' }}<i class="fas fa-dice"></i>
+                    </div>
                     <input type="number"
-                           name="system.attributes.endurance"
-                           id="system.attributes.endurance"
+                           name="system.awareness"
+                           id="system.awareness"
                            class="flex0"
-                           min="0"
                            step="1"
                            data-dtype="Number"
-                           value="{{document.system.attributes.endurance}}" />
-                    <div class="flexrow gap-min rollable"
-                         data-action="rollAttribute"
-                         data-key="endurance">
-                        {{localize "KN.Monster.Sheet.endurance"}}<i class="fas fa-dice" data-key="endurance"></i>
-                    </div>
-                    <div class="flex"></div>
+                           value="{{document.system.awareness}}" />
                 </div>
-                <div class="flexrow gap-small">
+                <div class="flexrow gap-min">
+                    <div class="flex1 left-label rollable" data-action="rollAttackSkill">
+                        {{localize 'ATDW.Creature.Sheet.attackSkill' }}
+                        <i class="fas fa-dice"></i>
+                    </div>
                     <input type="number"
-                           name="system.attributes.body"
-                           id="system.attributes.body"
+                           name="system.attackSkill.value"
+                           id="system.attackSkill.value"
+                           data-tooltip="ATDW.DeepDiver.Sheet.skills.valueTooltip"
                            class="flex0"
-                           min="0"
                            step="1"
                            data-dtype="Number"
-                           value="{{document.system.attributes.body}}" />
-                    <div class="flexrow gap-min rollable"
-                         data-action="rollAttribute"
-                         data-key="body">
-                        {{localize "KN.Monster.Sheet.body"}}<i class="fas fa-dice" data-key="body"></i>
-                    </div>
-                    <div class="flex3"></div>
-                </div>
-                <div class="flexrow gap-small">
+                           value="{{document.system.attackSkill.value}}" />
                     <input type="number"
-                           name="system.attributes.combatSkill"
-                           id="system.attributes.combatSkill"
+                           name="system.attackSkill.temporaryModifier"
+                           id="system.attackSkill.temporaryModifier"
+                           data-tooltip="ATDW.DeepDiver.Sheet.skills.temporaryModifierTooltip"
                            class="flex0"
-                           min="0"
                            step="1"
                            data-dtype="Number"
-                           value="{{document.system.attributes.combatSkill}}" />
-                    <div class="flexrow gap-min rollable"
-                         data-action="rollAttribute"
-                         data-key="combatSkill">
-                        {{localize "KN.Monster.Sheet.combatSkill"}}<i class="fas fa-dice" data-key="combatSkill"></i>
-                    </div>
-                    <div class="flex"></div>
+                           value="{{document.system.attackSkill.temporaryModifier}}" />
                 </div>
-                <div class="flexrow gap-small">
+                <div class="flexrow">
+                    <div class="flex1 left-label rollable" data-action="rollDamage">
+                        {{localize 'ATDW.Creature.Sheet.damage' }}
+                        <i class="fas fa-dice"></i>
+                    </div>
+                    <input name="system.damage"
+                           type="text"
+                           value="{{document.system.damage}}"
+                           class="flex3"
+                           autocomplete="off"
+                           id="system.damage" />
+                </div>
+                <div class="flexrow">
+                    <div class="flex1">
+                        <label class="left-label" for="system.range">{{localize 'ATDW.Creature.Sheet.range' }}</label>
+                    </div>
                     <input type="number"
-                           name="system.attributes.magicResistance"
-                           id="system.attributes.magicResistance"
+                           name="system.range"
+                           id="system.range"
                            class="flex0"
-                           min="0"
                            step="1"
                            data-dtype="Number"
-                           value="{{document.system.attributes.magicResistance}}" />
-                    <div class="flexrow gap-min rollable"
-                         data-action="rollAttribute"
-                         data-key="magicResistance">
-                        {{localize "KN.Monster.Sheet.magicResistance"}}<i class="fas fa-dice" data-key="magicResistance"></i>
-                    </div>
-                    <div class="flex"></div>
+                           value="{{document.system.range}}" />
                 </div>
-                <div class="flexrow gap-small">
-                    <div class="flex0">
+                <div class="flexrow">
+                    <div class="flex1">
                         {{#if (eq document.system.hitLocation "none") }}
-                            <div class="left-label">{{localize 'KN.Monster.Sheet.hitLocation.title' }}</div>
+                            <label class="left-label" for="system.hitLocation">{{localize 'ATDW.Creature.Sheet.hitLocation.title' }}</label>
                         {{else}}
                             <div class="left-label rollable" data-action="rollHitLocation">
-                                {{localize 'KN.Monster.Sheet.hitLocation.title' }}<i class="fas fa-dice"></i>
+                                {{localize 'ATDW.Creature.Sheet.hitLocation.title' }}
+                                <i class="fas fa-dice"></i>
                             </div>
                         {{/if}}
                     </div>
-                    <select name="system.hitLocation"  id="kn.monster.hitLocation">
-                        <option value="none"
-                                {{#if (eq document.system.hitLocation "none") }}
-                                selected
-                                {{/if }}>
-                        </option>
-                        <option value="arachnid"
-                                {{#if (eq document.system.hitLocation "arachnid") }}
-                                selected
-                                {{/if }}>{{localize "KN.Monster.Sheet.hitLocation.arachnid" }}
-                        </option>
-                        <option value="humanoid"
-                                {{#if (eq document.system.hitLocation "humanoid") }}
-                                selected
-                                {{/if }}>{{localize "KN.Monster.Sheet.hitLocation.humanoid" }}
-                        </option>
-                        <option value="insectoid"
-                                {{#if (eq document.system.hitLocation "insectoid") }}
-                                selected
-                                {{/if }}>{{localize "KN.Monster.Sheet.hitLocation.insectoid" }}
-                        </option>
-                        <option value="quadruped"
-                                {{#if (eq document.system.hitLocation "quadruped") }}
-                                selected
-                                {{/if }}>{{localize "KN.Monster.Sheet.hitLocation.quadruped" }}
-                        </option>
-                        <option value="serpentoid"
-                                {{#if (eq document.system.hitLocation "serpentoid") }}
-                                selected
-                                {{/if }}>{{localize "KN.Monster.Sheet.hitLocation.serpentoid" }}
-                        </option>
-                        <option value="winged"
-                                {{#if (eq document.system.hitLocation "winged") }}
-                                selected
-                                {{/if }}>{{localize "KN.Monster.Sheet.hitLocation.winged" }}
-                        </option>
+                    <select class="flex2" name="system.hitLocation" id="system.hitLocation">
+                        {{#each hitLocationOptions as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.hitLocation option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
                     </select>
-                </div>
-                {{#if showWeakSpotInput }}
-                    <div class="flexrow gap-small">
-                        <div class="flex0">
-                            <div class="left-label">{{localize 'KN.Monster.Sheet.weakSpot.title' }}</div>
-                        </div>
-                        <select name="system.weakSpot"  id="kn.monster.weakSpot">
-                            {{#each weakSpotOptions as |option| }}
-                                <option value="{{option.value}}"
-                                        {{#if (eq @root.document.system.weakSpot option.value) }}
-                                        selected
-                                        {{/if }}>
-                                    {{option.label}}
-                                </option>
-                            {{/each}}
-                        </select>
-                    </div>
-                {{/if}}
-            </div>
-            <div class="flexcol gap">
-                <div>
-                    <div class="section-title">{{localize "KN.Monster.Sheet.type.title"}}</div>
-                    <div class="flexrow gap-small">
-                        <div class="flexcol gap-min">
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.animal"
-                                       {{checked document.system.type.animal}} />
-                                {{localize 'KN.Monster.Sheet.type.animal' }}
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.astral"
-                                       {{checked document.system.type.astral}} />
-                                {{localize 'KN.Monster.Sheet.type.astral' }}
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.construct"
-                                       {{checked document.system.type.construct}} />
-                                {{localize 'KN.Monster.Sheet.type.construct' }}
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.demon"
-                                       {{checked document.system.type.demon}} />
-                                {{localize 'KN.Monster.Sheet.type.demon' }}
-                            </label>
-                        </div>
-                        <div class="flexcol gap-min">
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.elemental"
-                                       {{checked document.system.type.elemental}} />
-                                {{localize 'KN.Monster.Sheet.type.elemental' }}
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.humanoid"
-                                       {{checked document.system.type.humanoid}} />
-                                {{localize 'KN.Monster.Sheet.type.humanoid' }}
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.plant"
-                                       {{checked document.system.type.plant}} />
-                                {{localize 'KN.Monster.Sheet.type.plant' }}
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox"
-                                       name="system.type.undead"
-                                       {{checked document.system.type.undead}} />
-                                {{localize 'KN.Monster.Sheet.type.undead' }}
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="section-title">{{localize "KN.Monster.Sheet.armor.title"}}</div>
-                    <div class="flexrow gap-small align-normal">
-                        <div class="flexcol gap-min">
-                            {{#each armorSections.left as |section index| }}
-                                <label class="checkbox-label">
-                                    <input type="number"
-                                           name="system.armor.{{section.label}}"
-                                           min="0"
-                                           step="1"
-                                           data-dtype="Number"
-                                           value="{{section.value}}" />
-                                    {{localize (concat 'KN.Monster.Sheet.weakSpot.option.' section.label) }}
-                                </label>
-                            {{/each}}
-                        </div>
-                        <div class="flexcol gap-min">
-                            {{#each armorSections.right as |section index| }}
-                                <label class="checkbox-label">
-                                    <input type="number"
-                                           name="system.armor.{{section.label}}"
-                                           min="0"
-                                           step="1"
-                                           data-dtype="Number"
-                                           value="{{section.value}}" />
-                                    {{localize (concat 'KN.Monster.Sheet.weakSpot.option.' section.label) }}
-                                </label>
-                            {{/each}}
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
         <div>
-            <div class="section-title">{{localize 'KN.Monster.Sheet.actions.title' }}</div>
+            <div class="section-title">{{localize 'ATDW.Creature.Sheet.abilities.title' }}</div>
             <div class="actions-list">
                 <div class="flexrow actions-header gap-min">
                     <div class="action-header flexrow gap-min d6">
-                        D6<i data-tooltip="KN.Monster.Sheet.rollActions"
-   data-action="rollActions"
-   class="fas fa-dice rollable flex0"></i>
+                        <i data-tooltip="ATDW.Creature.Sheet.rollAbilities"
+                           data-action="rollAbilities"
+                           class="fas fa-dice rollable flex0"></i>
                     </div>
-                    <div class="action-header name">{{localize 'KN.Monster.Sheet.actions.name' }}</div>
-                    <div class="action-header description">{{localize 'KN.Monster.Sheet.actions.description' }}</div>
+                    <div class="action-header passive">{{localize 'ATDW.Creature.Sheet.abilities.passive' }}</div>
+                    <div class="action-header name">{{localize 'ATDW.Creature.Sheet.abilities.name' }}</div>
+                    <div class="action-header description">{{localize 'ATDW.Creature.Sheet.abilities.description' }}</div>
                     <div class="action-header actions">
                         <button type="button"
-                                data-tooltip="KN.Monster.Sheet.actionsAdd"
+                                data-tooltip="ATDW.Creature.Sheet.abilitiesAdd"
                                 class="btn add-action-button"
-                                data-action="addAction">
+                                data-action="addAbility">
                             <i class="fas fa-plus"></i>
                         </button>
                     </div>
                 </div>
                 <div class="flexcol gap-small">
-                    {{#each actions as |action index| }}
+                    {{#each abilities as |ability index| }}
                         <div class="flexrow gap-min align-normal">
-                            <div class="d6">
-                                <input type="number"
-                                       name="system.actions.{{index}}.startDie"
-                                       min="0"
-                                       step="1"
-                                       data-dtype="Number"
-                                       value="{{action.startDie}}" />
-                                -
-                                <input type="number"
-                                       name="system.actions.{{index}}.endDie"
-                                       min="0"
-                                       step="1"
-                                       data-dtype="Number"
-                                       value="{{action.endDie}}" />
+                            <div class="d6">&nbsp;{{ability.index}}&nbsp;</div>
+                            <div class="passive">
+                                <input type="checkbox"
+                                       name="system.abilities.{{index}}.isPassive"
+                                       {{checked ability.isPassive}} />
                             </div>
                             <div class="name">
                                 <input type="text"
-                                       name="system.actions.{{index}}.name"
-                                       value="{{action.name}}" />
+                                       name="system.abilities.{{index}}.name"
+                                       value="{{ability.name}}" />
                             </div>
                             <div class="flex2 description editor-host">
                                 {{#if @root.editable }}
-                                    <prose-mirror name="system.actions.{{index}}.description" button="true" editable="{{@root.editable}}" toggled="false" value="{{action.description}}">
-                                    {{{action.enrichedDescription}}}
+                                    <prose-mirror name="system.abilities.{{index}}.description" button="true" editable="{{@root.editable}}" toggled="false" value="{{ability.description}}">
+                                    {{{ability.enrichedDescription}}}
                                     </prose-mirror>
                                 {{else}}
-                                    {{{action.enrichedDescription}}}
+                                    {{{ability.enrichedDescription}}}
                                 {{/if}}
                             </div>
                             <div class="actions">
                                 <button type="button"
-                                        data-tooltip="KN.Monster.Sheet.actionsDelete"
+                                        data-tooltip="ATDW.Creature.Sheet.abilitiesDelete"
                                         class="btn"
-                                        data-action="deleteAction"
+                                        data-action="deleteAbility"
                                         data-index="{{index}}">
                                     <i class="fas fa-trash"></i>
                                 </button>

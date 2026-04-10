@@ -5,6 +5,7 @@
            id="originalValue"
            value="{{originalValue}}" />
 </div>
+{{#unless hideAdvantageOrDisadvantage}}
 <div class="form-group">
     <label for="advantageOrDisadvantage">{{localize 'ATDW.ModifyRollDialogue.advantageAndDisadvantage'}}</label>
     <select name="advantageOrDisadvantage" id="advantageOrDisadvantage">
@@ -13,6 +14,7 @@
         <option value="disadvantage">{{localize 'ATDW.ModifyRollDialogue.disadvantage'}}</option>
     </select>
 </div>
+{{/unless}}
 <div class="form-group">
     <label for="valueModifier">{{localize 'ATDW.ModifyRollDialogue.valueModifier'}}</label>
     <select name="plusOrMinus" id="plusOrMinus">

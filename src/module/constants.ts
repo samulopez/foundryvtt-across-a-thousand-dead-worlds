@@ -1,12 +1,13 @@
 export const ID = 'across-a-thousand-dead-worlds';
 
 export const TEMPLATES = {
+  abilitiesRoll: `systems/${ID}/templates/roll/abilities-roll.hbs`,
   modifyRoll: `systems/${ID}/templates/roll/modify-roll.hbs`,
   resultRoll: `systems/${ID}/templates/roll/result-roll.hbs`,
   creature: {
     header: `systems/${ID}/templates/creature/header.hbs`,
     detailsTab: `systems/${ID}/templates/creature/details-tab.hbs`,
-    notesTab: `systems/${ID}/templates/creature/notes-tab.hbs`,
+    appearanceTab: `systems/${ID}/templates/creature/appearance-tab.hbs`,
   },
   deepDiver: {
     header: `systems/${ID}/templates/deep-diver/header.hbs`,
@@ -426,4 +427,122 @@ export enum CREATURE_ROLE {
   ranged = 'ranged',
   swarm = 'swarm',
   psychic = 'psychic',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_GENERAL_APPEARANCE {
+  none = 'none',
+  avian = 'avian',
+  arachnid = 'arachnid',
+  insectoid = 'insectoid',
+  apeish = 'apeish',
+  reptilian = 'reptilian',
+  serpentine = 'serpentine',
+  canine = 'canine',
+  feline = 'feline',
+  antilopine = 'antilopine',
+  bovine = 'bovine',
+  cancrine = 'cancrine',
+  chelonian = 'chelonian',
+  amorphous = 'amorphous',
+  ichthyic = 'ichthyic',
+  glirine = 'glirine',
+  octopine = 'octopine',
+  fungine = 'fungine',
+  plantlike = 'plantlike',
+  petrous = 'petrous',
+  vermian = 'vermian',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_COVERED_WITH {
+  none = 'none',
+  scales = 'scales',
+  feathers = 'feathers',
+  skin = 'skin',
+  fur = 'fur',
+  chitin = 'chitin',
+  crystal = 'crystal',
+  ooze = 'ooze',
+  stone = 'stone',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_UNIQUE_FEATURE {
+  none = 'none',
+  wings = 'wings',
+  horns = 'horns',
+  mane = 'mane',
+  severalMouths = 'severalMouths',
+  numerousLimbs = 'numerousLimbs',
+  brightColors = 'brightColors',
+  suckers = 'suckers',
+  tail = 'tail',
+  tendrils = 'tendrils',
+  translucence = 'translucence',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_NUMBER_LIMBS {
+  none = 'none',
+  bipedal = 'bipedal',
+  quadrupedal = 'quadrupedal',
+  sexapedal = 'sexapedal',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_LIMBS_AQUATIC {
+  none = 'none',
+  tentacles = 'tentacles',
+  flippers = 'flippers',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_FORE_LIMBS {
+  none = 'none',
+  sameAsHindLimbs = 'sameAsHindLimbs',
+  claws = 'claws',
+  talons = 'talons',
+  tentacles = 'tentacles',
+  pincers = 'pincers',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_HIND_LIMBS {
+  none = 'none',
+  claws = 'claws',
+  hooves = 'hooves',
+  feet = 'feet',
+  talons = 'talons',
+  tentacles = 'tentacles',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_MOUTH {
+  none = 'none',
+  beak = 'beak',
+  mouth = 'mouth',
+  tentacles = 'tentacles',
+  snout = 'snout',
+  trunk = 'trunk',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_EYES_TYPE {
+  none = 'none',
+  frontFacing = 'frontFacing',
+  sideFacing = 'sideFacing',
+  eyestalks = 'eyestalks',
+  compound = 'compound',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum CREATURE_EYES_NUMBER {
+  none = 'none',
+  one = 'one',
+  two = 'two',
+  four = 'four',
+  six = 'six',
+  eight = 'eight',
+  ten = 'ten',
 }
