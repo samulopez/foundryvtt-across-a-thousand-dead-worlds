@@ -153,6 +153,118 @@ export default class ATDWActor<out SubType extends Actor.SubType = Actor.SubType
     });
   }
 
+  async rollAwareness(modifier: number, advantageOrDisadvantage?: string) {
+    if (!this.isCreature()) {
+      throw new Error('Actor is not a Creature');
+    }
+
+    const value = this.system.awareness;
+
+    await this.rollAttributeOrSkill(
+      {
+        value: value ?? 0,
+        temporaryModifier: 0,
+        rollText: getLocalization().format('ATDW.Rolls.check', {
+          attribute: getLocalization().localize('ATDW.Creature.Sheet.awarenessLabel'),
+        }),
+      },
+      modifier,
+      advantageOrDisadvantage,
+    );
+  }
+
+  async rollAttackSkill(modifier: number, advantageOrDisadvantage?: string) {
+    if (!this.isCreature()) {
+      throw new Error('Actor is not a Creature');
+    }
+
+    const skill = this.system.attackSkill as { value: number; temporaryModifier: number };
+
+    await this.rollAttributeOrSkill(
+      {
+        ...skill,
+        rollText: getLocalization().format('ATDW.Rolls.skillCheck', {
+          skill: getLocalization().localize('ATDW.Creature.Sheet.attack'),
+        }),
+      },
+      modifier,
+      advantageOrDisadvantage,
+    );
+  }
+
+  async rollDamage(modifier: number) {
+    if (!this.isCreature()) {
+      throw new Error('Actor is not a Creature');
+    }
+
+    const { damage } = this.system;
+    if (!damage) {
+      throw new Error('Actor does not have a valid damage value');
+    }
+
+    let modifierString = '';
+    if (modifier !== 0) {
+      modifierString = modifier > 0 ? ` + ${modifier}` : ` - ${Math.abs(modifier)}`;
+    }
+
+    const roll = new Roll(`${damage}${modifierString}`);
+    await roll.evaluate();
+    const total = roll.total ?? 0;
+
+    const html = await foundry.applications.handlebars.renderTemplate(TEMPLATES.resultRoll, {
+      resultString: getLocalization().localize('ATDW.Rolls.damage'),
+      customClass: '',
+      formula: roll.formula,
+      total,
+    });
+
+    const flavor = `${this.name}: ${getLocalization().localize('ATDW.Rolls.damage')}: ${total}`;
+
+    await roll.toMessage({
+      content: html,
+      flavor,
+    });
+  }
+
+  async rollAbilities(): Promise<string> {
+    if (!this.isCreature()) {
+      throw new Error('Actor is not a Creature');
+    }
+
+    const activeAbilities = this.system.abilities.filter((ability) => !ability.isPassive);
+    if (activeAbilities.length === 0) {
+      return getLocalization().localize('ATDW.Error.invalidAbilities');
+    }
+
+    if (activeAbilities.length === 1) {
+      return getLocalization().localize('ATDW.Error.onlyOneActiveAbility');
+    }
+
+    const roll = new Roll(`1d${activeAbilities.length}`);
+    await roll.evaluate();
+    const total = roll.total ?? 0;
+    const ability = activeAbilities[total - 1];
+
+    const html = await foundry.applications.handlebars.renderTemplate(TEMPLATES.abilitiesRoll, {
+      resultString: ability.name,
+      customClass: '',
+      formula: roll.formula,
+      total,
+      description: await foundry.applications.ux.TextEditor.implementation.enrichHTML(ability.description, {
+        secrets: this.isOwner,
+        relativeTo: this,
+      }),
+    });
+
+    const flavor = `${this.name}: ${getLocalization().localize('ATDW.Rolls.ability')}`;
+
+    await roll.toMessage({
+      content: html,
+      flavor,
+    });
+    return '';
+  }
+
   isCreature(): this is ATDWActor<'creature'> {
     return this.type === 'creature';
   }

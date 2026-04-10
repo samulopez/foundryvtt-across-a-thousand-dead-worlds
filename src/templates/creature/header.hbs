@@ -12,28 +12,91 @@
             <div class="flex3">
                 <h5 class="flexrow">
                     <div class="flex0">
-                        <label class="left-label" for="kn.monster.name">{{localize 'KN.Monster.Sheet.name' }}</label>
+                        <label class="left-label" for="atdw.creature.name">{{localize 'ATDW.Creature.Sheet.name' }}</label>
                     </div>
                     <input name="name"
                            type="text"
                            value="{{document.name}}"
                            class="flex3"
                            autocomplete="off"
-                           id="kn.monster.name" />
+                           id="atdw.creature.name" />
                 </h5>
                 <h5 class="flexrow">
                     <div class="flex0">
-                        <label class="left-label" for="kn.monster.description">{{localize 'KN.Monster.Sheet.description' }}</label>
+                        <label class="left-label" for="atdw.creature.type">{{localize 'ATDW.Creature.Sheet.type.title' }}</label>
                     </div>
-                    {{#if editable }}
-                        <div class="editor-host">
-                            <prose-mirror name="system.description" id="kn.monster.description" button="true" editable="{{editable}}" toggled="false" value="{{document.system.description}}">
-                            {{{enrichedDescription}}}
-                            </prose-mirror>
-                        </div>
-                    {{else}}
-                        <div class="editor-host overflowy">{{{enrichedDescription}}}</div>
-                    {{/if}}
+                    <select name="system.type"  id="atdw.creature.type">
+                        {{#each typeOptions as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.type option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.creature.size">{{localize 'ATDW.Creature.Sheet.size.title' }}</label>
+                    </div>
+                    <select name="system.size"  id="atdw.creature.size">
+                        {{#each sizeOptions as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.size option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.creature.drive">{{localize 'ATDW.Creature.Sheet.drive.title' }}</label>
+                    </div>
+                    <select name="system.drive"  id="atdw.creature.drive">
+                        {{#each driveOptions as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.drive option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.creature.intelligence">
+                            {{localize 'ATDW.Creature.Sheet.intelligence.title' }}
+                        </label>
+                    </div>
+                    <select name="system.intelligence"  id="atdw.creature.intelligence">
+                        {{#each intelligenceOptions as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.intelligence option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
+                </h5>
+                <h5 class="flexrow">
+                    <div class="flex0">
+                        <label class="left-label" for="atdw.creature.role">{{localize 'ATDW.Creature.Sheet.role.title' }}</label>
+                    </div>
+                    <select name="system.role"  id="atdw.creature.role">
+                        {{#each roleOptions as |option| }}
+                            <option value="{{option.value}}"
+                                    {{#if (eq @root.document.system.role option.value) }}
+                                    selected
+                                    {{/if }}>
+                                {{option.label}}
+                            </option>
+                        {{/each}}
+                    </select>
                 </h5>
             </div>
         </div>

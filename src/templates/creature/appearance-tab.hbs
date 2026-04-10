@@ -1,0 +1,218 @@
+<div class="tab appearance scrollable {{tabs.appearance.cssClass}}"
+     data-group="primary"
+     data-tab="appearance">
+    <div class="flexcol align-normal gap-small">
+        <div>
+            <div class="section-title">{{localize 'ATDW.Creature.Sheet.description' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.description" button="true" editable="{{editable}}" toggled="false" value="{{document.system.description}}">
+                    {{{enrichedDescription}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedDescription}}}
+                {{/if}}
+            </div>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.general">
+                    {{localize 'ATDW.Creature.Sheet.generalAppearance.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.general"
+                    id="atdw.creature.appearance.general">
+                {{#each appearanceGeneralOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.general option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.coveredWith">
+                    {{localize 'ATDW.Creature.Sheet.coveredWith.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.coveredWith"
+                    id="atdw.creature.appearance.coveredWith">
+                {{#each appearanceCoveredWithOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.coveredWith option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.uniqueFeature">
+                    {{localize 'ATDW.Creature.Sheet.uniqueFeature.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.uniqueFeature"
+                    id="atdw.creature.appearance.uniqueFeature">
+                {{#each appearanceUniqueFeatureOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.uniqueFeature option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.numberLimbs">
+                    {{localize 'ATDW.Creature.Sheet.numberLimbs.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.numberLimbs"
+                    id="atdw.creature.appearance.numberLimbs">
+                {{#each appearanceNumberLimbsOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.numberLimbs option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.limbsAquatic">
+                    {{localize 'ATDW.Creature.Sheet.limbsAquatic.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.limbsAquatic"
+                    id="atdw.creature.appearance.limbsAquatic">
+                {{#each appearanceLimbsAquaticOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.limbsAquatic option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.foreLimbs">
+                    {{localize 'ATDW.Creature.Sheet.foreLimbs.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.foreLimbs"
+                    id="atdw.creature.appearance.foreLimbs">
+                {{#each appearanceForeLimbsOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.foreLimbs option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.hindLimbs">
+                    {{localize 'ATDW.Creature.Sheet.hindLimbs.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.hindLimbs"
+                    id="atdw.creature.appearance.hindLimbs">
+                {{#each appearanceHindLimbsOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.hindLimbs option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.mouth">{{localize 'ATDW.Creature.Sheet.mouth.title' }}</label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.mouth"
+                    id="atdw.creature.appearance.mouth">
+                {{#each appearanceMouthOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.mouth option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.eyesType">
+                    {{localize 'ATDW.Creature.Sheet.eyesType.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.eyesType"
+                    id="atdw.creature.appearance.eyesType">
+                {{#each appearanceEyesTypeOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.eyesType option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <div class="flex1">
+                <label class="left-label" for="atdw.creature.appearance.eyesNumber">
+                    {{localize 'ATDW.Creature.Sheet.eyesNumber.title' }}
+                </label>
+            </div>
+            <select class="flex2"
+                    name="system.appearance.eyesNumber"
+                    id="atdw.creature.appearance.eyesNumber">
+                {{#each appearanceEyesNumberOptions as |option| }}
+                    <option value="{{option.value}}"
+                            {{#if (eq @root.document.system.appearance.eyesNumber option.value) }}
+                            selected
+                            {{/if }}>
+                        {{option.label}}
+                    </option>
+                {{/each}}
+            </select>
+        </div>
+        <div>
+            <div class="section-title">{{localize 'ATDW.Creature.Sheet.notes' }}</div>
+            <div class="flex2 editor-host">
+                {{#if editable }}
+                    <prose-mirror name="system.notes" button="true" editable="{{editable}}" toggled="false" value="{{document.system.notes}}">
+                    {{{enrichedNotes}}}
+                    </prose-mirror>
+                {{else}}
+                    {{{enrichedNotes}}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</div>
