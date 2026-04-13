@@ -1,0 +1,240 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Critical Miss – Melee",
+  "_id": "xbSqE44fN3E9thF3",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "0SeviSyFFuZxCwmv",
+      "name": "Swung Too Hard",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Without the resistance of a successful strike, you lose hold of your weapon. Spend 5 Stamina to either recover it or draw a different weapon.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.0SeviSyFFuZxCwmv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "N3uat7Bi0FdK2MWG",
+      "name": "Slipped",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You step on something slippery. Test DEX or be Knocked Down.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.N3uat7Bi0FdK2MWG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "knFPEYHgPoSAyERU",
+      "name": "Moved Wrong",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You overdo it and pull a muscle. Test CON or reduce your Stamina by 3 for this encounter.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.knFPEYHgPoSAyERU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "imwr9wUul3wonjcw",
+      "name": "Lost Confidence",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Now that you think about it, this is not looking good. Reduce your Initiative by 2.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.imwr9wUul3wonjcw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "25b8gnfQTwQvrYVv",
+      "name": "Panic Attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Test WIL or reduce your Combat skills by 2 for this encounter.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.25b8gnfQTwQvrYVv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "UCc6Khc41Q4u6ojN",
+      "name": "Twisted Ankle",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You step the wrong way and now it hurts each time you move. Add +2 to all incoming damage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.UCc6Khc41Q4u6ojN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "5mw0gMNbhrt9nkfX",
+      "name": "Exposed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You swing ungraciously and leave yourself exposed. All enemies targeting you get a free attack.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.5mw0gMNbhrt9nkfX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "1fHfJucQMYm0qiCd",
+      "name": "Unguarded",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You are fighting recklessly. You cannot spend Stamina on defensive maneuvers for the rest of this encounter.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.1fHfJucQMYm0qiCd"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "Ym8Rc8KseRAl4c8R",
+      "name": "Exhausted",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The fight’s weight suddenly overwhelms you. Roll Recovery Checks with disadvantage for this encounter.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.Ym8Rc8KseRAl4c8R"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "f0fsDUhMmFsuwU2b",
+      "name": "Terrible Swing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You miscalculate badly, not only missing your target but hitting yourself. Roll for damage as normal.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xbSqE44fN3E9thF3.f0fsDUhMmFsuwU2b"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!xbSqE44fN3E9thF3"
+}

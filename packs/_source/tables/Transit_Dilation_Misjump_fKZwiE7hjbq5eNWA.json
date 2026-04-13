@@ -1,0 +1,93 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Transit Dilation Misjump",
+  "_id": "fKZwiE7hjbq5eNWA",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "gtCBsZRHFRcI4NbK",
+      "name": "Instantaneous",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fKZwiE7hjbq5eNWA.gtCBsZRHFRcI4NbK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "PmQlKBrWOMrpF0mY",
+      "name": "D4 weeks shorter",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fKZwiE7hjbq5eNWA.PmQlKBrWOMrpF0mY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "HuM0MBXdkkBvahnH",
+      "name": "D4 weeks longer",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fKZwiE7hjbq5eNWA.HuM0MBXdkkBvahnH"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776089380990,
+    "modifiedTime": 1776089380990,
+    "lastModifiedBy": "gPC27GuzRYJteM0x"
+  },
+  "formula": "1d6",
+  "ownership": {
+    "default": 0,
+    "gPC27GuzRYJteM0x": 3
+  },
+  "sort": 0,
+  "_key": "!tables!fKZwiE7hjbq5eNWA"
+}

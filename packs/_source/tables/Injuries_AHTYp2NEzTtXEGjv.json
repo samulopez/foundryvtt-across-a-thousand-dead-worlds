@@ -1,0 +1,450 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Injuries",
+  "_id": "AHTYp2NEzTtXEGjv",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "5tfZnYNBmvCUZ7MU",
+      "name": "Critical Injury",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers an especially severe wound. Roll on the Critical Injuries table.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.5tfZnYNBmvCUZ7MU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "HkLpHTDEuAiTsp5Y",
+      "name": "Gash",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A deep wound cuts into the character's chest (-5 CON).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.HkLpHTDEuAiTsp5Y"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "NO2vJt7l7lISS7u6",
+      "name": "Impaired Arm",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The hit wounds the character’s arm, making it difficult to move (-5 to all actions that imply the use of hands).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.NO2vJt7l7lISS7u6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "0zwj13S1HdYHN8k1",
+      "name": "Impaired Leg",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A direct hit to the leg causes the character to lose mobility (-5 DEX).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.0zwj13S1HdYHN8k1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "GHwE5y4nSKJWncTK",
+      "name": "Infected Wound",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The wound has been quickly infected—it requires Antibiotics soon or it may never heal (see Infected, pg XXX).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.GHwE5y4nSKJWncTK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "8jioraQtIsrfBsON",
+      "name": "Broken Ribs",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A violent hit to the rib cage shatters a few ribs (-2 Stamina).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.8jioraQtIsrfBsON"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "3fe1qQqIeH9nXA4v",
+      "name": "Slashed Leg",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character's leg suffers a deep cut, making it difficult to maneuver (no defensive maneuvers allowed).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.3fe1qQqIeH9nXA4v"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "UUAJqA7cHGhUp9QU",
+      "name": "Banged Head",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers a hit to the head. The shock makes them lose their next turn.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.UUAJqA7cHGhUp9QU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "p6nWe6MSPMAObUwF",
+      "name": "Damaged Vision",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers a hit to their face, blurring their vision ( -5 to all actions).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.p6nWe6MSPMAObUwF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "2NH2gmc0D25hwzkl",
+      "name": "Brain Damage",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers a severe hit to the head, damaging their brain and causing partial amnesia (-80 Experience Points).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.2NH2gmc0D25hwzkl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "3rPFKTGYfhHiqdmb",
+      "name": "Crushed Fingers",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A direct hit to the character’s hand damages their fingers (-5 to Combat skills).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.3rPFKTGYfhHiqdmb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "9NL0OBLZTPiL4OFa",
+      "name": "Superficial Wound",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers an ugly-looking but superficial cut. No effect.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.9NL0OBLZTPiL4OFa"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "GW3ewoIQsGItFIT2",
+      "name": "Bruised Brain",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers a blow to the back of the head, temporarily confusing them (-5 INT).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.GW3ewoIQsGItFIT2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "4aHBs5SP4iXY4VJb",
+      "name": "Slashed Ear",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character's ear is damaged, reducing their hearing (-5 Perception).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.4aHBs5SP4iXY4VJb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "2bKJowJ0w2k6KrGK",
+      "name": "Slit Bicep",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character receives an ugly cut to the bicep (-5 STR).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.2bKJowJ0w2k6KrGK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "c88I8tfR4Q5U3GJt",
+      "name": "Scratched Brow",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Their brow suffers a deep scratch, not dealing much damage but bleeding profusely. They must spend the next round wiping the blood from their eyes, clearing their vision.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.c88I8tfR4Q5U3GJt"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "UaeZqgX4GgD1XOGJ",
+      "name": "Damaged Nerves",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers some form of nerve damage that induces seizures. Roll a D6 every turn—on a 1 they cannot act during their turn.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.UaeZqgX4GgD1XOGJ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "J3uh4adp6hHkk43N",
+      "name": "Blood Loss",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A deep wound to their stomach begins bleeding profusely (+2 to all damage received).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.J3uh4adp6hHkk43N"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "KS4yvWwhc0ZbYbPm",
+      "name": "Savage Blow",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The injury was so violent that the character gains 1 Trauma (pg XXX).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.KS4yvWwhc0ZbYbPm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "Hf7dqMLNkS0cmrGx",
+      "name": "Torn to Pieces",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Miraculously, the blow was completely absorbed by the character's clothing. Any gear worn on the wound's location is automatically destroyed.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!AHTYp2NEzTtXEGjv.Hf7dqMLNkS0cmrGx"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!AHTYp2NEzTtXEGjv"
+}

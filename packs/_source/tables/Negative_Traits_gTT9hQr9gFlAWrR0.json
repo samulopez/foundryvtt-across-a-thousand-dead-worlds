@@ -1,0 +1,450 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Negative Traits",
+  "_id": "gTT9hQr9gFlAWrR0",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "yIbhcvj5QQAQyXSV",
+      "name": "Hyperventilation",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Increase the amount of oxygen you consume per Time Track reset by 1.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.yIbhcvj5QQAQyXSV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "RR1h24eFCHr4q1XS",
+      "name": "Marked by Fear",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The horror you felt left a permanent physical mark on you. Whether it's a twitchy eye, a shaky hand or a streak of white hair, the effects are visible (-1 CHA).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.RR1h24eFCHr4q1XS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "xpTdIEhHfOsJcRze",
+      "name": "Weakened Constitution",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The constant stress has left your heart weakened (-1 CON).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.xpTdIEhHfOsJcRze"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "5rMWgVToVIi9Rfq5",
+      "name": "Paranoia",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You  don't  really  trust  other  people,  and  it  shows  (-2  Persuasion).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.5rMWgVToVIi9Rfq5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "p60GlkmuRQJXVUfb",
+      "name": "Overly Cautious",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You know the horrors that are out there, and you are not going to rush into them. In solo play, +1🕓 each time the Time Track is reset. In group play, always attack last.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.p60GlkmuRQJXVUfb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "LonOI7USnq7fgea8",
+      "name": "Death Wish",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sick with stress and desperation, you just want it to be over. Rolling a 1-3 on a Recovery check means you give up and remain Knocked Down.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.LonOI7USnq7fgea8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "7R0RHKbipDhvzGyI",
+      "name": "Unfocused",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You have problems focusing your attention on complicated tasks (-1 INT).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.7R0RHKbipDhvzGyI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "mNoGHBo7j2FNGbQ9",
+      "name": "Phobic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Even the slightest shadow terrorizes you. Each time you gain Trauma, gain 1 extra.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.mNoGHBo7j2FNGbQ9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "kEUl3bWIMQPYDh8W",
+      "name": "Damaged Memory",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The intense trauma has damaged your brain. Each time you earn XP, you earn ⅓ less (rounding up).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.kEUl3bWIMQPYDh8W"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "AhWak3uHUIviRL4x",
+      "name": "Apathetic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You no longer feel the urge to fight for anything (-1 WIL).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.AhWak3uHUIviRL4x"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "XZP3Y0UTTYUfasOO",
+      "name": "Apprehensive",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You start doubting your combat capabilities (-2 to all Combat skills).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.XZP3Y0UTTYUfasOO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "BgvCZDtaErqufXeL",
+      "name": "Insecure",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You are afraid to jump into the fray (-1 Initiative).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.BgvCZDtaErqufXeL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "ImaF1EaZ07Y6I3Kf",
+      "name": "Unbeliever",
+      "img": "icons/svg/d20-black.svg",
+      "description": "It is difficult for you to see your destiny (re-rolls now cost 2 Luck points).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.ImaF1EaZ07Y6I3Kf"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "GoFuz7suoBW1U06h",
+      "name": "Let It End",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You are tired of trying and failing at life (+1 to incoming Injury rolls).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.GoFuz7suoBW1U06h"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "y5n6hE31Nf98QJac",
+      "name": "Unreliable",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You doubt your own skills and can no longer roll critical successes.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.y5n6hE31Nf98QJac"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "1RA6xe6GVT2oEFEK",
+      "name": "Tired",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lacking the fighting capability you once had, standard attacks now cost 6 Stamina.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.1RA6xe6GVT2oEFEK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "52Q9oEIkirpWPK7k",
+      "name": "Careless",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You don't really want to be bothered by dodging attacks. Dodging costs 1 more Stamina.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.52Q9oEIkirpWPK7k"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "Eahr4RGROpVIK9x7",
+      "name": "Clumsy",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your hands shake and you drop things easily. Perform DEX checks with Disadvantage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.Eahr4RGROpVIK9x7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "bKplCSD4EObg0hhz",
+      "name": "Foggy Mind",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You can't concentrate on tasks for long. Perform INT checks with Disadvantage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.bKplCSD4EObg0hhz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "IB8uchPffl5rPJ7g",
+      "name": "Marked",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The darkness within calls the darkness without. Each Site has 2 additional Known Threats (pg XXX). This is stackable, if other characters are also marked.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!gTT9hQr9gFlAWrR0.IB8uchPffl5rPJ7g"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!gTT9hQr9gFlAWrR0"
+}

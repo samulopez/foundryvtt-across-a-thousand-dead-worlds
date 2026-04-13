@@ -1,0 +1,156 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Arrival",
+  "_id": "G4Ip6WrZ8JhQQpmb",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "RMUFARhGC5Kd4qxS",
+      "name": "The ship exits its final jump within a star that has recently expanded into a Red Giant. The ship, and all those within it, are destroyed.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!G4Ip6WrZ8JhQQpmb.RMUFARhGC5Kd4qxS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 15],
+      "_id": "nxcPErappWykPrb6",
+      "name": "The ship exits warpspace revealing nothing but debris and dust. Perhaps there was once something here worth visiting, but now it is forever lost to the void.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!G4Ip6WrZ8JhQQpmb.nxcPErappWykPrb6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 35],
+      "_id": "rZatsFkPKUp6xCyF",
+      "name": "The Site is a large derelict ship! The ship automatically docks in it.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!G4Ip6WrZ8JhQQpmb.rZatsFkPKUp6xCyF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [36, 60],
+      "_id": "AH7uyobv4hvg8vDF",
+      "name": "The crew’s ship touches down on a planet.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!G4Ip6WrZ8JhQQpmb.AH7uyobv4hvg8vDF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [61, 80],
+      "_id": "PRVPyEhBjsLlYdlx",
+      "name": "This Site is a station or outpost orbiting a planet or moon.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!G4Ip6WrZ8JhQQpmb.PRVPyEhBjsLlYdlx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [81, 100],
+      "_id": "IHvwJ1fxyA7fOIuf",
+      "name": "The ship docks in an Àrsaidh base inside an asteroid or planetoid.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!G4Ip6WrZ8JhQQpmb.IHvwJ1fxyA7fOIuf"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776089380990,
+    "modifiedTime": 1776089380990,
+    "lastModifiedBy": "gPC27GuzRYJteM0x"
+  },
+  "formula": "1d100",
+  "ownership": {
+    "default": 0,
+    "gPC27GuzRYJteM0x": 3
+  },
+  "sort": 0,
+  "_key": "!tables!G4Ip6WrZ8JhQQpmb"
+}

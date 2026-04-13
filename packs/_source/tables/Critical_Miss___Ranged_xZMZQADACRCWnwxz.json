@@ -1,0 +1,240 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Critical Miss – Ranged",
+  "_id": "xZMZQADACRCWnwxz",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "bWxCxmfxoThWGS0s",
+      "name": "Jammed Weapon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "It won’t fix itself! Either spend all your Stamina unjamming it or spend 5 Stamina to drop it and draw a different weapon.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.bWxCxmfxoThWGS0s"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "sjUFXsGnFQsNSqYf",
+      "name": "Slipped",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You step on something slippery. Test DEX or be Knocked Down.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.sjUFXsGnFQsNSqYf"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "1UX2EayXn34uUANW",
+      "name": "Dropped Weapon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your weapon slips from your sweaty hands. Spend 5 Stamina to either recover it or draw a different weapon.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.1UX2EayXn34uUANW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "YiJlCoEOywyikCiy",
+      "name": "Loss of Confidence",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Now that you think about it, this is not looking good. Reduce your Initiative by 2.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.YiJlCoEOywyikCiy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "usQTIwPT3EAmrlw9",
+      "name": "Panic Attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Test WIL or reduce your Combat skills by 2 for this encounter.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.usQTIwPT3EAmrlw9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "GxFnEQKt6bPZh1Iz",
+      "name": "Shattered",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Instead of firing, your weapon blows up in your hands. You are unscathed but your weapon is scrap.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.GxFnEQKt6bPZh1Iz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "JQTxGpTn6RRyM8D3",
+      "name": "Exposed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You step to the wrong side, leaving yourself exposed. All enemies targeting you get a free attack.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.JQTxGpTn6RRyM8D3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "hriskrR9E0SBBmIm",
+      "name": "Unguarded",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You are fighting recklessly. You cannot spend Stamina on defensive maneuvers for the rest of this encounter.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.hriskrR9E0SBBmIm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "ycKhCoA0DiqJ1c7r",
+      "name": "Exhausted",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The fight’s weight suddenly overwhelms you. Roll Recovery Checks with disadvantage for this encounter.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.ycKhCoA0DiqJ1c7r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "90192ETDE3bJxAWh",
+      "name": "Bad Luck",
+      "img": "icons/svg/d20-black.svg",
+      "description": "In a twist of fate you not only miss your target, but the bullet ricochets and hits you. Roll for damage as normal.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!xZMZQADACRCWnwxz.90192ETDE3bJxAWh"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!xZMZQADACRCWnwxz"
+}
