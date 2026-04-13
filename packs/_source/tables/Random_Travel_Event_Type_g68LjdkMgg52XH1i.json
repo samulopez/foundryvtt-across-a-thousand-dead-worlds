@@ -1,0 +1,114 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Random Travel Event Type",
+  "_id": "g68LjdkMgg52XH1i",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "fK5oqQEKhjPSevXr",
+      "name": "Social",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g68LjdkMgg52XH1i.fK5oqQEKhjPSevXr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "6if6Uy7jML87ZuRF",
+      "name": "Ship Malfunction",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g68LjdkMgg52XH1i.6if6Uy7jML87ZuRF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "61Taj7oLtRtJYjvc",
+      "name": "Space Anomaly",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g68LjdkMgg52XH1i.61Taj7oLtRtJYjvc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "HBl7h6apbIz5KdEx",
+      "name": "Mental or Physical Issue",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g68LjdkMgg52XH1i.HBl7h6apbIz5KdEx"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776089380990,
+    "modifiedTime": 1776089380990,
+    "lastModifiedBy": "gPC27GuzRYJteM0x"
+  },
+  "formula": "1d4",
+  "ownership": {
+    "default": 0,
+    "gPC27GuzRYJteM0x": 3
+  },
+  "sort": 0,
+  "_key": "!tables!g68LjdkMgg52XH1i"
+}

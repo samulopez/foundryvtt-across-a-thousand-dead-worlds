@@ -1,0 +1,156 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Secondary Misjump Effects",
+  "_id": "YxsylJ7IfzmiE9qm",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "3d6tKQ3ML828puY1",
+      "name": "D6 randomly determined personal batteries are depleted",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YxsylJ7IfzmiE9qm.3d6tKQ3ML828puY1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "2zjGTSnPlj7dJI9z",
+      "name": "Drinking water is gone—halve remaining supplies",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YxsylJ7IfzmiE9qm.2zjGTSnPlj7dJI9z"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "ilCgUPn1h5SZ9znM",
+      "name": "All crew members suffer a terrible headache and gain +5 Stress",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YxsylJ7IfzmiE9qm.ilCgUPn1h5SZ9znM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "Rmj2iYXKBxidlRaK",
+      "name": "The crew has problems remembering random details about their past",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YxsylJ7IfzmiE9qm.Rmj2iYXKBxidlRaK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "u6uYkOJYRBvTwVY6",
+      "name": "All onboard data has been wiped",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YxsylJ7IfzmiE9qm.u6uYkOJYRBvTwVY6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "03tZVCusKXzSPIkl",
+      "name": "Each crew member receives a Negative Trait",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YxsylJ7IfzmiE9qm.03tZVCusKXzSPIkl"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776089380990,
+    "modifiedTime": 1776089380990,
+    "lastModifiedBy": "gPC27GuzRYJteM0x"
+  },
+  "formula": "1d6",
+  "ownership": {
+    "default": 0,
+    "gPC27GuzRYJteM0x": 3
+  },
+  "sort": 0,
+  "_key": "!tables!YxsylJ7IfzmiE9qm"
+}

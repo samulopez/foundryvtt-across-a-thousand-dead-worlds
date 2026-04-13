@@ -1,0 +1,240 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Mental or Physical Issue Travel Event",
+  "_id": "47li2sbWPqhFRPNZ",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "jG5MI6LekbFqXaTm",
+      "name": "A tool falls from its maintenance shelf, injuring a random crew member for 1 Wound.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.jG5MI6LekbFqXaTm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "rDyfpPSEjAKuM9xu",
+      "name": "The spaceship attempts to interface with a random crew member. For D6 long days they suffer visions of their destination, intrusive thoughts not meant for human minds, voices speaking a language never heard by anyone alive. They suffer D10 Stress each day because of it.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.rDyfpPSEjAKuM9xu"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "V5yBJpR7HnKFuFLW",
+      "name": "The ship attempts to interface with a crew member, resulting in a misjump.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.V5yBJpR7HnKFuFLW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "j0T403ST5JzIfT4v",
+      "name": "Each day of the week a different crew member experiences visions of a loved one. They are extremely vivid, but never interact with the crew and only appear when nobody else can see them.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.j0T403ST5JzIfT4v"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "zqHmq21Y0abuA2lS",
+      "name": "A random crew member falls ill, suffering high fever and difficulty breathing. A successful Medical Aid check must be made each day for the next D10 days (failure increases the sickness duration by one day). If the character is not healed before the ship arrives, they suffer -5 to all rolls this mission.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.zqHmq21Y0abuA2lS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "nI1uHiqyzylnEux8",
+      "name": "A random crew member suffers a sudden anxiety attack, regardless of their Stress levels. Roll on the Stress Reaction table.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.nI1uHiqyzylnEux8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "56aiC86BCn4JTL3E",
+      "name": "A random crew member swears they saw another crew member hiding some alcohol on board. It really looks like it's all in their head, though.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.56aiC86BCn4JTL3E"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "fPhd588pEueB2DAE",
+      "name": "A random crew member is coping poorly. They must pass a Resolve check or attempt to binge-eat the provisions, consuming their week's rations in one sitting, unless they're somehow stopped.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.fPhd588pEueB2DAE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "vyfbu9sNN1scOFE0",
+      "name": "A random crew member has extremely vivid, prophetic dreams. Next time they enter combat, they remember a dream, allowing them to surprise their opponents.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.vyfbu9sNN1scOFE0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "4aPnE545oqjCYX3O",
+      "name": "A random crew member suddenly enters a catatonic state, only to wake up a day later as if nothing happened. They lose all Stress and Trauma.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!47li2sbWPqhFRPNZ.4aPnE545oqjCYX3O"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776089380990,
+    "modifiedTime": 1776089380990,
+    "lastModifiedBy": "gPC27GuzRYJteM0x"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "gPC27GuzRYJteM0x": 3
+  },
+  "sort": 0,
+  "_key": "!tables!47li2sbWPqhFRPNZ"
+}

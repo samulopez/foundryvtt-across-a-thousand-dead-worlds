@@ -1,0 +1,450 @@
+{
+  "folder": "9WXm1j3IpU1RBAAK",
+  "name": "Nervous Tic",
+  "_id": "D9QupnIHFS2oZ36x",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "IFcrUVD5WXwAIcb3",
+      "name": "Coughing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.IFcrUVD5WXwAIcb3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "7CwhRJGhEYv1aqkf",
+      "name": "Blinking",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.7CwhRJGhEYv1aqkf"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "gVcxNvJinCiaiB3C",
+      "name": "Wrinkling your nose",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.gVcxNvJinCiaiB3C"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "OEzHHUkD7Xvh4Rnx",
+      "name": "Clicking your fingers",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.OEzHHUkD7Xvh4Rnx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "Rs6tAOMm5NYPaBIj",
+      "name": "Bouncing your leg",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.Rs6tAOMm5NYPaBIj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "b91HkULLJjucfk29",
+      "name": "Touching other people",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.b91HkULLJjucfk29"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "LPI9MPpsJS23dc6H",
+      "name": "Touching others’ things",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.LPI9MPpsJS23dc6H"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "5vbiUfWLPeqsBtiJ",
+      "name": "Humming",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.5vbiUfWLPeqsBtiJ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "rG4q7HlSkvksaH3m",
+      "name": "Grunting",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.rG4q7HlSkvksaH3m"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "VBGslWck4dQIkBrV",
+      "name": "Sniffing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.VBGslWck4dQIkBrV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "kdWSYn9SKnVCGwXX",
+      "name": "Repeating a phrase",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.kdWSYn9SKnVCGwXX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "5rmM58BXuOazXnes",
+      "name": "Biting your nails",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.5rmM58BXuOazXnes"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "IGPgJVuSCj2vVtaS",
+      "name": "Flipping a coin or other small item",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.IGPgJVuSCj2vVtaS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "dvFJHI1SSXSHzVdT",
+      "name": "Fiddling with a pendant or bracelet",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.dvFJHI1SSXSHzVdT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "4WVw66ZThJRydYds",
+      "name": "Pulling your hair",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.4WVw66ZThJRydYds"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "90ecv9qyKqbPFX5V",
+      "name": "Cracking bones",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.90ecv9qyKqbPFX5V"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "7ES0LRI0frDR5Ua7",
+      "name": "Swaying",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.7ES0LRI0frDR5Ua7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "jPQQ2Kjav0pk5z1U",
+      "name": "Pacing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.jPQQ2Kjav0pk5z1U"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "KyWegbdgZ0ZVjfL0",
+      "name": "Laughing loudly and nervously",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.KyWegbdgZ0ZVjfL0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "8SG1834gW3Zrpeh4",
+      "name": "Sighing constantly",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!D9QupnIHFS2oZ36x.8SG1834gW3Zrpeh4"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!D9QupnIHFS2oZ36x"
+}

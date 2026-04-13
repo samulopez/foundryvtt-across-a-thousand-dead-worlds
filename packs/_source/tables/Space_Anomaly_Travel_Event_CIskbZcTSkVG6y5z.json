@@ -1,0 +1,240 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Space Anomaly Travel Event",
+  "_id": "CIskbZcTSkVG6y5z",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "mIX3XAleh9uq7Ek6",
+      "name": "An unknown radiation knocks the ship from warpspace. The system reboot takes a whole week without progress, during which the helpless crew earns 5 Stress per day.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.mIX3XAleh9uq7Ek6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "QW0IqXYzOtklItqN",
+      "name": "An unusually large micro-asteroid strikes the ship during route recalibration. The ship suffers no damage, but the crew members are sent tumbling. Each receives 1 Wound.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.QW0IqXYzOtklItqN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "GKwuWzMGKMRvPZfj",
+      "name": "The warp shield fails in warpspace, resulting in a temporal anomaly. When (if) the crew returns to Karum Station, months have passed-the crew was declared lost.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.GKwuWzMGKMRvPZfj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "WT89DHBUoOLHn47T",
+      "name": "Tapping noises from outside the ship, voices when no one's there, shadows and shapes are seen in the corner of the eye. This continues for D10 days, inflicting 5 Stress per day.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.WT89DHBUoOLHn47T"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "gMK0B1HMqOAFKiL9",
+      "name": "The ship exits warpspace within a gas nebula. The crew can hear corrosive gasses slowly eating away the ship's hull. All crew members gain D10 Stress.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.gMK0B1HMqOAFKiL9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "pFBdLoIgvrN47Xin",
+      "name": "An electromagnetic disturbance fries the ship's survey equipment. This can only be fixed with a successful Hard Technology check.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.pFBdLoIgvrN47Xin"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "NIJbO0TTUPQ8fDST",
+      "name": "Some external force causes the ship to exit warspace. As the ship re-enters, a misjump takes place.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.NIJbO0TTUPQ8fDST"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "QVUq5wX8Th6znkrD",
+      "name": "Recalibration takes unusually long (D6 hours). If the crew uses the external visors, they see they are in the shadow of a colossal ship. It slowly scans them before moving away and disappearing into the black. Moments later, the PC's ship re-enters warpspace.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.QVUq5wX8Th6znkrD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "cptj70cBVCqBP6wH",
+      "name": "The ship shakes during warp travel. All crew members must pass a DEX check to strap themselves in time, or suffer 1 Wound due to the violence of the event.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.cptj70cBVCqBP6wH"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "7xNC5Xvp34lEu1WF",
+      "name": "With a loud groan, the ship drops out of warpspace as if it had been pulled. The ship's lights flicker within the silence of space. If the crew uses the external visors they appear to see Karum Station, but it clearly can't be. Arsaidh ships fly in and out of the asteroid until, moments later, the crew's ship activates its warpdrive and continues its journey.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!CIskbZcTSkVG6y5z.7xNC5Xvp34lEu1WF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776089380990,
+    "modifiedTime": 1776089380990,
+    "lastModifiedBy": "gPC27GuzRYJteM0x"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "gPC27GuzRYJteM0x": 3
+  },
+  "sort": 0,
+  "_key": "!tables!CIskbZcTSkVG6y5z"
+}

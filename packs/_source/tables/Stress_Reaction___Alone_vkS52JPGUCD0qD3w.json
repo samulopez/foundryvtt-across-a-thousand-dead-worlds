@@ -1,0 +1,135 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Stress Reaction - Alone",
+  "_id": "vkS52JPGUCD0qD3w",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "SzB41W51twPPBndQ",
+      "name": "Hyper Focusing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character chooses a hyperfocus activity. They gain +5 to any rolls associated with it, but suffer -5 to any other activity.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vkS52JPGUCD0qD3w.SzB41W51twPPBndQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "cD0WV6tOlOR5s95i",
+      "name": "Timing Out",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character needs to take a break. They spend a whole Time Track reset trying to calm themself.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vkS52JPGUCD0qD3w.cD0WV6tOlOR5s95i"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "IXwjXYzdCT53yjDT",
+      "name": "Anxiety",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character feels overwhelmed by the current events, suffering -2 to all checks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vkS52JPGUCD0qD3w.IXwjXYzdCT53yjDT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 8],
+      "_id": "ECqdc51TtDnAalko",
+      "name": "Binging or Hyperventilating",
+      "img": "icons/svg/d20-black.svg",
+      "description": "If aboard a ship, the character attempts to distract themself by eating until they can't take another bite (-D6 Rations). If exploring, the character starts hyperventilating, rapidly consuming oxygen before they manage to calm themself (-D4 Oxygen Pellets).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vkS52JPGUCD0qD3w.ECqdc51TtDnAalko"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 10],
+      "_id": "xtJducp4nKtZ3wAZ",
+      "name": "Getting Overwhelmed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character is starting to reach their limit and is feeling less and less secure. Their Resolve checks are at -2 for the rest of the mission.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vkS52JPGUCD0qD3w.xtJducp4nKtZ3wAZ"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!vkS52JPGUCD0qD3w"
+}

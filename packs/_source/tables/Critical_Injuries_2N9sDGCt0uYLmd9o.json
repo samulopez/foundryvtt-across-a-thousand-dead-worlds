@@ -1,0 +1,240 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Critical Injuries",
+  "_id": "2N9sDGCt0uYLmd9o",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "KnTU6Ql3crlQ339I",
+      "name": "Crushed Skull",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffers a fatal wound to the head. They are dead.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.KnTU6Ql3crlQ339I"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "FuX06Noac2ra3NDW",
+      "name": "Destroyed Ear",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The hit cuts the character's ear off (-5 Perception).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.FuX06Noac2ra3NDW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "919UVZKFzjUxz6qS",
+      "name": "Missing Fingers",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character lost a few fingers from the powerful blow (-5 to Combat skills).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.919UVZKFzjUxz6qS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "cTHxREMvrsfnZmBO",
+      "name": "Punctured Lung",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character's lung is permanently damaged (-5 Stamina).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.cTHxREMvrsfnZmBO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "AA6QlztbIahDHgMi",
+      "name": "Cut Nose",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character lost their nose (-5 CHA).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.AA6QlztbIahDHgMi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "7SXZ1XNdb7AYwjnV",
+      "name": "Swollen Brain",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character suffered a severe brain injury (-5 INT).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.7SXZ1XNdb7AYwjnV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "xDAcRuOJg4BT0YKK",
+      "name": "Damaged Tendons",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character’s arm tendons have suffered irreparable damage (-5 STR).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.xDAcRuOJg4BT0YKK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "oCwD1CoujVdOdlpz",
+      "name": "Nerve Damage",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Permanent nerve damage means the character can only spend 3 Stamina points on defensive maneuvers each round.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.oCwD1CoujVdOdlpz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "MYFH3N8s7eF3EygF",
+      "name": "Minor Artery Severed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The maximum number of Wounds the character may receive is reduced by 1.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.MYFH3N8s7eF3EygF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "XixdkOqQBc2nYhup",
+      "name": "Weakened",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The injury has left the character's constitution weakened (+2 to all incoming damage).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2N9sDGCt0uYLmd9o.XixdkOqQBc2nYhup"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!2N9sDGCt0uYLmd9o"
+}

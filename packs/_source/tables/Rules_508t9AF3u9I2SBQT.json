@@ -1,0 +1,23 @@
+{
+  "type": "RollTable",
+  "folder": null,
+  "name": "Rules",
+  "color": null,
+  "sorting": "a",
+  "_id": "508t9AF3u9I2SBQT",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899022,
+    "modifiedTime": 1776080899022,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "_key": "!folders!508t9AF3u9I2SBQT"
+}

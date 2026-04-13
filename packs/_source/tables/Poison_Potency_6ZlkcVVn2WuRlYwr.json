@@ -1,0 +1,114 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Poison Potency",
+  "_id": "6ZlkcVVn2WuRlYwr",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "i7MMcuYI7FYfhQj4",
+      "name": "I – Take 1 Wound and roll a CON check. On a failed roll, the character will die in D20 rounds (or 1 Time Track reset) unless administered an antidote.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!6ZlkcVVn2WuRlYwr.i7MMcuYI7FYfhQj4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "8Uf0a29eWg5KI2TQ",
+      "name": "II – Take 1 Wound and roll a CON (+5) check. On a failed roll, the character will die in D20 rounds (or 1 Time Track reset) unless administered an antidote.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!6ZlkcVVn2WuRlYwr.8Uf0a29eWg5KI2TQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "H519Qcfr9wuVkk1H",
+      "name": "III – Pass a CON check or receive 1 Wound.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!6ZlkcVVn2WuRlYwr.H519Qcfr9wuVkk1H"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "5sLa4B16cu402sMe",
+      "name": "IV – Pass a CON check or be Knocked Down (no effect if already Knocked Down).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!6ZlkcVVn2WuRlYwr.5sLa4B16cu402sMe"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d4",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!6ZlkcVVn2WuRlYwr"
+}

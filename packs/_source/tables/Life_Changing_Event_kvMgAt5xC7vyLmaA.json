@@ -1,0 +1,450 @@
+{
+  "folder": "9WXm1j3IpU1RBAAK",
+  "name": "Life-Changing Event",
+  "_id": "kvMgAt5xC7vyLmaA",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "syPwDiSMTmMqkfDw",
+      "name": "Abandoned by the love of your life",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.syPwDiSMTmMqkfDw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "JSzcvqWv7JU1i5Xy",
+      "name": "Involved in a terrible accident",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.JSzcvqWv7JU1i5Xy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "9E2BUsP1MWj2BtXh",
+      "name": "Someone died because of you",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.9E2BUsP1MWj2BtXh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "FLh8EwoxgeTwVUbA",
+      "name": "Had a religious experience",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.FLh8EwoxgeTwVUbA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "OT4C9cxEobChBtr7",
+      "name": "Witnessed a random kindness or cruelty that changed your opinion of humanity",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.OT4C9cxEobChBtr7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "6StJeoIXMyyqwMZC",
+      "name": "Learned something you shouldn’t have",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.6StJeoIXMyyqwMZC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "Df5lihN1uWZ1ygBP",
+      "name": "Were forced to act against your morals",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.Df5lihN1uWZ1ygBP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "145bt2mVsYkAX9AU",
+      "name": "Had the chance to stand up against a powerful figure, but didn’t",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.145bt2mVsYkAX9AU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "n3tBjKlo6Eu4SadR",
+      "name": "Fought off a terrible addiction",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.n3tBjKlo6Eu4SadR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "7JbZu1dKMMBoq3hV",
+      "name": "Discovered you have a secret half-sibling",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.7JbZu1dKMMBoq3hV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "w0si9C4Bdj08wUgP",
+      "name": "Became imprisoned",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.w0si9C4Bdj08wUgP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "7qAyUt92gwzStk7r",
+      "name": "Risked your life for someone",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.7qAyUt92gwzStk7r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "WhJeC3fWCJ8Itv2a",
+      "name": "Someone died to save your life",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.WhJeC3fWCJ8Itv2a"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "NcROzCkf7hjGI7xo",
+      "name": "Got caught in a big scandal",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.NcROzCkf7hjGI7xo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "jPEiedcSjr14O4cA",
+      "name": "Suffered amnesia, blocking out a terrible event you cannot remember",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.jPEiedcSjr14O4cA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "GgJBoUqIySwLQsv8",
+      "name": "Made a terrible enemy",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.GgJBoUqIySwLQsv8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "gqNns7PL8ZeEFYb3",
+      "name": "Fell to ruin at the hands of someone’s pettiness",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.gqNns7PL8ZeEFYb3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "wBRJWSH35LAGHdt7",
+      "name": "Had a sibling who was murdered",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.wBRJWSH35LAGHdt7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "i7g5GjeHTYliaD3j",
+      "name": "Discovered you have a talent you didn’t know of",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.i7g5GjeHTYliaD3j"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "rRKxrwRyocmBilpF",
+      "name": "Found fame",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!kvMgAt5xC7vyLmaA.rRKxrwRyocmBilpF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!kvMgAt5xC7vyLmaA"
+}

@@ -1,0 +1,135 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "NPC/Creature Target",
+  "_id": "Jdrnc6GP8Wiscwq7",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "XF8FNSiwSwfKoBeR",
+      "name": "Closest threat",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jdrnc6GP8Wiscwq7.XF8FNSiwSwfKoBeR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "KMeMdLT56dKx3CSx",
+      "name": "Most wounded opponent",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jdrnc6GP8Wiscwq7.KMeMdLT56dKx3CSx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "xtOh761nj1NZVZMe",
+      "name": "Ranged opponent",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jdrnc6GP8Wiscwq7.xtOh761nj1NZVZMe"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 8],
+      "_id": "GyK4us2RKbHxeNv9",
+      "name": "Most protected opponent",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jdrnc6GP8Wiscwq7.GyK4us2RKbHxeNv9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 10],
+      "_id": "k64RVrDNeMBhwOb5",
+      "name": "Most dangerous opponent",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jdrnc6GP8Wiscwq7.k64RVrDNeMBhwOb5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!Jdrnc6GP8Wiscwq7"
+}

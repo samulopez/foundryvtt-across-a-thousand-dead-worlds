@@ -1,0 +1,1329 @@
+{
+  "name": "Talents",
+  "_id": "4ST7FOGcjdtz9usK",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "_id": "Ia6y3tRRnVWLFleP",
+      "name": "Aim",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 10 Stamina. Deal double damage on your next attack, if it’s with a ranged weapon.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077272189,
+        "modifiedTime": 1776077272189,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.Ia6y3tRRnVWLFleP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "_id": "oz7vcwuf3IfEaXru",
+      "name": "Backstab",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 5 Stamina. Following a successful Stealth check, use a knife to perform a powerful surprise attack, dealing an additional +2D10 damage to one enemy. Can only be used when not engaged in combat.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077272591,
+        "modifiedTime": 1776077272591,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.oz7vcwuf3IfEaXru"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "_id": "ih2pB31IfyVeSgaZ",
+      "name": "Bash",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 10 Stamina. After a successful attack, your base damage with two-handed weapons is 2D10 instead of D10.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077272876,
+        "modifiedTime": 1776077272876,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.ih2pB31IfyVeSgaZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "_id": "mCx3xAQFNH0pa9vR",
+      "name": "Bounce Throw",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You can re-roll one scatter roll when you fail to throw a grenade (or similar item).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077273043,
+        "modifiedTime": 1776077273043,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.mCx3xAQFNH0pa9vR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "_id": "btF1nc9kZjDGVKiz",
+      "name": "Breath Control",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You can make each Oxygen Pellet last 2 Time Track resets.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077273209,
+        "modifiedTime": 1776077273209,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.btF1nc9kZjDGVKiz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "_id": "EptgMgeXAbucys1L",
+      "name": "Calm",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Each time you gain Stress you gain 1 less (minimum 1).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077273378,
+        "modifiedTime": 1776077273378,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.EptgMgeXAbucys1L"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "_id": "GE7qB4PTUaUzun0o",
+      "name": "Careless",
+      "img": "icons/svg/d20-black.svg",
+      "description": "When activated, you gain +5 to your attacks this round but you cannot spend Stamina on defensive moves.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077273545,
+        "modifiedTime": 1776077273545,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.GE7qB4PTUaUzun0o"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "_id": "8Q3MhoKds8etcuvq",
+      "name": "Charge",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You can barge into melee, gaining +5 Skill and +5 damage during your first turn. Cannot be used in conjunction with any form of stealth.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077273714,
+        "modifiedTime": 1776077273714,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.8Q3MhoKds8etcuvq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "_id": "Rx1lBsEwJ2AbUxqP",
+      "name": "Cleave",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 8 Stamina. When wielding a two-handed melee weapon, all enemies adjacent to your target also take half of the rolled damage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077274471,
+        "modifiedTime": 1776077274471,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.Rx1lBsEwJ2AbUxqP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "_id": "JaZXxkbk1Bx6dFc2",
+      "name": "Compartmentalized Mind",
+      "img": "icons/svg/d20-black.svg",
+      "description": "When you gain a Negative Trait, roll twice and choose the result you prefer.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077275703,
+        "modifiedTime": 1776077275703,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.JaZXxkbk1Bx6dFc2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "_id": "BzzhpbvRLxDuJEXF",
+      "name": "Counter-Attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 5 Stamina. While wielding a melee weapon, if you win the combat roll during an opponent's turn your attack automatically causes 1 Wound.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077276617,
+        "modifiedTime": 1776077276617,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.BzzhpbvRLxDuJEXF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "_id": "MpqMEpoplu4HMxgW",
+      "name": "Coup de Grace",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gain +D8 damage against knocked-down enemies.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077277244,
+        "modifiedTime": 1776077277244,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.MpqMEpoplu4HMxgW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        26
+      ],
+      "_id": "T6YgPiV0XuqPsUEl",
+      "name": "Diligent Medic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You may attempt to heal the same Wound twice per Time Track, instead of once.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077278062,
+        "modifiedTime": 1776077278062,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.T6YgPiV0XuqPsUEl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        27,
+        28
+      ],
+      "_id": "wXwzYfExDNzdp3NJ",
+      "name": "Discerning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You can perform an INT check to determine if someone’s lying or trying to manipulate you.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077278807,
+        "modifiedTime": 1776077278807,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.wXwzYfExDNzdp3NJ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "_id": "SKySJgLwHZJp8GxO",
+      "name": "Dual Wielding",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Each turn you attack, you may use an off-hand weapon to attack again with disadvantage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077279543,
+        "modifiedTime": 1776077279543,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.SKySJgLwHZJp8GxO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        32
+      ],
+      "_id": "KvBViXFhlz8XudlN",
+      "name": "Duck!",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 3 Stamina. Shout a warning to an ally, granting them +2 Stamina on their next turn which can only be spent on defensive maneuvers.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077280094,
+        "modifiedTime": 1776077280094,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.KvBViXFhlz8XudlN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        34
+      ],
+      "_id": "M8WSv87HycUUIBPq",
+      "name": "Everyone, Calm Down!",
+      "img": "icons/svg/d20-black.svg",
+      "description": "If you’re the Team Leader, you may roll Manipulation to bring an end to an argument, infighting event or confidence crisis. If you succeed, all crew members reduce their Stress by 2. This may only be done once per Time Track reset.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077280607,
+        "modifiedTime": 1776077280607,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.M8WSv87HycUUIBPq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        35,
+        36
+      ],
+      "_id": "cVGqANERNnKKPVhD",
+      "name": "Fast Feet",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Automatically pass all Escape checks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077281008,
+        "modifiedTime": 1776077281008,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.cVGqANERNnKKPVhD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        38
+      ],
+      "_id": "DyIYzkBbqzP8NpEn",
+      "name": "Fearless",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Once per Site you may ignore the effects of Dread.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077283183,
+        "modifiedTime": 1776077283183,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.DyIYzkBbqzP8NpEn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        39,
+        40
+      ],
+      "_id": "JNKcJ8bDbJmeCglV",
+      "name": "Field Medic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You have Advantage on all Medical Aid checks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077283377,
+        "modifiedTime": 1776077283377,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.JNKcJ8bDbJmeCglV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        42
+      ],
+      "_id": "8rf9ALWzIArFrJEM",
+      "name": "Frugal",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You can make each ration last 2 weeks instead of 1.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077283549,
+        "modifiedTime": 1776077283549,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.8rf9ALWzIArFrJEM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "_id": "tv1c8UrVSAsk89bP",
+      "name": "Good Negotiator",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You take home 60% of your earnings, instead of the standard 50%.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077283694,
+        "modifiedTime": 1776077283694,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.tv1c8UrVSAsk89bP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        46
+      ],
+      "_id": "TVlNDoXx5vgiu6az",
+      "name": "Hacking",
+      "img": "icons/svg/d20-black.svg",
+      "description": "With uncanny ease, you can attempt to hack not only human computers but also some Àrsaidh technology.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077283875,
+        "modifiedTime": 1776077283875,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.TVlNDoXx5vgiu6az"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        48
+      ],
+      "_id": "eI342x3n3AMha8Sm",
+      "name": "Hard to Kill",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gain +1 max Wounds.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077284034,
+        "modifiedTime": 1776077284034,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.eI342x3n3AMha8Sm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        50
+      ],
+      "_id": "SgoFdnaM4txbyiPz",
+      "name": "Ignore Cover",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 8 Stamina. Fire at an enemy behind cover as if they had no cover at all.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077284194,
+        "modifiedTime": 1776077284194,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.SgoFdnaM4txbyiPz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        52
+      ],
+      "_id": "UbTe0U8YeChNDidv",
+      "name": "Lucky",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Each time you roll a natural 11 on the D20, you gain 1 Luck. You may not earn Luck any other way.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077284345,
+        "modifiedTime": 1776077284345,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.UbTe0U8YeChNDidv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        54
+      ],
+      "_id": "xmSv1khar0Dbdb1p",
+      "name": "Marksman",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gain +2 damage on ranged attacks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077284504,
+        "modifiedTime": 1776077284504,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.xmSv1khar0Dbdb1p"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        56
+      ],
+      "_id": "pRYJj8gumGchhGQk",
+      "name": "Momentum",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 5 Stamina. Deal an extra +1D6 damage to a downed opponent, in an attempt to eliminate them. If the opponent is eliminated, gain +2 damage for the rest of the combat. This effect stacks with itself.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077284662,
+        "modifiedTime": 1776077284662,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.pRYJj8gumGchhGQk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        58
+      ],
+      "_id": "iUkNiZUdUb4BbPT6",
+      "name": "Movement Economy",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You only spend 3 Stamina per round while in Stealth.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077284845,
+        "modifiedTime": 1776077284845,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.iUkNiZUdUb4BbPT6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        59,
+        60
+      ],
+      "_id": "ciRjy1Aq2Mqjopca",
+      "name": "Multi-Target",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 10 Stamina. Target 3 adjacent enemies with a single ranged weapon attack.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077285168,
+        "modifiedTime": 1776077285168,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.ciRjy1Aq2Mqjopca"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        62
+      ],
+      "_id": "brJwEyLh4JcJptQh",
+      "name": "Neutralize",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 10 Stamina. Carefully observe your opponent, then perform an attack to neutralize one of their unique abilities. If you hit and the damage would surpass the target's CON, they can no longer use that ability. No Wounds are caused with this attack.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077285316,
+        "modifiedTime": 1776077285316,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.brJwEyLh4JcJptQh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        64
+      ],
+      "_id": "WxppozCBfh8Ekfmk",
+      "name": "Overpower",
+      "img": "icons/svg/d20-black.svg",
+      "description": "If you roll max damage (e.g. a result of 16 on D10 + 6), you automatically inflict a Wound.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077285489,
+        "modifiedTime": 1776077285489,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.WxppozCBfh8Ekfmk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        66
+      ],
+      "_id": "BeZsKmtHWKAig57x",
+      "name": "Overwhelm",
+      "img": "icons/svg/d20-black.svg",
+      "description": "After a knocked-down opponent recovers, their Recovery Status roll is modified by +3.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077285640,
+        "modifiedTime": 1776077285640,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.BeZsKmtHWKAig57x"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        68
+      ],
+      "_id": "AJy2nnxj1w6sNbBp",
+      "name": "Pack Rat",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You perfectly arrange the things in your bag, gaining +2 Gear Slots.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077285793,
+        "modifiedTime": 1776077285793,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.AJy2nnxj1w6sNbBp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        70
+      ],
+      "_id": "a1NHtGJgquBHTkB5",
+      "name": "Parry",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 3 Stamina. When hit by an attack, roll your weapon's damage. If the damage you roll is equal or higher than the attacker's, you parry it and receive no damage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077285959,
+        "modifiedTime": 1776077285959,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.a1NHtGJgquBHTkB5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        72
+      ],
+      "_id": "HFjIVL2H6xSDSm2P",
+      "name": "Point-Blank Expert",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You suffer no penalty when using a ranged weapon in melee.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077286122,
+        "modifiedTime": 1776077286122,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.HFjIVL2H6xSDSm2P"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        74
+      ],
+      "_id": "kLd4oOY53plEYwiv",
+      "name": "Quiet",
+      "img": "icons/svg/d20-black.svg",
+      "description": "All rolls on the Site Activity table are reduced by 1 (minimum 1). This effect does not stack.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077286275,
+        "modifiedTime": 1776077286275,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.kLd4oOY53plEYwiv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        76
+      ],
+      "_id": "bkcNNvw3CVgTCKGS",
+      "name": "Rend Armor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 8 Stamina. Tear through an enemy's defenses, causing them to permanently lose 2 Armor.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077286452,
+        "modifiedTime": 1776077286452,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.bkcNNvw3CVgTCKGS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        78
+      ],
+      "_id": "coAzcN370ZO0qjOP",
+      "name": "Resilient",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You no longer suffer -2 to all actions while injured.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077286608,
+        "modifiedTime": 1776077286608,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.coAzcN370ZO0qjOP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        80
+      ],
+      "_id": "6KsIUVNwe0YYpjh8",
+      "name": "Resist the Taint",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You may ignore the negative effects of a Taint.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077286773,
+        "modifiedTime": 1776077286773,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.6KsIUVNwe0YYpjh8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        82
+      ],
+      "_id": "5aAUR4QFSk6gqfkD",
+      "name": "Resuscitate",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Within 1 minute after another character dies, you may perform a Medical Aid check. If you roll an Impressive success or more, the character is revived. They will remain unconscious for D10+10 hours with 1 Wound remaining.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077286939,
+        "modifiedTime": 1776077286939,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.5aAUR4QFSk6gqfkD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        83,
+        84
+      ],
+      "_id": "sGsE5WgzQWmOZfdK",
+      "name": "Skill Boost",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 1 Luck. Gain +5 to your next skill check.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077289142,
+        "modifiedTime": 1776077289142,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.sGsE5WgzQWmOZfdK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        86
+      ],
+      "_id": "fDPnpHolitufJlp7",
+      "name": "Step Where I Step!",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You lead the way while sneaking, granting the rest of your team +2 to their next Stealth check.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077289464,
+        "modifiedTime": 1776077289464,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.fDPnpHolitufJlp7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        87,
+        88
+      ],
+      "_id": "DKRQjTK6x6CTIRlx",
+      "name": "Stout",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You have Advantage on all Resolve checks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077289637,
+        "modifiedTime": 1776077289637,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.DKRQjTK6x6CTIRlx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        90
+      ],
+      "_id": "Hcwo8xJXxZtGEbBP",
+      "name": "Strong",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Deal +2 extra damage on melee attacks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077289957,
+        "modifiedTime": 1776077289957,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.Hcwo8xJXxZtGEbBP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        92
+      ],
+      "_id": "qbeYhmufhK96cBAg",
+      "name": "Targeted Strikes",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gain +1 to all rolls on the Hit Location table.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077291699,
+        "modifiedTime": 1776077291699,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.qbeYhmufhK96cBAg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        94
+      ],
+      "_id": "1dZxEecFTen13mpp",
+      "name": "Tough",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You roll Recovery checks with +2 WIL.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077292030,
+        "modifiedTime": 1776077292030,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.1dZxEecFTen13mpp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        95,
+        96
+      ],
+      "_id": "gQ1z9gbdcBVEtq9x",
+      "name": "Vigorous",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gain +2 extra Stamina per turn.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077293815,
+        "modifiedTime": 1776077293815,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.gQ1z9gbdcBVEtq9x"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        98
+      ],
+      "_id": "k3tEcoVDDZN4MGVo",
+      "name": "Weak Spot",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cost: 2 Stamina. Re-roll a damage roll after successfully attacking.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077293986,
+        "modifiedTime": 1776077293986,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.k3tEcoVDDZN4MGVo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "_id": "FmQZjEQxNuqkYl5G",
+      "name": "Well Connected",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You have friends everywhere in Karum Station, which allows you to find rare gear with a roll of 12+.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "createdTime": 1776077295836,
+        "modifiedTime": 1776077295836,
+        "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+      },
+      "_key": "!tables.results!4ST7FOGcjdtz9usK.FmQZjEQxNuqkYl5G"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "9WXm1j3IpU1RBAAK",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776077161002,
+    "modifiedTime": 1776080899051,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d100",
+  "_key": "!tables!4ST7FOGcjdtz9usK"
+}

@@ -1,0 +1,282 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Obsessions",
+  "_id": "7xBItFcwTqeK7mFx",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "AJ1WnXXKaoV3FliD",
+      "name": "Frugality",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Frugality and minimalism are the truest virtues, in all aspects of life.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.AJ1WnXXKaoV3FliD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "gmKwREftuXenUmoZ",
+      "name": "Suffering",
+      "img": "icons/svg/d20-black.svg",
+      "description": "All in life is suffering, there is no escaping it.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.gmKwREftuXenUmoZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "wLTj9tHGlXO06IDZ",
+      "name": "Excellence",
+      "img": "icons/svg/d20-black.svg",
+      "description": "I must become the best at everything, the strongest, most beautiful, most intelligent person around, all the time.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.wLTj9tHGlXO06IDZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "t5aaLIlw5IzgXXDX",
+      "name": "Connection",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Only human interactions give meaning to life. Socializing and spending time with others is the most valuable thing a person can do.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.t5aaLIlw5IzgXXDX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "yRSql2msDi3Ese7E",
+      "name": "Iconoclast",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nothing is sacred, all beliefs are lies. This character will do everything they can to reveal the lies of tradition, rules and religion to the whole world.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.yRSql2msDi3Ese7E"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "M1iiFcSKtTY7ii2f",
+      "name": "Chosen One",
+      "img": "icons/svg/d20-black.svg",
+      "description": "They have chosen you-their secrets have been revealed to you alone. You must learn more, uncover the Truth, and others must help you no matter what.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.M1iiFcSKtTY7ii2f"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "j5xrXAW8T3x211zU",
+      "name": "Exclusion",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Strangers are not to be trusted. Only those who you already know are worth your time and help.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.j5xrXAW8T3x211zU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "KXQEjEETla4hGHuF",
+      "name": "Anger",
+      "img": "icons/svg/d20-black.svg",
+      "description": "It’s not your fault, it’s the world’s fault. You know how everything should be, but everybody else gets it wrong and you hate them for it.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.KXQEjEETla4hGHuF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "NEhKHhOkFXgAKk3O",
+      "name": "Protector",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You must help and protect others (often even from themselves). Only you can save them all.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.NEhKHhOkFXgAKk3O"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "T7Yw545VqSnaYSpU",
+      "name": "Hedonism",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Life’s short, you better enjoy it while you can. Nothing’s gonna stop you from having a good time, all the time.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.T7Yw545VqSnaYSpU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "h1bUOgN4qmO1aO0R",
+      "name": "Shame",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You try your best, but you’re useless. Everything you do is wrong and you cannot stop apologizing for not measuring up.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.h1bUOgN4qmO1aO0R"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "ey9ZKwHH13Dz15rk",
+      "name": "Rightfulness",
+      "img": "icons/svg/d20-black.svg",
+      "description": "There’s only one way of doing things: the Right Way. Follow the rules, obey your superiors and everything will go smoothly. Those who disobey protocol are a danger to us all, and they must be stopped.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7xBItFcwTqeK7mFx.ey9ZKwHH13Dz15rk"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d12",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!7xBItFcwTqeK7mFx"
+}

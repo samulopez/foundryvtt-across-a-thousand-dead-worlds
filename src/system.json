@@ -17,8 +17,28 @@
   ],
   "esmodules": ["across-a-thousand-dead-worlds.js"],
   "styles": ["across-a-thousand-dead-worlds.css"],
-  "packFolders": [],
-  "packs": [],
+  "packFolders": [
+    {
+      "name": "Across a Thousand Dead Worlds",
+      "sorting": "a",
+      "color": "#854e29",
+      "packs": ["tables"]
+    }
+  ],
+  "packs": [
+    {
+      "name": "tables",
+      "label": "Rollable Tables",
+      "system": "across-a-thousand-dead-worlds",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
   "languages": [
     {
       "lang": "en",

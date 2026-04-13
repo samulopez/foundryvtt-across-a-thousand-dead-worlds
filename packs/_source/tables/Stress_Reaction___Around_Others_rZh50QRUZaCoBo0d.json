@@ -1,0 +1,135 @@
+{
+  "folder": "508t9AF3u9I2SBQT",
+  "name": "Stress Reaction - Around Others",
+  "_id": "rZh50QRUZaCoBo0d",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "zFFvtSt7hRBZy94u",
+      "name": "Starting an Argument",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Use their relations, stories and past events to logically decide which team member makes the most sense.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!rZh50QRUZaCoBo0d.zFFvtSt7hRBZy94u"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "PQdXGfcWyzGM0uCv",
+      "name": "Isolating or Seeking Solace",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character withdraws as much as possible—both physically and psychologically. Whether they lock themself away or grab the nearest bottle of whisky is up to the player or GM.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!rZh50QRUZaCoBo0d.PQdXGfcWyzGM0uCv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "d0eia2z9yRub4dra",
+      "name": "Becoming Anxious",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character succumbs to anxiety, making things clearly worse for others. Everyone gains 1 Stress and the character is of little help.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!rZh50QRUZaCoBo0d.d0eia2z9yRub4dra"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 8],
+      "_id": "LlwQPGpUusg8trsZ",
+      "name": "Lashing Out",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character not only starts an argument but becomes actively aggressive, potentially causing a fight (see Lashing Out, pg XXX).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!rZh50QRUZaCoBo0d.LlwQPGpUusg8trsZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 10],
+      "_id": "12V1HWXDEzHJ8l6d",
+      "name": "Becoming Uncooperative",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The character blames others for their current situation, becoming stubborn and unwilling to cooperate.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!rZh50QRUZaCoBo0d.12V1HWXDEzHJ8l6d"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.1",
+    "createdTime": 1776080899117,
+    "modifiedTime": 1776080899117,
+    "lastModifiedBy": "EZjZOH0lJlPnqqmk"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "EZjZOH0lJlPnqqmk": 3
+  },
+  "sort": 0,
+  "_key": "!tables!rZh50QRUZaCoBo0d"
+}
