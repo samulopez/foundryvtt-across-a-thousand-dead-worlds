@@ -51,6 +51,7 @@ export default defineConfig({
   plugins: [
     copy({
       targets: [
+        { src: 'packs', dest: `./dist/` },
         { src: 'src/lang', dest: `./dist/` },
         { src: 'src/templates', dest: `./dist/` },
         { src: 'src/system.json', dest: `./dist/` },
