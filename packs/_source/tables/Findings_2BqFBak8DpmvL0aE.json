@@ -1,0 +1,114 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Findings",
+  "_id": "2BqFBak8DpmvL0aE",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 4],
+      "_id": "xzVy2EfwzN4r3Xwo",
+      "name": "A particularly interesting geological formation",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Procedure dictates you must spend a whole Time Track documenting your findings, but you will be compensated with 25 DC once you return.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2BqFBak8DpmvL0aE.xzVy2EfwzN4r3Xwo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 7],
+      "_id": "h7vxZ2RrkFitmL8w",
+      "name": "A fascinating mineral growth",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Taking the appropriate samples and videos takes +1🕓 and is worth 20 DC.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2BqFBak8DpmvL0aE.h7vxZ2RrkFitmL8w"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 9],
+      "_id": "nXUohpIjWlXmKNKa",
+      "name": "An Àrsaidh monument",
+      "img": "icons/svg/d20-black.svg",
+      "description": "There are no clues as to its meaning. If it ever meant anything to begin with. Careful documentation takes +3🕓 and is worth a bonus of 25 DC.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2BqFBak8DpmvL0aE.nXUohpIjWlXmKNKa"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "qOLvYDfadTUioUj7",
+      "name": "A Xenoanthropological artifact",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Roll on the appropriate table to determine what it is.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2BqFBak8DpmvL0aE.qOLvYDfadTUioUj7"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776330056801,
+    "modifiedTime": 1776330056801,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!2BqFBak8DpmvL0aE"
+}

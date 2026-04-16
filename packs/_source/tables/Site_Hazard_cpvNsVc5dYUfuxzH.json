@@ -1,0 +1,198 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Site Hazard",
+  "_id": "cpvNsVc5dYUfuxzH",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "jRztXBAYB8haAvRP",
+      "name": "Psychic Disturbances",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Something terrible happened here, something that still echoes through its dark, cavernous halls. You can feel it, simply by standing within these cursed walls. All Resolve rolls are considered Demanding (-5).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.jRztXBAYB8haAvRP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "CNSqkDoadzTJXGNB",
+      "name": "Toxic Atmosphere",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Not only is the atmosphere unbreathable to humans (as usual), but it's also corrosive when in direct contact with skin. All characters not wearing a Level B hazmat or better suffer D20 damage every round.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.CNSqkDoadzTJXGNB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "N0xG7FOzBZBN91HC",
+      "name": "Collapsing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Something worse than the simple passage of time has caused this Site to begin slowly falling apart. Each Time Track reset, a random character must pass a DEX check or take 3D10 damage as they are struck by falling debris.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.N0xG7FOzBZBN91HC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "koDqlcnrypBdnYQT",
+      "name": "Overrun",
+      "img": "icons/svg/d20-black.svg",
+      "description": "There's nothing but hungry shadows with vicious teeth in here… All encounters are with Aberrations, which leads to instant combat.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.koDqlcnrypBdnYQT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "lPI8MN3ZjDE9riqO",
+      "name": "Lockdown",
+      "img": "icons/svg/d20-black.svg",
+      "description": "This facility is in complete lockdown, making it difficult to get inside and explore. Every single Area's access point is locked (Technology check to open).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.lPI8MN3ZjDE9riqO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "BeZaD7dIqk0Iuuu5",
+      "name": "Extreme Temperature",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Whether the Site is exposed to the vacuum or life support systems are not working as intended, this is not a place you'd like to spend too long in. If not using a vacc suit of some type, this place is impossible to explore.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.BeZaD7dIqk0Iuuu5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "Xr2aDFBxVyymw6BQ",
+      "name": "Distorted",
+      "img": "icons/svg/d20-black.svg",
+      "description": "This place twists, its corridors turning and spiraling without reason. Even time seems wrong here—hours turn to minutes, and minutes to days with no discernible pattern. Each time the Time Track progresses, there's a 50% chance it goes back one step instead of forward.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.Xr2aDFBxVyymw6BQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "QkHgLrHTgGmvrP9m",
+      "name": "Vertical",
+      "img": "icons/svg/d20-black.svg",
+      "description": "This place stretches as far vertically as it does horizontally, with constant changes in layout and height that force you to spend valuable time navigating them. In order to move between Areas, characters must climb D10 feet.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cpvNsVc5dYUfuxzH.QkHgLrHTgGmvrP9m"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776094459066,
+    "modifiedTime": 1776094459066,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d8",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!cpvNsVc5dYUfuxzH"
+}

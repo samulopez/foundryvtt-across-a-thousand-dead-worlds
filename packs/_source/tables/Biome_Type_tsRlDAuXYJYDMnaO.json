@@ -1,0 +1,261 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Biome Type",
+  "_id": "tsRlDAuXYJYDMnaO",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "lVtlXa1WlWuwrris",
+      "name": "Barren",
+      "img": "icons/svg/d20-black.svg",
+      "description": "These places are devoid of life. Their dusty and rocky surfaces have no water present, similar to the surface of Earth's moon.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.lVtlXa1WlWuwrris"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "ifRAIjKpsZXT9rW6",
+      "name": "Exotic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Populated by uniquely uncommon features such as rivers of molten metal, strange rock formations and any combination of flora, fauna and weather conditions. Light is generally refracted by the planet's atmosphere in a single, unusual color that can go from bright red to dark purple or strong green.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.ifRAIjKpsZXT9rW6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "5tLK9Ll7X8mg4qT7",
+      "name": "Frozen",
+      "img": "icons/svg/d20-black.svg",
+      "description": "This biome is completely covered in ice, making movement slow and difficult. - Characters without a Thermic Layer suffer -3 to all actions. - Traveling from one Hex to another causes +2🕓 instead of +1.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.5tLK9Ll7X8mg4qT7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "loWGIiqQo8VkO4R7",
+      "name": "Irradiated",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Irradiated biomes are generally created by an artificial cataclysmic event like an ancient military conflict or ancient powersource collapse. Occasionally though, the radiation comes from natural vents steaming radioactive gasses from the planet's depths. - Characters without a Radiation Reflector Layer or Level A Hazmat suit receive 20 rads/hex.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.loWGIiqQo8VkO4R7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "EKLNbdYkqsVgA7jS",
+      "name": "Lush",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The most inviting biome, at least by its looks. Vibrant flora and fauna of all types abound. This is still an alien planet though, so abundance of life rarely means anything good.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.EKLNbdYkqsVgA7jS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "mmFv9NiGPOvazo8J",
+      "name": "Scorched",
+      "img": "icons/svg/d20-black.svg",
+      "description": "These hard, rocky biomes are characterized by extremely high temperatures and the lack of any type of flora. They also feature the occasional lake or river of molten metal. - Characters without a Coolant Layer suffer -3 to all actions and spend 2xOxygen Pellets each hex instead of one.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.mmFv9NiGPOvazo8J"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "wyQ65OjPISvjHuvv",
+      "name": "Toxic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A high concentration of biochemicals covers every surface with a bright film, or endlessly falls from the sky. Despite it all, an unwelcoming kind of life usually manages to thrive in these environments. - Characters without a Toxin Suppressor Layer or a Level A or B Hazmat suit suffer the effects of Poison III each time they enter a new Hex.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.wyQ65OjPISvjHuvv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "NWiRNDBJbgBnR90y",
+      "name": "Urban ruins",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The remnants of a civilization long gone, a once sprawling city reduced to little more than rubble. Still, many opportunities lie here for those with the patience of scavenge for what is left. - Traveling from one Hex to another causes +2🕓 instead of +1.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.NWiRNDBJbgBnR90y"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "lIilkbJV1o1qJBsD",
+      "name": "Volcanic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Similar in many ways to a Scorched biome, a Volcanic biome takes the danger one step further. Active volcanoes and flowing lava lakes and rivers cover most of the visible area, making travel a serious endeavor. - Characters without a Coolant Layer suffer -3 to all actions and spend 2xOxygen Pellets instead of one each hex. - Traveling from one Hex to another causes +2🕓 instead of +1.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.lIilkbJV1o1qJBsD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "Do2Jrhb2EIwAV9NV",
+      "name": "Water",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Whether a large lake or ocean, this biome is almost exclusively a large body of water with no shore in sight. Ships landing on Water biomes usually do not stop at surface level - they go deep underwater, all the way to the bottom. Anything's possible down there, but one thing's for sure: deep below the sea on an alien planer, there's little difference between in and the open space. - Traveling from one Hex to another causes +2🕓 instead of +1.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.Do2Jrhb2EIwAV9NV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 12],
+      "_id": "MJiaWaqGQpvkXhIR",
+      "name": "Same as current biome",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!tsRlDAuXYJYDMnaO.MJiaWaqGQpvkXhIR"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776330056801,
+    "modifiedTime": 1776330056801,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d12",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!tsRlDAuXYJYDMnaO"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Planetside Encounters",
+  "_id": "dDvKMwldTz36kxwJ",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 6],
+      "_id": "BnGZpIrOyN6zugSY",
+      "name": "Combat encounter",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Follow the steps described on the combat section.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dDvKMwldTz36kxwJ.BnGZpIrOyN6zugSY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 10],
+      "_id": "qNxUhoqd1238TA1M",
+      "name": "Close encounter",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Roll on the Close Encounters table.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dDvKMwldTz36kxwJ.qNxUhoqd1238TA1M"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776330056801,
+    "modifiedTime": 1776330056801,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!dDvKMwldTz36kxwJ"
+}

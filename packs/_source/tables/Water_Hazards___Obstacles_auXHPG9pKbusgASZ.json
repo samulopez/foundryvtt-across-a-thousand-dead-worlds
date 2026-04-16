@@ -1,0 +1,177 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Water Hazards & Obstacles",
+  "_id": "auXHPG9pKbusgASZ",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 4],
+      "_id": "iOjTpC7op1XsTvRG",
+      "name": "Encounter. Roll a Planetside Encounter.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!auXHPG9pKbusgASZ.iOjTpC7op1XsTvRG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "wErvP4YBVk48g1JR",
+      "name": "A swarm of small snake-like creatures emerges from below, crowding around the crew. All characters must pass a Resolve check or gain D10 Stress.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!auXHPG9pKbusgASZ.wErvP4YBVk48g1JR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "wmMWT4rg9EEDFkPA",
+      "name": "A random character is attacked by some sort of tentacled creature emerging from a rock formation. The character (or their companions) must pass a STR check before D4 rounds end, or be pulled into a dark, ominous-looking hole. Failure means the character is stuck inside the hole until the crew can figure out how to pull them out.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!auXHPG9pKbusgASZ.wmMWT4rg9EEDFkPA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "XVSAYsToU2DhmvvF",
+      "name": "A steep rock formation, rising from the depths, blocks the crew's path and forces them to go around it (+2🕓).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!auXHPG9pKbusgASZ.XVSAYsToU2DhmvvF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "C7Es41FajmC42cGD",
+      "name": "The water here is highly radioactive. All characters receive 50 rads.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!auXHPG9pKbusgASZ.C7Es41FajmC42cGD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "ojPv3XVGQNiphxfA",
+      "name": "A pod of clearly predatory organisms head towards the crew. If any character passes a Perception check, they manage to spot them just in time, earning the crew a chance to hide. Failure means the crew is attacked by an Elite encounter.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!auXHPG9pKbusgASZ.ojPv3XVGQNiphxfA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "PHRMKozOkVIsGIUo",
+      "name": "The crew enters a strong underwater current—each character must pass a DEX check to swim away from the current or else they are quickly swept away to a random adjacent hex.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!auXHPG9pKbusgASZ.PHRMKozOkVIsGIUo"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776344510798,
+    "modifiedTime": 1776344510798,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!auXHPG9pKbusgASZ"
+}

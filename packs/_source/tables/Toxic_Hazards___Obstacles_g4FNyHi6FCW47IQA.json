@@ -1,0 +1,219 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Toxic Hazards & Obstacles",
+  "_id": "g4FNyHi6FCW47IQA",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "goQEprhKNJPqpuRP",
+      "name": "Encounter. Roll a Planetside Encounter.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.goQEprhKNJPqpuRP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "SedjNeiqF0BaKb62",
+      "name": "A poisonous marsh, its toxic fumes hell on any suit’s air filters. If crossed, there’s a 1 in 6 chance the air filtration system in a suit fails, requiring a successful Technology check to be repaired.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.SedjNeiqF0BaKb62"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "LpWAEhsoq7hMDtDc",
+      "name": "A sludge-covered plain, difficult to traverse (+1🕓).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.LpWAEhsoq7hMDtDc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "Oks5A7qUpuoWoAxl",
+      "name": "A jungle-like area of full prehensile vines which attempt to grab the crew members. All characters must pass a DEX check to avoid being entangled (STC check to escape). Each failed attempt causes +1🕓.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.Oks5A7qUpuoWoAxl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "TxhZZlnTfNZx6LNp",
+      "name": "A random character suddenly realizes they have been poisoned somehow (random severity.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.TxhZZlnTfNZx6LNp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "ZFSurW7SrKKJwFCy",
+      "name": "A perfectly spherical metal globe, the size of a small house, sits in the middle of an empty field. If approached, roll a D20: 1-10) its surface is textured to reveal the contents of all adjacent hexes; 11-19) a blast of energy shocks a random character, dealing 2D20 damage; 20) an orifice opens in its side, revealing a strange metal gauntlet that immediately adjusts itself to the wearer’s anatomy. The wearer can somehow move metal objects no larger than a beach ball at a distance of 20’.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.ZFSurW7SrKKJwFCy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "vVmMb8CX84H4nA65",
+      "name": "The ground collapses out from under the characters' feet. They fall inside a spongy but highly corrosive surface. They must climb out the 10' hole in less than 5 rounds or their boots dissolve (followed by their feet, legs, etc.).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.vVmMb8CX84H4nA65"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "iF3XwaIzucIWcICr",
+      "name": "A large lake of acid occupies this area, forcing the crew to go around it +2🕓.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.iF3XwaIzucIWcICr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "SD6LED7oYoRxQ5wz",
+      "name": "A field of fungal lifeforms—small, white and spherical—covers this whole hex. They explode in a splash of acid when touched, dealing D20 damage in a 3’ radius, so all characters must pass a Stealth check to avoid disturbing the fungi.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!g4FNyHi6FCW47IQA.SD6LED7oYoRxQ5wz"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776344510798,
+    "modifiedTime": 1776344510798,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!g4FNyHi6FCW47IQA"
+}

@@ -1,0 +1,177 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Lush Hazards & Obstacles",
+  "_id": "OWJddoa4qkHypxqP",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 4],
+      "_id": "Ac9njKjUpgdvDrxh",
+      "name": "Encounter. Roll a Planetside Encounter.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!OWJddoa4qkHypxqP.Ac9njKjUpgdvDrxh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "dZdNnRtOj99YVxw3",
+      "name": "If every character fails a Perception check, they fail to realize they’re about to step onto a thin membrane. With a violent contraction, a random character is slowly but surely enveloped—they suffer D10 damage every round until freed, whether by another character or with their own tools and quick thinking.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!OWJddoa4qkHypxqP.dZdNnRtOj99YVxw3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "7xJFAYPUal04ptMF",
+      "name": "A shrieking, flying creature suddenly appears and attempts to grab a random character. They must pass a DEX check or be taken away to the creature’s nest on a high mountain peak D20 miles away.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!OWJddoa4qkHypxqP.7xJFAYPUal04ptMF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "fz1VzBiP9fbZAkYH",
+      "name": "A blood-curdling howl freezes the whole crew in place. All characters must pass a Resolve check or gain 10 Stress.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!OWJddoa4qkHypxqP.fz1VzBiP9fbZAkYH"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "yoGkwJAkbYBkVAvY",
+      "name": "The ground falls out from under the characters' feet. Every character takes D20 damage and they must find a way back up the 20+D20' fall.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!OWJddoa4qkHypxqP.yoGkwJAkbYBkVAvY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "UqZTyoXiQOziCQNj",
+      "name": "A thick, heavy fog impedes visibility, forcing the crew to wait in place for +D4🕓.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!OWJddoa4qkHypxqP.UqZTyoXiQOziCQNj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "pmsUg8qJ4OvPEvVr",
+      "name": "A random character must pass a Perception check or step on a strange translucid sack. If they fail, it explodes and releases a spider-like creature which immediately attempts to bite them. Only a DrakeSkin with an Armor Module Class A or higher can resist the attack. If bitten, the character must pass a CON check or become infected.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!OWJddoa4qkHypxqP.pmsUg8qJ4OvPEvVr"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776344510798,
+    "modifiedTime": 1776344510798,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!OWJddoa4qkHypxqP"
+}

@@ -1,0 +1,240 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Taints",
+  "_id": "mhqpJw56dijcGgpx",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "zz24ulgK547ebVQE",
+      "name": "Contaminated Surge",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A dark feeling pushes the pain away - an exhilarating rush akin to diving into water from high above. Your max Wounds are reduced by 1 but once per Site you may heal all Wounds and Conditions.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.zz24ulgK547ebVQE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "LZQnOxdeaHAHKJJn",
+      "name": "Necrotic Skin",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your skin feels different, as if it were quickly dying and peeling off, only to regrow in a matter of seconds. You suffer an extra D4 damage when receiving any damage, but permanently gain Armor (2).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.LZQnOxdeaHAHKJJn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "mxGeYnZNyj1ZJPnq",
+      "name": "The Hunger",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A weakness takes hold, something you cannot shake off. It makes you vicious, seeking violence's temporary relief. You lose 2 CON but gain Armor Penetration (5).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.mxGeYnZNyj1ZJPnq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "5ODWgajGfhW6eaTI",
+      "name": "Puppet of the Gods",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your will snaps, leaving your destiny in the hands of the gods. You lose 2 WIL but start every Site exploration with +1 Luck.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.5ODWgajGfhW6eaTI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "PwmSIvAh2RkqsmFR",
+      "name": "Scrambled Memories",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your past blurs and you remember things wrongly. You find yourself incapable of doing some things but have gained new skills. Lose 5 skill points in one skill, but redistribute them among any others.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.PwmSIvAh2RkqsmFR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "O2c9hHA6GNoolt4T",
+      "name": "Dark Essence",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your constitution drains, leaving you sick and nauseous, yet a newfound viciousness sprouts forth, making you implacable during combat. Lose 1 max Wound but deal an extra D10 damage with each attack.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.O2c9hHA6GNoolt4T"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "PZzmFDE1tNusVUDQ",
+      "name": "Distorted Reality",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your experience of reality shifts, making it difficult to distinguish what's real from what is not. You earn half the XP you normally would, but are immune to the effects of Stress.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.PZzmFDE1tNusVUDQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "JwFZKE0JzOgLCB7N",
+      "name": "Infested Arm",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Your left arm is taken by the Taint, becoming totally unresponsive. You can only use one-handed weapons, but you're filled with an ecstatic urge to survive which grants you +1 max Wounds.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.JwFZKE0JzOgLCB7N"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "02QKcVop3ZOtWOoh",
+      "name": "Poisoned",
+      "img": "icons/svg/d20-black.svg",
+      "description": "You feel the Taint running through your veins - you're unsure if you can hold back its malignant effects much longer. You start every Site exploration with Poisoned (I), but have advantage on all non-combat related CON checks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.02QKcVop3ZOtWOoh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "9JcCcul6YlE0QnqL",
+      "name": "Blinded",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The Taint takes over your sight - you can barely see anything but silhouettes - but as your body adapts, you feel as if nothing could possibly poison you. You are Blinded, but become immune to radiation and poison.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!mhqpJw56dijcGgpx.9JcCcul6YlE0QnqL"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776151082516,
+    "modifiedTime": 1776151082516,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!mhqpJw56dijcGgpx"
+}
