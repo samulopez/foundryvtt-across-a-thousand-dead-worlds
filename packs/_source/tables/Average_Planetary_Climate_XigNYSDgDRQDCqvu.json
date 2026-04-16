@@ -1,0 +1,135 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Average Planetary Climate",
+  "_id": "XigNYSDgDRQDCqvu",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "vp3tJhTscvYZIzbZ",
+      "name": "Extremely Hot (160 ºF)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!XigNYSDgDRQDCqvu.vp3tJhTscvYZIzbZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "gRPfahEDv5eEmHOx",
+      "name": "Hot (140 ºF)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!XigNYSDgDRQDCqvu.gRPfahEDv5eEmHOx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "vyWWnZ5RhKzvz9iR",
+      "name": "Temperate (85 ºF)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!XigNYSDgDRQDCqvu.vyWWnZ5RhKzvz9iR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 8],
+      "_id": "optsAK9SPcm0fmS6",
+      "name": "Cold (40 ºF)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!XigNYSDgDRQDCqvu.optsAK9SPcm0fmS6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 10],
+      "_id": "KMFw4Oo4muvd31jG",
+      "name": "Extremely Cold (10 ºF)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!XigNYSDgDRQDCqvu.KMFw4Oo4muvd31jG"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776330056801,
+    "modifiedTime": 1776330056801,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!XigNYSDgDRQDCqvu"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Variable Combat Encounter Difficulty",
+  "_id": "Jz0RlW94kwebPlSU",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "FvR43o9cx4Z9TI7h",
+      "name": "Easy",
+      "img": "icons/svg/d20-black.svg",
+      "description": "-5 to Combat Skills",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jz0RlW94kwebPlSU.FvR43o9cx4Z9TI7h"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 8],
+      "_id": "JeQZ2LtZMFx6QGv7",
+      "name": "Average",
+      "img": "icons/svg/d20-black.svg",
+      "description": "No changes",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jz0RlW94kwebPlSU.JeQZ2LtZMFx6QGv7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 10],
+      "_id": "p86KZ7KfseOegimZ",
+      "name": "Hard",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+5 to Combat Skills",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Jz0RlW94kwebPlSU.p86KZ7KfseOegimZ"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776151082516,
+    "modifiedTime": 1776151082516,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!Jz0RlW94kwebPlSU"
+}

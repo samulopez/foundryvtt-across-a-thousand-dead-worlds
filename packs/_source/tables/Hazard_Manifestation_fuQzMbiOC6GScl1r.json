@@ -1,0 +1,450 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Hazard Manifestation",
+  "_id": "fuQzMbiOC6GScl1r",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "TirUkS9VQeLpPte9",
+      "name": "Drains a character’s resources",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.TirUkS9VQeLpPte9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "fTe2sz0NzHHAnmw6",
+      "name": "Assaults a character’s senses",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.fTe2sz0NzHHAnmw6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "N7EXxZofJ6VDIWEx",
+      "name": "Destroys a piece of gear",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.N7EXxZofJ6VDIWEx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "2xTRz5iNr4anEO44",
+      "name": "Creates a biohazardous danger",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.2xTRz5iNr4anEO44"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "pvYLAAXYrEDoSRdB",
+      "name": "Assaults a character with visions",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.pvYLAAXYrEDoSRdB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "RoIxGLgICLbIERIC",
+      "name": "Produces loud noises",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.RoIxGLgICLbIERIC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "lhetWFKDdZMPSsAz",
+      "name": "Forces a character into unconscious",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.lhetWFKDdZMPSsAz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "46DCu3OidBQD28oV",
+      "name": "Closes off the path behind the crew",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.46DCu3OidBQD28oV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "AmswWkmTJk9oU6Op",
+      "name": "Terribly assaults a character’s mind",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.AmswWkmTJk9oU6Op"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "9cpJR0EmIBav4kTA",
+      "name": "Hides something of value",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.9cpJR0EmIBav4kTA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "tRxLxXs4vloaKoCT",
+      "name": "Opens a path to a new Area",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.tRxLxXs4vloaKoCT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "2lCYNYPw7gantZul",
+      "name": "Removes an advantage or strength",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.2lCYNYPw7gantZul"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "aYm6VxlwZYDlXrj5",
+      "name": "Affects a character’s recovery (psychological or physical)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.aYm6VxlwZYDlXrj5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "z9fvvg0u2G053ydg",
+      "name": "Affects the Time Track",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.z9fvvg0u2G053ydg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "ClTt4xNiChBqUSoh",
+      "name": "Attracts the unwanted attention of a creature",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.ClTt4xNiChBqUSoh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "291eZhe6NVtwZDTP",
+      "name": "Affects a character in a way that doesn’t manifest for days",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.291eZhe6NVtwZDTP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "GwHl2avfnMeJCNDV",
+      "name": "Affects a relationship",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.GwHl2avfnMeJCNDV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "62LxEK0VpNzT5hQ3",
+      "name": "Forcibly moves the crew to a different Area",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.62LxEK0VpNzT5hQ3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "BTKDzaTjYfIs5BNd",
+      "name": "Forms a trap",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.BTKDzaTjYfIs5BNd"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "U6U7OQK7DoytzypE",
+      "name": "Provides a benefit",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!fuQzMbiOC6GScl1r.U6U7OQK7DoytzypE"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776151082516,
+    "modifiedTime": 1776151082516,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!fuQzMbiOC6GScl1r"
+}

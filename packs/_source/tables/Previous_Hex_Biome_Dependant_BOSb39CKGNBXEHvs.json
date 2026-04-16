@@ -1,0 +1,135 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Previous Hex Biome-Dependant",
+  "_id": "BOSb39CKGNBXEHvs",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 10],
+      "_id": "86NJIuyUsLvWdOgI",
+      "name": "Biome-Dependant",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BOSb39CKGNBXEHvs.86NJIuyUsLvWdOgI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 16],
+      "_id": "Gzh2mn7tyhJBp6Aq",
+      "name": "Convoluted",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BOSb39CKGNBXEHvs.Gzh2mn7tyhJBp6Aq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 18],
+      "_id": "LKeXtZDoifJEHdWl",
+      "name": "Hazardous",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BOSb39CKGNBXEHvs.LKeXtZDoifJEHdWl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "dzNiQcZiMXNce98A",
+      "name": "Inhabited",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BOSb39CKGNBXEHvs.dzNiQcZiMXNce98A"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "7fZUu1kgupSOiwq4",
+      "name": "Easy Going",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BOSb39CKGNBXEHvs.7fZUu1kgupSOiwq4"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776330056801,
+    "modifiedTime": 1776330056801,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!BOSb39CKGNBXEHvs"
+}

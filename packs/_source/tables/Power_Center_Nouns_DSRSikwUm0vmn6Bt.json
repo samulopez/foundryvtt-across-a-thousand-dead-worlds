@@ -1,0 +1,450 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Power Center Nouns",
+  "_id": "DSRSikwUm0vmn6Bt",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "1G6tuz2Zfy3KHGL8",
+      "name": "Energy",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.1G6tuz2Zfy3KHGL8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "WJAFyVHP9UFuYWP9",
+      "name": "Fuel",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.WJAFyVHP9UFuYWP9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "241uBOkYKiUplmj9",
+      "name": "Power",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.241uBOkYKiUplmj9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "HZ5N1KJEb0xGQcZa",
+      "name": "Coil",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.HZ5N1KJEb0xGQcZa"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "Hf0sxV6Mk3otieuo",
+      "name": "Storage",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.Hf0sxV6Mk3otieuo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "xvSJIJeQdmqTMCQw",
+      "name": "Battery",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.xvSJIJeQdmqTMCQw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "C9utQjvGGuTsmtAO",
+      "name": "Engine",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.C9utQjvGGuTsmtAO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "uTzyXhGLLWPlkpmh",
+      "name": "Generator",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.uTzyXhGLLWPlkpmh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "qUX7DS9Qs1kSLB7j",
+      "name": "Electricity",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.qUX7DS9Qs1kSLB7j"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "P8RVGmUKHzs8kgo0",
+      "name": "Field",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.P8RVGmUKHzs8kgo0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "RIAUSvK8MpdjpncN",
+      "name": "Station",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.RIAUSvK8MpdjpncN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "MqkpjScIYyhm4aNe",
+      "name": "Grid",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.MqkpjScIYyhm4aNe"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "p96zYpKXzsLLMKep",
+      "name": "Control",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.p96zYpKXzsLLMKep"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "U9DzQmVh4uzkKx1z",
+      "name": "Development",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.U9DzQmVh4uzkKx1z"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "BowYOHYInMjIvrpy",
+      "name": "Line",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.BowYOHYInMjIvrpy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "1zMBrom7vijYkt8R",
+      "name": "Pipe",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.1zMBrom7vijYkt8R"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "VrlJFjvi4pCqds60",
+      "name": "Conductor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.VrlJFjvi4pCqds60"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "Loe8Q5TzIjEAfmt0",
+      "name": "Factory",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.Loe8Q5TzIjEAfmt0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "vyMZ1upJE9vQ9aEI",
+      "name": "Research",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.vyMZ1upJE9vQ9aEI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "E3B3QhQwE0PS5rQ5",
+      "name": "Equipment",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!DSRSikwUm0vmn6Bt.E3B3QhQwE0PS5rQ5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776151082516,
+    "modifiedTime": 1776151082516,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!DSRSikwUm0vmn6Bt"
+}

@@ -1,0 +1,114 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Random Teleportation",
+  "_id": "cy97vQUIjuyFQbND",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 3],
+      "_id": "x8uAoeDWn1WtzS0N",
+      "name": "To a new, unexplored Area",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cy97vQUIjuyFQbND.x8uAoeDWn1WtzS0N"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 6],
+      "_id": "xcSzUlr2RtINznmO",
+      "name": "To the Site's entrance",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cy97vQUIjuyFQbND.xcSzUlr2RtINznmO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 9],
+      "_id": "r88jIONk3au1fyc6",
+      "name": "Inside a locked room",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cy97vQUIjuyFQbND.r88jIONk3au1fyc6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "PPL2Yzw3C5FgYw8i",
+      "name": "Outside (the planet's surface or the vacuum of space, depending on the Site)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!cy97vQUIjuyFQbND.PPL2Yzw3C5FgYw8i"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776151082516,
+    "modifiedTime": 1776151082516,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!cy97vQUIjuyFQbND"
+}

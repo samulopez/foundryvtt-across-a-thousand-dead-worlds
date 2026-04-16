@@ -1,0 +1,135 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Atmospheric Density",
+  "_id": "SeYDBmxi5QLHmNfz",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "rt8RvTuFV5wP3Eod",
+      "name": "Very Thin",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Comparable to Earth's atmosphere at an altitude of 5 miles.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!SeYDBmxi5QLHmNfz.rt8RvTuFV5wP3Eod"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "dpk6Jzpx1091vXmo",
+      "name": "Thin",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Comparable to Earth's atmosphere at an altitude of 2-3 miles.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!SeYDBmxi5QLHmNfz.dpk6Jzpx1091vXmo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "xNa6HAxNblTgMqfR",
+      "name": "Optimum",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The atmosphere's density is perfectly optimal for humans.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!SeYDBmxi5QLHmNfz.xNa6HAxNblTgMqfR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 8],
+      "_id": "VY0UtbbpFRtmUS1F",
+      "name": "Dense",
+      "img": "icons/svg/d20-black.svg",
+      "description": "These heavy atmospheres would be difficult to breathe in, provided they had the right balance of gasses for a human being.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!SeYDBmxi5QLHmNfz.VY0UtbbpFRtmUS1F"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 10],
+      "_id": "Csip96QT17up672R",
+      "name": "Thick",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The constant pressure of these dense atmospheres is almost comparable to being underwater.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!SeYDBmxi5QLHmNfz.Csip96QT17up672R"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776330056801,
+    "modifiedTime": 1776330056801,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!SeYDBmxi5QLHmNfz"
+}

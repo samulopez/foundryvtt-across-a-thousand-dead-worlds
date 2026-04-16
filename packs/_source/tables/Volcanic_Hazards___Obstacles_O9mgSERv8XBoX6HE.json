@@ -1,0 +1,114 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Volcanic Hazards & Obstacles",
+  "_id": "O9mgSERv8XBoX6HE",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "LzrvUp0GBt7HajPe",
+      "name": "Encounter. Roll a Planetside Encounter.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!O9mgSERv8XBoX6HE.LzrvUp0GBt7HajPe"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "TXiuJd6CYuLa8LJh",
+      "name": "The ground shakes violently, throwing all crew members to their knees. There’s a 1 in 6 chance rubble from the nearby buildings falls onto the characters—each crew member must pass a DEX check or suffer D4 wounds.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!O9mgSERv8XBoX6HE.TXiuJd6CYuLa8LJh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "wBc9MMbhfFS1PRWZ",
+      "name": "An impossibly high volcano blocks the crew's path, forcing them to walk around it (+1🕓).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!O9mgSERv8XBoX6HE.wBc9MMbhfFS1PRWZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 10],
+      "_id": "0mqfismsIZlCxUtK",
+      "name": "Lava covers this whole area, making it completely inaccessible. The crew must find a different hex to pass through.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!O9mgSERv8XBoX6HE.0mqfismsIZlCxUtK"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776344510798,
+    "modifiedTime": 1776344510798,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!O9mgSERv8XBoX6HE"
+}

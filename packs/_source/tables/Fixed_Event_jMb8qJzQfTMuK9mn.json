@@ -1,0 +1,450 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Fixed Event",
+  "_id": "jMb8qJzQfTMuK9mn",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "JSCN45NuqiGXp4QL",
+      "name": "A random character is assaulted by terrible visions: incomprehensible creatures emerge from the walls, leaving bloody trails in their wake. The character gains D10 Stress and must pass a WIL check to avoid firing at will (other Divers must pass a DEX check or be hit)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.JSCN45NuqiGXp4QL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "d62JgZfkhTeXl20P",
+      "name": "Strange growth covers this room, a moss-like tumor the color of rotten leaves that is somehow corroding even A-metal! Characters must make a DEX check or lose a random piece of gear.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.d62JgZfkhTeXl20P"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "SYWtXMzw6sXmb8o8",
+      "name": "A throne-shaped structure has been erected in the middle of this room, made entirely of different kinds of bones. A Perception check reveals a surprise among the bones: a human skull.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.SYWtXMzw6sXmb8o8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "3U2A1cRE5Dpq0b6z",
+      "name": "This section’s floor has completely crumbled away, revealing a deep black hole below.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.3U2A1cRE5Dpq0b6z"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "Mvit8Bbb3AVE885Y",
+      "name": "A random character hears an insistent voice asking, “Why are you here?” The character gains 5 Stress.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.Mvit8Bbb3AVE885Y"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "BHOQdfHpsErR5O3I",
+      "name": "Two random crew members get the very strong impression they are being followed. Is it true, though?",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.BHOQdfHpsErR5O3I"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "zL672I9DrMYVr6ss",
+      "name": "Right as the crew enters this room, they catch a glimpse of someone leaving it. Pursuing results in nothing—did that actually happen, or was it all in their heads?",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.zL672I9DrMYVr6ss"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "Z1tPaVdfkP874O5f",
+      "name": "A mix of mud and slime covers this unusually warm room, filth dripping from its walls. In the corner, a pile of what appears to be large eggs shivers slightly. Something stirs inside of each egg.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.Z1tPaVdfkP874O5f"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "mEJ3qFBvV8VnParQ",
+      "name": "As the crew enters this Area, all their electronic devices and light sources stop working for as long as they remain within.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.mEJ3qFBvV8VnParQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "ziThwciPYhs2BfAQ",
+      "name": "Distracted, a random crew member is bitten on the hand. There’s nothing around, but the bite is clearly real. Is the bite dangerous?",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.ziThwciPYhs2BfAQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "GCmRvbZJglwlWcHm",
+      "name": "Strange fungi cover this Area, bulbous, pale and wet. Walking close to them causes them to burst in a cloud of spores. If any character has exposed skin, they suffer the effects of Poison II.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.GCmRvbZJglwlWcHm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "IXn7DNrQ6JWaUn3s",
+      "name": "This Area's floor is completely frozen and covered with a sheet of ice, making it difficult to traverse. Advance the Time Track +1🕓.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.IXn7DNrQ6JWaUn3s"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "mG6VLgdyTvzkxqvZ",
+      "name": "This Area is riddled with small tunnels that form the hive of a local Abomination. Excess noise could awaken the Hive: each character must pass a Stealth check or they’re in trouble. Use the Swarm enemy profile (Hard). The creatures will not give chase beyond the hive.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.mG6VLgdyTvzkxqvZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "rBOqSEM7IkiIvvtD",
+      "name": "As soon as the crew enters this Area they fall to their knees, heads spinning. They see themselves from outside their own bodies and hear a loud grating while their vision fluctuates. When it stops, something's terribly wrong: each player swaps their character sheet with the player to their left. This last until the Time Track resets. If alone, the visions overload their senses, leaving them confused as the Time Track advances +1🕓.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.rBOqSEM7IkiIvvtD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "EDpwoV7JT67uG4N1",
+      "name": "This room is at least 5 times taller than the others, with a stela or decorative column in its center. Approaching it has a 50% chance of granting or consuming 1 Luck.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.EDpwoV7JT67uG4N1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "lLFu0CY1CoFLTqW7",
+      "name": "A dull metallic box sits in a corner of this room. About 1’ tall and deep, it has a clear lid that can be easily opened. There’s a 50% chance opening it reveals a valuable artifact (pg XXX) and a 50% chance it sets off an explosive (D20 damage).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.lLFu0CY1CoFLTqW7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "0uCg67A3gyHRzW6r",
+      "name": "A ladder in this room leads to a hatch in the ceiling. This is a direct exit point from the Site.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.0uCg67A3gyHRzW6r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "7tauFz3Hl51lShMo",
+      "name": "A subtle humming can be heard, slowly but surely increasing in intensity. If the characters remain here for longer than a minute, they must pass a CON check or take D10+5 damage and start bleeding from their ears.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.7tauFz3Hl51lShMo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "bV4mOBs6WEyW2qFM",
+      "name": "A strange sense of calmness invades all characters who enter this area - the feeling of having recovered a lost, cherished memory. Remaining here for a while (+1 🕓) restores D20 Stress but makes it difficult to leave voluntarily. Characters must past a WIL check to leave, and can only attempt it once every 10 minutes (+1 🕓).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.bV4mOBs6WEyW2qFM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "wCdJLvwn1XeULL0r",
+      "name": "A bright light burns in the center of this Area—like a miniature sun floating upon a pedestal. This was probably some sort of power source, but unfortunately it is unstable and leaking radiation. Anyone not wearing protective gear is exposed to D100x3 rads.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!jMb8qJzQfTMuK9mn.wCdJLvwn1XeULL0r"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776151082516,
+    "modifiedTime": 1776151082516,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!jMb8qJzQfTMuK9mn"
+}

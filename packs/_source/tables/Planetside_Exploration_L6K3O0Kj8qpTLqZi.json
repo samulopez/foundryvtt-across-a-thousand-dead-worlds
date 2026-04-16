@@ -1,0 +1,114 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Planetside Exploration",
+  "_id": "L6K3O0Kj8qpTLqZi",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "zQ9fjVypKb979vrl",
+      "name": "You find something that might be of interest to the KSA. Roll on the Findings table.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!L6K3O0Kj8qpTLqZi.zQ9fjVypKb979vrl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 5],
+      "_id": "Zgcve3UTZit0Z81S",
+      "name": "You find nothing of interest.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!L6K3O0Kj8qpTLqZi.Zgcve3UTZit0Z81S"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 9],
+      "_id": "mdioEwVUo1VzfsMn",
+      "name": "You encounter a hazard. Roll on the appropriate Biome's Hazards & Obstacles table.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!L6K3O0Kj8qpTLqZi.mdioEwVUo1VzfsMn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "hEmwIwFST3IGPYn9",
+      "name": "You encounter an Àrsaidh Site. Follow the standard Site creation procedure to explore it.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!L6K3O0Kj8qpTLqZi.hEmwIwFST3IGPYn9"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776330056801,
+    "modifiedTime": 1776330056801,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!L6K3O0Kj8qpTLqZi"
+}

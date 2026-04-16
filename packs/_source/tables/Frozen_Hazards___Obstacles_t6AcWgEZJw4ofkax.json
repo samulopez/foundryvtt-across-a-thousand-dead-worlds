@@ -1,0 +1,219 @@
+{
+  "folder": "tseyShKMiKcEQdLr",
+  "name": "Frozen Hazards & Obstacles",
+  "_id": "t6AcWgEZJw4ofkax",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "FfFgM9VbgKHZLgNg",
+      "name": "Encounter. Roll a Planetside Encounter.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.FfFgM9VbgKHZLgNg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "XjGnSs7dOKxW3OCO",
+      "name": "A steep cliff forces the crew to go around this hex.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.XjGnSs7dOKxW3OCO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "T7niWFMacn8XD9nn",
+      "name": "A huge frozen lake, sleek and mirror-like, makes crossing this hex a difficult task (+1🕓).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.T7niWFMacn8XD9nn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "Ewm4N47I8cZ7TqZC",
+      "name": "Razor-like shards of ice cover this area, making progress difficult and dangerous. There’s a 1 in 6 chance a random character slashes their vacc or hazard suit (unless it’s armored).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.Ewm4N47I8cZ7TqZC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "a9u99IOKUyaSyesb",
+      "name": "A thin, bridge-like stone structure seemed the only way to cross a dangerous spot. Unfortunately, it collapses under the weight of a random character, who takes D20 damage and must find a way back up from the 20’ fall.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.a9u99IOKUyaSyesb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "Sz8c6Lvrdm1x7GVt",
+      "name": "Large sharp ice shards fall from above in a violent hail. Unless a crew member passes a Survival check, every crew member takes 3D10 damage.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.Sz8c6Lvrdm1x7GVt"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "cfL8CjQt3TaY3KJK",
+      "name": "The ground falls out from under the characters' feet. Every character takes D20 damage and they must find a way back up the 20+D20' fall.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.cfL8CjQt3TaY3KJK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "Qcb4Re9LRgSvBIA0",
+      "name": "A thick, smoke-like fog impedes visibility, forcing the crew to wait in place for +D4🕓.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.Qcb4Re9LRgSvBIA0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "EykMlrKMJmuRf0E5",
+      "name": "If every character fails a Perception check, they fail to realize they’re walking on thin ice. With a loud crack, a random character falls into the icy cold water—they must pass a CON check (unless they’re wearing a thermal layer) or pass out and sink to their death, unless somehow rescued by another character.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!t6AcWgEZJw4ofkax.EykMlrKMJmuRf0E5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.4",
+    "createdTime": 1776344510798,
+    "modifiedTime": 1776344510798,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!t6AcWgEZJw4ofkax"
+}
