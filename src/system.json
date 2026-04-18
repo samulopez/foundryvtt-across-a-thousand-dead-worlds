@@ -64,7 +64,6 @@
     "units": "hexes"
   },
   "primaryTokenAttribute": "secondaryAttributes.wounds",
-  "secondaryTokenAttribute": "secondaryAttributes.stamina",
   "bugs": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/issues",
   "changelog": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/releases",
   "download": "https://github.com/samulopez/foundryvtt-across-a-thousand-dead-worlds/releases/download/v0.0.1/system.zip",

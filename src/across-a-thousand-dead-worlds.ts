@@ -43,10 +43,14 @@ Hooks.once('init', async () => {
     gear: GearDataModel,
     weapon: WeaponDataModel,
   };
+  CONFIG.Combat.initiative = {
+    formula: '1d10',
+    decimals: 0,
+  };
   CONFIG.Actor.trackableAttributes = {
     deepDiver: {
-      bar: ['secondaryAttributes.wounds', 'secondaryAttributes.stamina'],
-      value: ['level'],
+      bar: ['secondaryAttributes.wounds'],
+      value: ['level', 'secondaryAttributes.stamina'],
     },
     npc: {
       bar: ['secondaryAttributes.wounds'],

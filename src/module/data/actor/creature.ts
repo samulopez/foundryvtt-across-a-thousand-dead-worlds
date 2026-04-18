@@ -25,6 +25,12 @@ const { ArrayField, BooleanField, NumberField, SchemaField, StringField } = foun
 
 export const defineCreatureModel = () => ({
   primaryAttributes: primaryAttributes(),
+  secondaryAttributes: new SchemaField({
+    wounds: new SchemaField({
+      value: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+      max: new NumberField({ required: true, integer: true, min: 0, initial: 3 }),
+    }),
+  }),
   type: new StringField({ choices: CREATURE_TYPE, initial: CREATURE_TYPE.none }),
   size: new StringField({ choices: CREATURE_SIZE, initial: CREATURE_SIZE.none }),
   drive: new StringField({ choices: CREATURE_DRIVE, initial: CREATURE_DRIVE.none }),
@@ -34,10 +40,6 @@ export const defineCreatureModel = () => ({
   hitLocation: new StringField({
     choices: HIT_LOCATIONS,
     initial: HIT_LOCATIONS.none,
-  }),
-  wounds: new SchemaField({
-    value: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
-    max: new NumberField({ required: true, integer: true, min: 0, initial: 3 }),
   }),
   awareness: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
   armor: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
