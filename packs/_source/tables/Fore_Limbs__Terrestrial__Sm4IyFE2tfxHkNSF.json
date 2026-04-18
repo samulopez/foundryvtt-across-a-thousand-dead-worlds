@@ -1,0 +1,156 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Fore Limbs (Terrestrial)",
+  "_id": "Sm4IyFE2tfxHkNSF",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 5],
+      "_id": "zGi96c6vCt1Fihng",
+      "name": "Same as Hind Limbs",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Sm4IyFE2tfxHkNSF.zGi96c6vCt1Fihng"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "HrHSej5zhWke71ic",
+      "name": "None",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Sm4IyFE2tfxHkNSF.HrHSej5zhWke71ic"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "AiTgJpooDmXGi3LG",
+      "name": "Claws",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Sm4IyFE2tfxHkNSF.AiTgJpooDmXGi3LG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "U1NBSNxt1CrhcidN",
+      "name": "Talons",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Sm4IyFE2tfxHkNSF.U1NBSNxt1CrhcidN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "ib5Oggdz6KOYJpD1",
+      "name": "Tentacles",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Sm4IyFE2tfxHkNSF.ib5Oggdz6KOYJpD1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "FCQuwvXVNJM3jqjN",
+      "name": "Pincers",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Sm4IyFE2tfxHkNSF.FCQuwvXVNJM3jqjN"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!Sm4IyFE2tfxHkNSF"
+}

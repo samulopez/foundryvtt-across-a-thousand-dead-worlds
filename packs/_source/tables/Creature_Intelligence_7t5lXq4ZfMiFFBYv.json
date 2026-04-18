@@ -1,0 +1,93 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Creature Intelligence",
+  "_id": "7t5lXq4ZfMiFFBYv",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 7],
+      "_id": "ItYaUEgwuxvk59OK",
+      "name": "Animal-like (6-1D4)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7t5lXq4ZfMiFFBYv.ItYaUEgwuxvk59OK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 9],
+      "_id": "j3JUCJLzl3JUhEOY",
+      "name": "Human-like (6+1D8)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7t5lXq4ZfMiFFBYv.j3JUCJLzl3JUhEOY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "7kQvGvrL7PaG0ArU",
+      "name": "Above human (12+1D8)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7t5lXq4ZfMiFFBYv.7kQvGvrL7PaG0ArU"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!7t5lXq4ZfMiFFBYv"
+}

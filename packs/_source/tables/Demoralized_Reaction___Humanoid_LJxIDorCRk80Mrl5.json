@@ -1,0 +1,156 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Demoralized Reaction - Humanoid",
+  "_id": "LJxIDorCRk80Mrl5",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "nS4XwD4vdoSPvo0i",
+      "name": "Panics, immediately attempts to flee",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!LJxIDorCRk80Mrl5.nS4XwD4vdoSPvo0i"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "4siD1uoYFHAQvPNF",
+      "name": "Ceases to attack for D4 rounds while it cowers in fear",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!LJxIDorCRk80Mrl5.4siD1uoYFHAQvPNF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "lASud1JrFXnmyEOr",
+      "name": "Confused by fear, it attacks the nearest target, friend or foe",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!LJxIDorCRk80Mrl5.lASud1JrFXnmyEOr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "Mn5j1uQyHT9dLrhO",
+      "name": "Attempts to pull back to assess the situation",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!LJxIDorCRk80Mrl5.Mn5j1uQyHT9dLrhO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "OrVZbUjdFfyPboIv",
+      "name": "Freezes in confusion, losing its turn",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!LJxIDorCRk80Mrl5.OrVZbUjdFfyPboIv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "OhdK6uLXH4rGiWIL",
+      "name": "Blindly attacks the nearest opponent at -5 to its combat skill",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!LJxIDorCRk80Mrl5.OhdK6uLXH4rGiWIL"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d6",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!LJxIDorCRk80Mrl5"
+}

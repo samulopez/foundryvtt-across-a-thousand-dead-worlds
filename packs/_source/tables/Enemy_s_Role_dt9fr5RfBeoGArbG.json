@@ -1,0 +1,135 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Enemy’s Role",
+  "_id": "dt9fr5RfBeoGArbG",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 3],
+      "_id": "eKadMLcAu2WAu27Z",
+      "name": "Brute",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dt9fr5RfBeoGArbG.eKadMLcAu2WAu27Z"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 5],
+      "_id": "IjX7vwqBADkyMZ3a",
+      "name": "Lurker",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dt9fr5RfBeoGArbG.IjX7vwqBADkyMZ3a"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 7],
+      "_id": "TXS3Zc3xpHvowZrm",
+      "name": "Ranged",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dt9fr5RfBeoGArbG.TXS3Zc3xpHvowZrm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 9],
+      "_id": "MPGw1LxmL8N78STy",
+      "name": "Swarm",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dt9fr5RfBeoGArbG.MPGw1LxmL8N78STy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "uKlwgWV3yejNcsk4",
+      "name": "Psychic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dt9fr5RfBeoGArbG.uKlwgWV3yejNcsk4"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!dt9fr5RfBeoGArbG"
+}

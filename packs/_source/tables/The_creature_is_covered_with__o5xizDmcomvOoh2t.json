@@ -1,0 +1,198 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "The creature is covered with…",
+  "_id": "o5xizDmcomvOoh2t",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "5GhGJLG0hrFCH41g",
+      "name": "Scales",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.5GhGJLG0hrFCH41g"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "0Zs0qO1bXbIkBjkl",
+      "name": "Feathers",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.0Zs0qO1bXbIkBjkl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "gFiPcfVTUae1njcV",
+      "name": "Skin",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.gFiPcfVTUae1njcV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "83Ffx3zhfJiqQiUb",
+      "name": "Fur",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.83Ffx3zhfJiqQiUb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "iAiNIK16aYmD1Dbf",
+      "name": "Chitin",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.iAiNIK16aYmD1Dbf"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "AyGO7SRt3BhOjvC3",
+      "name": "Crystal",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.AyGO7SRt3BhOjvC3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "sPLUITrOdFesgGDX",
+      "name": "Ooze",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.sPLUITrOdFesgGDX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "rBEiA6qzS0sa2WPW",
+      "name": "Stone",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!o5xizDmcomvOoh2t.rBEiA6qzS0sa2WPW"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d8",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!o5xizDmcomvOoh2t"
+}

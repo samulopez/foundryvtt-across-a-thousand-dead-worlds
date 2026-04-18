@@ -1,0 +1,135 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Size & Damage Modifier",
+  "_id": "im75c4iuQmzlSJiE",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 3],
+      "_id": "Tfgc9k8if8pRSTi4",
+      "name": "Rodent to housecat (-2 damage).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!im75c4iuQmzlSJiE.Tfgc9k8if8pRSTi4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 8],
+      "_id": "UU5eFKDzD8aYtNe6",
+      "name": "Large dog to wildcat (-1 damage).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!im75c4iuQmzlSJiE.UU5eFKDzD8aYtNe6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 16],
+      "_id": "efqbACUt202NoFyM",
+      "name": "Humanoid in size (no changes).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!im75c4iuQmzlSJiE.efqbACUt202NoFyM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 18],
+      "_id": "snN7Bbq6BhIe8Iiv",
+      "name": "Larger than human—like a large gorilla (+1 damage).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!im75c4iuQmzlSJiE.snN7Bbq6BhIe8Iiv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 20],
+      "_id": "IJxp6jb8LGK67mlB",
+      "name": "Cow to alligator (+2 damage).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!im75c4iuQmzlSJiE.IJxp6jb8LGK67mlB"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!im75c4iuQmzlSJiE"
+}

@@ -1,0 +1,450 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Enemy Ability",
+  "_id": "E9XKTnUbEbWY7oib",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "08VM96baQkfGuRgI",
+      "name": "Acid Blood",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - Each time the creature receives damage, it deals D20 damage to any character within melee range and has a 50% chance to destroy a piece of their equipped gear.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.08VM96baQkfGuRgI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "9Iaut6mM5KcPsxMe",
+      "name": "Acid Spray",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - The creature spits an acidic substance against its opponent. The attack deals 2D12 damage on a hit and has a 50% chance to destroy a piece of the target's equipped gear (see Damaged Gear, pg XXX).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.9Iaut6mM5KcPsxMe"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "Q91kp0o7FH1VfZcP",
+      "name": "Carapace",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - This creature's hard carapace grants it +3 Armor.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.Q91kp0o7FH1VfZcP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "Q4DiB9ZN21iepnuV",
+      "name": "Cleave/Spread Shot",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - If the creature passes a skill check, it makes a wide attack that hits all opponents in range, dealing 2D10 damage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.Q4DiB9ZN21iepnuV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "0yEboPgvlJKJwsR8",
+      "name": "Crawler",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - This creature can crawl on any surface - even walls or ceilings - allowing it to potentially be out of range from most Melee weapons.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.0yEboPgvlJKJwsR8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "uW1aGjPMOyEiBBYG",
+      "name": "Dazzle",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - The creature emits a sudden, bright flash, blinding any opponent situated in front of it for D4 rounds.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.uW1aGjPMOyEiBBYG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "GBF5iuDSr2nxlMnD",
+      "name": "Drain",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - The creature aims an attack at the target's neck. This might be a bite in melee or a called shot at range. If successful, the target immediately receives 1 Wound, and the creature heals 1 Wound.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.GBF5iuDSr2nxlMnD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "ay8S9kHyYonIuDUZ",
+      "name": "Entangle",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - This creature entangles its target (with tentacles, a web-like substance or plant-like tendrils). To escape, the entangled target must perform a DEX check every round until freed or cut out by someone else.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.ay8S9kHyYonIuDUZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "bo7L6XfMUNNcblNB",
+      "name": "Explosive",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - After being dealt a fatal wound, this creature explodes dealing D20 damage for 30' in all directions.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.bo7L6XfMUNNcblNB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "LBvlAXfqhg5ZFFsa",
+      "name": "Flame Attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - The creature sprays its opponent with a flammable chemical substance that ignites when it comes into contact with oxygen (only works in oxygenated environments). It attacks as normal, but instead of dealing damage, its opponent receives the Burning condition.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.LBvlAXfqhg5ZFFsa"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "siG38RjHu4smiw5u",
+      "name": "Immune",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - This creature is immune to the effects of heat, cold and even radiation.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.siG38RjHu4smiw5u"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "InSBhQH1zcyp7QiX",
+      "name": "Infectious",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - All Wounds caused by this creature become Infected.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.InSBhQH1zcyp7QiX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "w2pMgBXUUXyHv0fz",
+      "name": "Metallic Claws",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - This creature deals an extra +1D4 damage per melee attack.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.w2pMgBXUUXyHv0fz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "J6XSa90iDtaUqecC",
+      "name": "Paralyzing Bite/Shot",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - The creature has an attack that forces the target to make a CON (-5) check or be paralyzed for D4 rounds.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.J6XSa90iDtaUqecC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "AyefJVg0D4xmIQmE",
+      "name": "Putrid",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - Each time this creature deals damage, its target loses 1 CON. This loss persists until healed with a Medical Aid check.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.AyefJVg0D4xmIQmE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "zySXaDxHLUovj8Tt",
+      "name": "Rebirth",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - After being killed, the creature partially regenerates and now has one Wound left. Only works once.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.zySXaDxHLUovj8Tt"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "pRD3CR1idoItBjlI",
+      "name": "Regenerate",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - If the creature has received a Wound, it spends this turn healing it.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.pRD3CR1idoItBjlI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "AD9m5iTG23Nwdwkz",
+      "name": "Tough",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - This creature is immune to Critical Hits.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.AD9m5iTG23Nwdwkz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "sB1jmHTlWw2lwxsx",
+      "name": "Uncanny Speed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active - For 1 Turn after activating this ability, the creature is completely immune to ranged attacks.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.sB1jmHTlWw2lwxsx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "GSnFLJ7DymbbihEG",
+      "name": "Vicious",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Passive - When this creature causes a Wound, its target adds +2 to the Injury table roll.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!E9XKTnUbEbWY7oib.GSnFLJ7DymbbihEG"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!E9XKTnUbEbWY7oib"
+}
