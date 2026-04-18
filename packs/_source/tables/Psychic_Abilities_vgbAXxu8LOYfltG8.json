@@ -1,0 +1,240 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Psychic Abilities",
+  "_id": "vgbAXxu8LOYfltG8",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "Sckx12fj1Ew4llvh",
+      "name": "Buffer. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The next time the creature is hit by an attack, they suffer 50% less damage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.Sckx12fj1Ew4llvh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "eRlvqRsapzSCwv22",
+      "name": "Control. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The creature attempts to control the actions of its target. The target must pass a WIL check to avoid being controlled. A controlled creature may only attempt to free themselves every 2 rounds.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.eRlvqRsapzSCwv22"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "fcUIz4mKYmZiXI4k",
+      "name": "Distressing. Passive",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Any character in combat against this creature gains 1 Stress/round.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.fcUIz4mKYmZiXI4k"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "DY6eOubm1eJx6hrA",
+      "name": "Dread. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The creature triggers a roll on the Dread table.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.DY6eOubm1eJx6hrA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "GInoF8evQV9zVrLL",
+      "name": "Inspire Terror. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The creature causes all characters within 30' to gain 5 Stress.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.GInoF8evQV9zVrLL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "tSyn8Fi7zU9T2JsN",
+      "name": "Mind Lash. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The creature assaults its target's mind—pass a WIL check or be Knocked Down.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.tSyn8Fi7zU9T2JsN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "H8TPdMMONPCX54En",
+      "name": "Organize. Passive",
+      "img": "icons/svg/d20-black.svg",
+      "description": "This creature grants +2 Attack skill and +1 WIL to all surrounding creatures (except the PCs).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.H8TPdMMONPCX54En"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "m3Ib9E829Q6pFNhx",
+      "name": "Stun. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "This attack stuns the target for D4 rounds (has 50% Stamina, can only take actions to move).",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.m3Ib9E829Q6pFNhx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "EJaL44Nsj6SXuAfh",
+      "name": "Suffocate. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The target suffers the effects of Suffocation.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.EJaL44Nsj6SXuAfh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "SX2vaVxCmE2j0eAz",
+      "name": "Telekinetic Push. Active",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The creature pushes its target away with its mind, slamming them against the nearest solid object and causing 2D10 damage.",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vgbAXxu8LOYfltG8.SX2vaVxCmE2j0eAz"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!vgbAXxu8LOYfltG8"
+}

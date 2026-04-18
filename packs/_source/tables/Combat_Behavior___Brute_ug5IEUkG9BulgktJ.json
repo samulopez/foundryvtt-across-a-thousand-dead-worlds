@@ -1,0 +1,72 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Combat Behavior - Brute",
+  "_id": "ug5IEUkG9BulgktJ",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Behavioral Guidelines: Charges head first into combat, without subtlety.</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 7],
+      "_id": "BjuXTO7WpUw1Paq3",
+      "name": "Makes a Melee attack OR rushes toward the closest opponent",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!ug5IEUkG9BulgktJ.BjuXTO7WpUw1Paq3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 10],
+      "_id": "1XB7q0ZwgUmtcMxR",
+      "name": "Uses a special ability/skill (if applicable) OR makes a Melee attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!ug5IEUkG9BulgktJ.1XB7q0ZwgUmtcMxR"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!ug5IEUkG9BulgktJ"
+}

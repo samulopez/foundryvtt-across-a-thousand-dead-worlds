@@ -1,0 +1,114 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Five-Member Crew Easy Encounter",
+  "_id": "BrGIKBCoGmE4GWeJ",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 10],
+      "_id": "cjmZMHkGoTY0SVhs",
+      "name": "5xEasy creatures",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BrGIKBCoGmE4GWeJ.cjmZMHkGoTY0SVhs"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 15],
+      "_id": "e3EepIVkLWEN7IRf",
+      "name": "2xStandard + 1xEasy creatures",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BrGIKBCoGmE4GWeJ.e3EepIVkLWEN7IRf"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 18],
+      "_id": "zr4sI9AgU5g5PNkG",
+      "name": "1xStandard + 3xEasy creatures",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BrGIKBCoGmE4GWeJ.zr4sI9AgU5g5PNkG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 20],
+      "_id": "AkTpYUCXvSC1cjxF",
+      "name": "1xElite + 1xEasy creatures",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!BrGIKBCoGmE4GWeJ.AkTpYUCXvSC1cjxF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!BrGIKBCoGmE4GWeJ"
+}

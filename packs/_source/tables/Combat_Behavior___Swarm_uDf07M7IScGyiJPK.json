@@ -1,0 +1,72 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Combat Behavior - Swarm",
+  "_id": "uDf07M7IScGyiJPK",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Behavioral Guidelines: Closes the gap as fast as possible, rushing forward to surround its target.</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 7],
+      "_id": "Ra20f4wPhMUk2Cnm",
+      "name": "Makes a Melee attack OR rushes toward the closest opponent",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!uDf07M7IScGyiJPK.Ra20f4wPhMUk2Cnm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 10],
+      "_id": "WbfvMBIP5JxHL2AJ",
+      "name": "Uses a special ability/skill (if applicable) OR makes a Melee attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!uDf07M7IScGyiJPK.WbfvMBIP5JxHL2AJ"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!uDf07M7IScGyiJPK"
+}

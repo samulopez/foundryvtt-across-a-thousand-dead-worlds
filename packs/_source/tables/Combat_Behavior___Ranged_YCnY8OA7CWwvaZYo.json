@@ -1,0 +1,135 @@
+{
+  "folder": "5zo3pk4MewdLl2V6",
+  "name": "Combat Behavior - Ranged",
+  "_id": "YCnY8OA7CWwvaZYo",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Behavioral Guidelines: A balanced combatant who attempts to stay at range and avoid melee combat.</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 4],
+      "_id": "QhRqbpyqQFBDEHZL",
+      "name": "Uses its main attack (always Ranged unless forced into melee)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YCnY8OA7CWwvaZYo.QhRqbpyqQFBDEHZL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "0mIF9WDkftAVxToc",
+      "name": "Uses its secondary attack (if applicable) OR uses its Main attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YCnY8OA7CWwvaZYo.0mIF9WDkftAVxToc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 7],
+      "_id": "2VSEMm8BAunySnVK",
+      "name": "Maneuvers, either to change targets (roll on the Target table, pg XXX), to avoid being surrounded or to leverage the terrain or situation",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YCnY8OA7CWwvaZYo.2VSEMm8BAunySnVK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 9],
+      "_id": "yh6iD4ItcC17FauL",
+      "name": "Uses a special ability/skill (if applicable) OR uses its Main attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YCnY8OA7CWwvaZYo.yh6iD4ItcC17FauL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "3SLoKJPqbrxCH1OG",
+      "name": "Uses a piece of gear (if applicable) OR uses its Main attack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!YCnY8OA7CWwvaZYo.3SLoKJPqbrxCH1OG"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.5",
+    "createdTime": 1776416827343,
+    "modifiedTime": 1776416827343,
+    "lastModifiedBy": "OhRZMGhnVXu0pfVf"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "OhRZMGhnVXu0pfVf": 3
+  },
+  "sort": 0,
+  "_key": "!tables!YCnY8OA7CWwvaZYo"
+}
