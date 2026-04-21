@@ -1,0 +1,198 @@
+{
+  "folder": "cwnDQJAC0JzxyUC5",
+  "name": "How are they feeling? - Angry",
+  "_id": "1WUn7PXHMiRCZHoj",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "Of0mJM4DFP2xBtOJ",
+      "name": "Let Down - 1-2 Betrayed 3-4 Resentful",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.Of0mJM4DFP2xBtOJ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "SczuSiCfqGhqqvcH",
+      "name": "Humiliated - 1-2 Disrespected 3-4 Ridiculed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.SczuSiCfqGhqqvcH"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "fHYnW6hin1CFbiq6",
+      "name": "Bitter - 1-2 Indignant 3-4 Violated",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.fHYnW6hin1CFbiq6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "kNrriAtHCZaWcVqM",
+      "name": "Mad - 1-2 Furious 3-4 Jealous",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.kNrriAtHCZaWcVqM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "ew4uiHaSolg39YaS",
+      "name": "Aggressive - 1-2 Provoked 3-4 Hostile",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.ew4uiHaSolg39YaS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "sCGuOwbVZBcFUl8p",
+      "name": "Frustrated - 1-2 Infuriated 3-4 Annoyed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.sCGuOwbVZBcFUl8p"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "mwa6iZcztXj07CyG",
+      "name": "Distant - 1-2 Withdrawn 3-4 Numb",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.mwa6iZcztXj07CyG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "rKqgKUuehotRDf4e",
+      "name": "Critical - 1-2 Skeptical 3-4 Dismissive",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!1WUn7PXHMiRCZHoj.rKqgKUuehotRDf4e"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.6",
+    "createdTime": 1776676954885,
+    "modifiedTime": 1776676954885,
+    "lastModifiedBy": "J7G7AkEwm3AYAUrW"
+  },
+  "formula": "1d8",
+  "ownership": {
+    "default": 0,
+    "J7G7AkEwm3AYAUrW": 3
+  },
+  "sort": 0,
+  "_key": "!tables!1WUn7PXHMiRCZHoj"
+}

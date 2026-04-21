@@ -1,0 +1,114 @@
+{
+  "folder": "cwnDQJAC0JzxyUC5",
+  "name": "How are they feeling? - Bad",
+  "_id": "doasT2nzTlMIdpXi",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "lGB71ChN4ntpPELE",
+      "name": "Tired - 1-2 Sleepy 3-4 Unfocused",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!doasT2nzTlMIdpXi.lGB71ChN4ntpPELE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "IGpCYY5cn3oVX1SF",
+      "name": "Stressed - 1-2 Overwhelmed 3-4 Out of Control",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!doasT2nzTlMIdpXi.IGpCYY5cn3oVX1SF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "wosJvR7QuWfCIm4v",
+      "name": "Busy - 1-2 Pressured 3-4 Rushed",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!doasT2nzTlMIdpXi.wosJvR7QuWfCIm4v"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "00SrKHyZTzFSAi2O",
+      "name": "Bored - 1-2 Indifferent 3-4 Apathetic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!doasT2nzTlMIdpXi.00SrKHyZTzFSAi2O"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.6",
+    "createdTime": 1776676954885,
+    "modifiedTime": 1776676954885,
+    "lastModifiedBy": "J7G7AkEwm3AYAUrW"
+  },
+  "formula": "1d4",
+  "ownership": {
+    "default": 0,
+    "J7G7AkEwm3AYAUrW": 3
+  },
+  "sort": 0,
+  "_key": "!tables!doasT2nzTlMIdpXi"
+}

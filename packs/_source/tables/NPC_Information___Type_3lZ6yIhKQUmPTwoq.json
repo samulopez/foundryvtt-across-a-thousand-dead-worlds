@@ -1,0 +1,450 @@
+{
+  "folder": "cwnDQJAC0JzxyUC5",
+  "name": "NPC Information - Type",
+  "_id": "3lZ6yIhKQUmPTwoq",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "HVYGMmo1mrmHHnRu",
+      "name": "A loss of opportunity involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.HVYGMmo1mrmHHnRu"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "Iyh53c2dU3Y2bAx3",
+      "name": "The location of...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.Iyh53c2dU3Y2bAx3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "RCpZFSredSnx99jt",
+      "name": "A connection between the character and...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.RCpZFSredSnx99jt"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "toiaH6wRCqEYeBDk",
+      "name": "A connection between an NPC and...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.toiaH6wRCqEYeBDk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "MYcHtpWixtVo8BKB",
+      "name": "Background knowledge about...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.MYcHtpWixtVo8BKB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "HKCAFHSJRpmK4O1c",
+      "name": "Positive news about...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.HKCAFHSJRpmK4O1c"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "S3vPCyEADhxulMsp",
+      "name": "Negative news about...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.S3vPCyEADhxulMsp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "e74xHECioV50WbeA",
+      "name": "A change related to...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.e74xHECioV50WbeA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "LLBUvxyKsXJ3JMUu",
+      "name": "The identity of...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.LLBUvxyKsXJ3JMUu"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "qXI5DjzefMnpUUup",
+      "name": "A loss involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.qXI5DjzefMnpUUup"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "LEefyyUf3vxHnA4N",
+      "name": "An important insight related to...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.LEefyyUf3vxHnA4N"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "diZLJ3lsloMkHJ6r",
+      "name": "A gain involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.diZLJ3lsloMkHJ6r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [13, 13],
+      "_id": "tTcgeArefJzahv14",
+      "name": "An emotional change involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.tTcgeArefJzahv14"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [14, 14],
+      "_id": "ad5Ne7NA4DNDnmKw",
+      "name": "A financial change involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.ad5Ne7NA4DNDnmKw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [15, 15],
+      "_id": "NnYVMsN8trMYrOuU",
+      "name": "A status change involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.NnYVMsN8trMYrOuU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [16, 16],
+      "_id": "kr2vmGhQ5Uey6p8Q",
+      "name": "An opportunity involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.kr2vmGhQ5Uey6p8Q"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [17, 17],
+      "_id": "vsSITGWTRNCjqL2t",
+      "name": "A spiritual/mental change involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.vsSITGWTRNCjqL2t"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [18, 18],
+      "_id": "aJvUbbAV3JHgStTb",
+      "name": "A gain of power involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.aJvUbbAV3JHgStTb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [19, 19],
+      "_id": "IfhuVw2fIZVouxOC",
+      "name": "A loss of power involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.IfhuVw2fIZVouxOC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [20, 20],
+      "_id": "hzxfjrnQ9UPDovLt",
+      "name": "The acquisition of an ability involving...",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!3lZ6yIhKQUmPTwoq.hzxfjrnQ9UPDovLt"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.6",
+    "createdTime": 1776676954885,
+    "modifiedTime": 1776676954885,
+    "lastModifiedBy": "J7G7AkEwm3AYAUrW"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "J7G7AkEwm3AYAUrW": 3
+  },
+  "sort": 0,
+  "_key": "!tables!3lZ6yIhKQUmPTwoq"
+}

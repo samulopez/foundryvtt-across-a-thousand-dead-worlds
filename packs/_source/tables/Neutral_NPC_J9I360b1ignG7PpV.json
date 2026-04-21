@@ -1,0 +1,135 @@
+{
+  "folder": "cwnDQJAC0JzxyUC5",
+  "name": "Neutral NPC",
+  "_id": "J9I360b1ignG7PpV",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 2],
+      "_id": "TqU5wnqDfoEeBzOX",
+      "name": "Is uninterested",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!J9I360b1ignG7PpV.TqU5wnqDfoEeBzOX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 4],
+      "_id": "TmryIrcI231a1kAl",
+      "name": "Offers a job or needs help with a task",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!J9I360b1ignG7PpV.TmryIrcI231a1kAl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 6],
+      "_id": "z1Xh7tpABDvHiJGs",
+      "name": "Opens themself to trade (items or information)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!J9I360b1ignG7PpV.z1Xh7tpABDvHiJGs"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 8],
+      "_id": "2hSpAGZxTyyNdGkP",
+      "name": "Needs a favor or has a job",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!J9I360b1ignG7PpV.2hSpAGZxTyyNdGkP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 10],
+      "_id": "YFFsQVIp4x5iBdm1",
+      "name": "Tries to trick or deceive",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!J9I360b1ignG7PpV.YFFsQVIp4x5iBdm1"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.6",
+    "createdTime": 1776676954885,
+    "modifiedTime": 1776676954885,
+    "lastModifiedBy": "J7G7AkEwm3AYAUrW"
+  },
+  "formula": "1d10",
+  "ownership": {
+    "default": 0,
+    "J7G7AkEwm3AYAUrW": 3
+  },
+  "sort": 0,
+  "_key": "!tables!J9I360b1ignG7PpV"
+}

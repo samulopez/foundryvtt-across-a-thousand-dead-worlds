@@ -1,0 +1,198 @@
+{
+  "folder": "cwnDQJAC0JzxyUC5",
+  "name": "Surprise/Unknown Events - Descriptor",
+  "_id": "HtblcxuTfFNEmyir",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "r3WevvL5e7mrm7ya",
+      "name": "Encounter",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.r3WevvL5e7mrm7ya"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "k3v837tKkmIhEOvv",
+      "name": "Physical",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.k3v837tKkmIhEOvv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "SGoStacNMnCyTWPp",
+      "name": "Environment",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.SGoStacNMnCyTWPp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "YBGR8vzo7ZFREyHU",
+      "name": "Knowledge",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.YBGR8vzo7ZFREyHU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "HFTDfdrmU7DqhvuA",
+      "name": "Player Character",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.HFTDfdrmU7DqhvuA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "TVqLx91MDAifo3db",
+      "name": "Non-Player Character",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.TVqLx91MDAifo3db"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "cur6RvKsEO5lqHI6",
+      "name": "Location",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.cur6RvKsEO5lqHI6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "m0B23seLbArtMzL6",
+      "name": "FactionCrew",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "across-a-thousand-dead-worlds",
+        "systemVersion": "0.0.6",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!HtblcxuTfFNEmyir.m0B23seLbArtMzL6"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "across-a-thousand-dead-worlds",
+    "systemVersion": "0.0.6",
+    "createdTime": 1776676954885,
+    "modifiedTime": 1776676954885,
+    "lastModifiedBy": "J7G7AkEwm3AYAUrW"
+  },
+  "formula": "1d8",
+  "ownership": {
+    "default": 0,
+    "J7G7AkEwm3AYAUrW": 3
+  },
+  "sort": 0,
+  "_key": "!tables!HtblcxuTfFNEmyir"
+}
