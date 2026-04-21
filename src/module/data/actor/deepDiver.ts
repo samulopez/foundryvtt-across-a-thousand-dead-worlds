@@ -157,15 +157,15 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
   }
 
   backpackItems(sortedItems: Item.Implementation[]): Item.Implementation[] {
-    return sortedItems.filter((item) => this.parent.system.backpack.includes(item.uuid));
+    return sortedItems.filter((item) => item.uuid && this.parent.system.backpack.includes(item.uuid));
   }
 
   pocketsItems(sortedItems: Item.Implementation[]): Item.Implementation[] {
-    return sortedItems.filter((item) => this.parent.system.pockets.includes(item.uuid));
+    return sortedItems.filter((item) => item.uuid && this.parent.system.pockets.includes(item.uuid));
   }
 
   augmentationsItems(sortedItems: Item.Implementation[]): Item.Implementation[] {
-    return sortedItems.filter((item) => this.parent.system.augmentations.includes(item.uuid));
+    return sortedItems.filter((item) => item.uuid && this.parent.system.augmentations.includes(item.uuid));
   }
 
   currentBackpackCapacity(): number {
@@ -186,6 +186,9 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
   }
 
   isItemInList(list: string, item: Item.Implementation): boolean {
+    if (!item.uuid) {
+      return false;
+    }
     switch (list) {
       case 'backpack':
         return this.parent.system.backpack.includes(item.uuid);
@@ -199,6 +202,9 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
   }
 
   currentListForItem(item: Item.Implementation): string | null {
+    if (!item.uuid) {
+      return null;
+    }
     if (this.parent.system.backpack.includes(item.uuid)) {
       return 'backpack';
     }
@@ -269,6 +275,9 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
   }
 
   async moveItemToList(list: string, item: Item.Implementation) {
+    if (!item.uuid) {
+      return null;
+    }
     await this.removeItemFromLists(item.uuid);
 
     const result = await this.parent.update({
@@ -351,6 +360,9 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
   }
 
   async addToRightHand(item: Item.Implementation) {
+    if (!item.uuid) {
+      return null;
+    }
     await this.removeItemFromLists(item.uuid);
 
     const result = await this.parent.update({
@@ -365,6 +377,9 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
   }
 
   async addToLeftHand(item: Item.Implementation) {
+    if (!item.uuid) {
+      return null;
+    }
     await this.removeItemFromLists(item.uuid);
 
     const result = await this.parent.update({
@@ -393,6 +408,9 @@ export default class CharacterDataModel extends foundry.abstract.TypeDataModel<
   }
 
   async addItemToEquipment(equipment: string, item: Item.Implementation) {
+    if (!item.uuid) {
+      return null;
+    }
     await this.removeItemFromLists(item.uuid);
 
     const equipmentSystem = { ...this.parent.system.equipment };
