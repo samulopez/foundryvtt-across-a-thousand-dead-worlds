@@ -67,6 +67,7 @@ export default class CreatureSheet<
     form: { submitOnChange: true },
     tag: 'form',
     actions: {
+      rollAttribute: this.#rollAttribute,
       rollHitLocation: this.#rollHitLocation,
       rollAwareness: this.#rollAwareness,
       rollAttackSkill: this.#rollAttackSkill,
@@ -459,5 +460,69 @@ export default class CreatureSheet<
     if (message) {
       ui.notifications?.warn(message);
     }
+  }
+
+  static async #rollAttribute(this, event: PointerEvent) {
+    event.preventDefault();
+    const button = event.target as HTMLElement;
+    const { key } = button.dataset;
+    if (!key) {
+      return;
+    }
+
+    const modifyRollKey = getGame().keybindings?.get(ID, KEYBINDINGS.modifyRoll);
+    const downKeys = getGame().keyboard?.downKeys;
+
+    const isModifyRollPressed =
+      (modifyRollKey?.length ?? 0) > 0 && (modifyRollKey?.some((rollKey) => downKeys?.has(rollKey.key)) ?? false);
+    if (!isModifyRollPressed) {
+      await this.document.rollAttribute(key, 0);
+      return;
+    }
+
+    const content = await foundry.applications.handlebars.renderTemplate(TEMPLATES.modifyRoll, {
+      originalValue: this.document.system.primaryAttributes[key].value,
+    });
+
+    new foundry.applications.api.DialogV2({
+      window: { title: getLocalization().localize('ATDW.ModifyRollDialogue.title') },
+      modal: true,
+      classes: ['modify-roll-dialogue'],
+      content,
+      actions: {
+        rollWithModifier: async (eventButton, dialog) => {
+          const buttonSubmit = eventButton.target as HTMLButtonElement;
+          const { value } = buttonSubmit.dataset;
+          if (!value) {
+            return;
+          }
+
+          const advantageOrDisadvantage = dialog
+            .closest('.modify-roll-dialogue')
+            ?.querySelector<HTMLInputElement>('[name="advantageOrDisadvantage"]')?.value;
+          await this.document.rollAttribute(key, Number(value), advantageOrDisadvantage);
+        },
+      },
+      buttons: [
+        {
+          default: true,
+          action: 'roll',
+          icon: 'fas fa-dice',
+          label: getLocalization().localize('ATDW.ModifyRollDialogue.action'),
+          callback: async (eventDialog, buttonDialog, dialog) => {
+            const html = dialog.element;
+            const advantageOrDisadvantage = html.querySelector('[name="advantageOrDisadvantage"]')?.value;
+            const plusOrMinus = html.querySelector('[name="plusOrMinus"]')?.value;
+            const valueModifier = html.querySelector('[name="valueModifier"]')?.value;
+            if (!valueModifier?.trim()) {
+              await this.document.rollAttribute(key, 0, advantageOrDisadvantage);
+              return;
+            }
+
+            await this.document.rollAttribute(key, Number(`${plusOrMinus}${valueModifier}`), advantageOrDisadvantage);
+          },
+        },
+      ],
+    }).render({ force: true });
   }
 }
