@@ -192,13 +192,13 @@ export default class ATDWActor<out SubType extends Actor.SubType = Actor.SubType
     );
   }
 
-  async rollDamage(modifier: number) {
-    if (!this.isCreature()) {
-      throw new Error('Actor is not a Creature');
+  async rollDamage(modifier: number, weaponDamageFormula?: string) {
+    if (!this.isCreature() && !this.isDeepDiver()) {
+      throw new Error('Actor is not a Creature or Deep Diver');
     }
 
     const { damage } = this.system;
-    if (!damage) {
+    if (!damage && !weaponDamageFormula) {
       throw new Error('Actor does not have a valid damage value');
     }
 
@@ -207,7 +207,9 @@ export default class ATDWActor<out SubType extends Actor.SubType = Actor.SubType
       modifierString = modifier > 0 ? ` + ${modifier}` : ` - ${Math.abs(modifier)}`;
     }
 
-    const roll = new Roll(`${damage}${modifierString}`);
+    const weaponDamageString = weaponDamageFormula ? ` + ${weaponDamageFormula}` : '';
+
+    const roll = new Roll(`${damage}${weaponDamageString}${modifierString}`);
     await roll.evaluate();
     const total = roll.total ?? 0;
 

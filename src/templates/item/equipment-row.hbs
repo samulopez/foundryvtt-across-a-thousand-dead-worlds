@@ -24,21 +24,29 @@
                     </button>
                 {{/if}}
                 {{#if (eq item.type "weapon") }}
-                    {{#if item.system.isMelee }}
-                        <div data-tooltip="ATDW.Item.Sheet.rollSkillCheckTooltip"
+                    <div class="flexcol gap-min">
+                        {{#if item.system.isMelee }}
+                            <div data-tooltip="ATDW.Item.Sheet.rollSkillCheckTooltip"
+                                 class="rollable integrity-details"
+                                 data-key="closeCombat"
+                                 data-action="rollSkill">
+                                {{localize "ATDW.DeepDiver.Sheet.skills.closeCombat"}}  <i class="fas fa-dice" data-key="closeCombat"></i>
+                            </div>
+                        {{else}}
+                            <div data-tooltip="ATDW.Item.Sheet.rollSkillCheckTooltip"
+                                 class="rollable integrity-details"
+                                 data-key="rangedCombat"
+                                 data-action="rollSkill">
+                                {{localize "ATDW.DeepDiver.Sheet.skills.rangedCombat"}}  <i class="fas fa-dice" data-key="rangedCombat"></i>
+                            </div>
+                        {{/if}}
+                        <div data-tooltip="ATDW.DeepDiver.Sheet.rollDamageTooltip"
                              class="rollable integrity-details"
-                             data-key="closeCombat"
-                             data-action="rollSkill">
-                            {{localize "ATDW.DeepDiver.Sheet.skills.closeCombat"}}  <i class="fas fa-dice" data-key="closeCombat"></i>
+                             data-key="{{item.system.damage}}"
+                             data-action="rollDamage">
+                            {{localize "ATDW.DeepDiver.Sheet.rollDamage"}}  <i class="fas fa-dice" data-key="{{item.system.damage}}"></i>
                         </div>
-                    {{else}}
-                        <div data-tooltip="ATDW.Item.Sheet.rollSkillCheckTooltip"
-                             class="rollable integrity-details"
-                             data-key="rangedCombat"
-                             data-action="rollSkill">
-                            {{localize "ATDW.DeepDiver.Sheet.skills.rangedCombat"}}  <i class="fas fa-dice" data-key="rangedCombat"></i>
-                        </div>
-                    {{/if}}
+                    </div>
                 {{/if}}
                 <button type="button"
                         class="unbutton config-button item-control item-action always-interactive"
