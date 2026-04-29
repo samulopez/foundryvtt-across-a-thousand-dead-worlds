@@ -250,6 +250,15 @@
                                step="1"
                                value="{{document.system.secondaryAttributes.wounds.max}}" />
                     </div>
+                    <div class="flexrow gap-min">
+                        <div>{{localize "ATDW.DeepDiver.Sheet.baseDamage"}}</div>
+                        <input name="system.damage"
+                               type="text"
+                               value="{{document.system.damage}}"
+                               data-tooltip="ATDW.DeepDiver.Sheet.baseDamageTooltip"
+                               autocomplete="off"
+                               id="system.damage" />
+                    </div>
                     <div>
                         <div class="section-title">{{localize 'ATDW.DeepDiver.Sheet.injuries.title' }}</div>
                         <div class="editor-host">

@@ -121,6 +121,7 @@ const defineCharacterModel = () => ({
     choices: [HIT_LOCATIONS.humanoid],
     initial: HIT_LOCATIONS.humanoid,
   }),
+  damage: new StringField({ initial: '1d10' }),
   ...sortingField(),
 });
 

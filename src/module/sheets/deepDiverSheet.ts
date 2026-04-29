@@ -81,6 +81,7 @@ export default class DeepDiverSheet<
     form: { submitOnChange: true },
     tag: 'form',
     actions: {
+      rollDamage: this.#rollDamage,
       rollSkill: this.#rollSkill,
       rollAttribute: this.#rollAttribute,
       toggleExpand: this.#toggleExpand,
@@ -806,11 +807,74 @@ export default class DeepDiverSheet<
     }
 
     if (!this.document.system.canAddToList('augmentations', item)) {
-      ui.notifications?.warn(getLocalization().localize(`ATDW.Error.augmentationsCapacity`));
+      ui.notifications?.warn(getLocalization().localize('ATDW.Error.augmentationsCapacity'));
       return;
     }
 
     await this.document.system.removeItemFromLists(item.uuid);
     await this.document.system.addItemToList('augmentations', item);
+  }
+
+  static async #rollDamage(this, event: PointerEvent) {
+    event.preventDefault();
+
+    const button = event.target as HTMLElement;
+    const { key: weaponDamageFormula } = button.dataset;
+
+    if (!this.document.system.damage && !weaponDamageFormula) {
+      ui.notifications?.warn(getLocalization().localize('ATDW.Error.noDamage'));
+      return;
+    }
+
+    const modifyRollKey = getGame().keybindings?.get(ID, KEYBINDINGS.modifyRoll);
+    const downKeys = getGame().keyboard?.downKeys;
+    const isModifyRollPressed =
+      (modifyRollKey?.length ?? 0) > 0 && (modifyRollKey?.some((rollKey) => downKeys?.has(rollKey.key)) ?? false);
+    if (!isModifyRollPressed) {
+      await this.document.rollDamage(0, weaponDamageFormula);
+      return;
+    }
+
+    const content = await foundry.applications.handlebars.renderTemplate(TEMPLATES.modifyRoll, {
+      originalValue: `${this.document.system.damage}${this.document.system.damage && weaponDamageFormula ? ' + ' : ''}${weaponDamageFormula}`,
+      hideAdvantageOrDisadvantage: true,
+    });
+
+    new foundry.applications.api.DialogV2({
+      window: { title: getLocalization().localize('ATDW.ModifyRollDialogue.title') },
+      modal: true,
+      classes: ['modify-roll-dialogue'],
+      content,
+      actions: {
+        rollWithModifier: async (eventButton) => {
+          const buttonSubmit = eventButton.target as HTMLButtonElement;
+          const { value } = buttonSubmit.dataset;
+          if (!value) {
+            return;
+          }
+
+          await this.document.rollDamage(Number(value), weaponDamageFormula);
+        },
+      },
+      buttons: [
+        {
+          default: true,
+          action: 'roll',
+          icon: 'fas fa-dice',
+          label: getLocalization().localize('ATDW.ModifyRollDialogue.action'),
+          callback: async (eventDialog, buttonDialog, dialog) => {
+            const html = dialog.element;
+            const plusOrMinus = html.querySelector('[name="plusOrMinus"]')?.value;
+            const valueModifier = html.querySelector('[name="valueModifier"]')?.value;
+            if (!valueModifier?.trim()) {
+              await this.document.rollDamage(0, weaponDamageFormula);
+              return;
+            }
+
+            await this.document.rollDamage(Number(`${plusOrMinus}${valueModifier}`), weaponDamageFormula);
+          },
+        },
+      ],
+    }).render({ force: true });
   }
 }
