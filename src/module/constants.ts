@@ -546,3 +546,116 @@ export enum CREATURE_EYES_NUMBER {
   eight = 'eight',
   ten = 'ten',
 }
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_SIZE {
+  none = 'none',
+  small = 'small',
+  medium = 'medium',
+  large = 'large',
+  huge = 'huge',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_REQUIRED_SUIT {
+  none = 'none',
+  a = 'a',
+  b = 'b',
+  vacc = 'vacc',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_ORIGINAL_PURPOSE {
+  none = 'none',
+  prison = 'prison',
+  refinery = 'refinery',
+  bioResearchAndContainment = 'bioResearchAndContainment',
+  temple = 'temple',
+  dataStorage = 'dataStorage',
+  military = 'military',
+  aesthetic = 'aesthetic',
+  communications = 'communications',
+  residential = 'residential',
+  teaching = 'teaching',
+  spaceport = 'spaceport',
+  watchpost = 'watchpost',
+  vault = 'vault',
+  medicalResearchAndCare = 'medicalResearchAndCare',
+  refuge = 'refuge',
+  powerCenter = 'powerCenter',
+  government = 'government',
+  entertainment = 'entertainment',
+  tomb = 'tomb',
+  industrialProduction = 'industrialProduction',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_STORY {
+  none = 'none',
+  overrunByCreatures = 'overrunByCreatures',
+  becameUnstable = 'becameUnstable',
+  sourceOfCorruption = 'sourceOfCorruption',
+  associatedWithWondrousTechnology = 'associatedWithWondrousTechnology',
+  overrunBySynthetics = 'overrunBySynthetics',
+  powerfulItemHousedWithin = 'powerfulItemHousedWithin',
+  hasOrHadAnswerToBigMystery = 'hasOrHadAnswerToBigMystery',
+  placeOfTerribleTragedy = 'placeOfTerribleTragedy',
+  associatedWithTerriblePower = 'associatedWithTerriblePower',
+  terriblyAffectedByCosmicEvent = 'terriblyAffectedByCosmicEvent',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_DESCRIPTOR {
+  none = 'none',
+  wetAndCold = 'wetAndCold',
+  dryAndWarm = 'dryAndWarm',
+  coveredInStrangeMoss = 'coveredInStrangeMoss',
+  largeAndSpacious = 'largeAndSpacious',
+  tightAndCramped = 'tightAndCramped',
+  overrunWithPlantLife = 'overrunWithPlantLife',
+  constantStrangeNoise = 'constantStrangeNoise',
+  noArtificialGravity = 'noArtificialGravity',
+  partiallyOperational = 'partiallyOperational',
+  thickWithSmokeOrMist = 'thickWithSmokeOrMist',
+  visiblyPlunderedOrPartiallyDestroyed = 'visiblyPlunderedOrPartiallyDestroyed',
+  builtInNonArsaidhStyle = 'builtInNonArsaidhStyle',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_PLANETARY_DESCRIPTOR {
+  none = 'none',
+  nearAncientRuins = 'nearAncientRuins',
+  proneToCaveIns = 'proneToCaveIns',
+  nearFlowingLava = 'nearFlowingLava',
+  nearBodyOfWater = 'nearBodyOfWater',
+  inJungleLikeEnvironment = 'inJungleLikeEnvironment',
+  inBarrenPlace = 'inBarrenPlace',
+  withinMountain = 'withinMountain',
+  homeToActiveAnimal = 'homeToActiveAnimal',
+  partiallyBuried = 'partiallyBuried',
+  flooded = 'flooded',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_ACTIVITY {
+  none = 'none',
+  deathlyQuiet = 'deathlyQuiet',
+  quiet = 'quiet',
+  fairlyQuiet = 'fairlyQuiet',
+  active = 'active',
+  busy = 'busy',
+  extreme = 'extreme',
+}
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SITE_HAZARD {
+  none = 'none',
+  psychicDisturbances = 'psychicDisturbances',
+  toxicAtmosphere = 'toxicAtmosphere',
+  collapsing = 'collapsing',
+  overrun = 'overrun',
+  lockdown = 'lockdown',
+  extremeTemperature = 'extremeTemperature',
+  distorted = 'distorted',
+  vertical = 'vertical',
+}

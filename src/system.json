@@ -50,7 +50,8 @@
     "Actor": {
       "creature": {},
       "deepDiver": {},
-      "npc": {}
+      "npc": {},
+      "siteExpedition": {}
     },
     "Item": {
       "armor": {},

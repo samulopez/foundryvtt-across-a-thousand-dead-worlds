@@ -497,6 +497,8 @@
   "ATDW.Creature.Sheet.eyesNumber.six": "Six",
   "ATDW.Creature.Sheet.eyesNumber.eight": "Eight",
   "ATDW.Creature.Sheet.eyesNumber.ten": "Ten",
+  "ATDW.SiteExpedition.Tabs.skills": "Details",
+  "ATDW.SiteExpedition.Tabs.notes": "Notes",
   "ATDW.Error.backpackCapacity": "Not enough capacity in Backpack.",
   "ATDW.Error.pocketsCapacity": "Not enough capacity in Pockets.",
   "ATDW.Error.augmentationsCapacity": "Not enough capacity in Augmentations.",

@@ -28,7 +28,7 @@ export default class SiteExpeditionSheet<
     primary: {
       initial: 'details',
       labelPrefix: 'ATDW.SiteExpedition.Tabs',
-      tabs: [{ id: 'details' }, { id: 'notes' }],
+      tabs: [{ id: 'skills' }, { id: 'notes' }],
     },
   };
 
@@ -39,7 +39,7 @@ export default class SiteExpeditionSheet<
     tabs: {
       template: `templates/generic/tab-navigation.hbs`, // From FoundryVTT
     },
-    details: {
+    skills: {
       template: TEMPLATES.siteExpedition.detailsTab,
       scrollable: [''], // needed to keep scroll position when re-rendering
     },
